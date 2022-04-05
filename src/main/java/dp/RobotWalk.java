@@ -13,6 +13,9 @@ public class RobotWalk {
 
         int result2 = ways2(4, 2, 4, 4);
         System.out.println(result2);
+
+        int result3 = ways3(4, 2, 4, 4);
+        System.out.println(result3);
     }
 
     /**
@@ -45,7 +48,33 @@ public class RobotWalk {
         return process2(start, K, aim, N, dp);
     }
 
+
     /**
+     * @param N     一共有多少个位置
+     * @param start 机器人一开始在哪
+     * @param aim   机器人目标是哪
+     * @param K     一共可以走几步
+     * @return
+     */
+    public static int ways3(int N, int start, int aim, int K) {
+        // 缓存表
+        int[][] dp = new int[N + 1][K + 1];
+        dp[aim][0] = 1;
+        for (int rest = 1; rest <= K; rest++) {
+            dp[1][rest] = dp[2][rest - 1];
+            for (int curr = 2; curr < N; curr++) {
+                dp[curr][rest] = dp[curr - 1][rest - 1] + dp[curr + 1][rest - 1];
+            }
+            dp[N][rest] = dp[N - 1][rest - 1];
+        }
+        return dp[start][K];
+
+
+    }
+
+    /**
+     * 暴力递归
+     *
      * @param curr 当前位置
      * @param rest 剩余步数
      * @param aim  目标位置
@@ -69,6 +98,8 @@ public class RobotWalk {
     }
 
     /**
+     * 记忆化搜索、从顶向下的动态规划
+     *
      * @param curr 当前位置 1 ~ N
      * @param rest 剩余步数 0 ~ K
      * @param aim  目标位置
