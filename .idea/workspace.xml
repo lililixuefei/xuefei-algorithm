@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="22Vhs1jamMjSQoIgfVQ6wvlh5m0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Student">
+    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.AddTwoNumbers" />
+      <module name="xuefei-algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.MergeTwoLists" />
+      <module name="xuefei-algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Student" />
+      <module name="xuefei-algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwapPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.SwapPairs" />
+      <module name="xuefei-algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
+      <module name="xuefei-algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Student" />
+        <item itemvalue="Application.SwapPairs" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.AddTwoNumbers" />
+        <item itemvalue="Application.MergeTwoLists" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="" />
+      <created>1639928864355</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639928864355</updated>
+      <workItem from="1639928868746" duration="4224000" />
+      <workItem from="1640014747644" duration="2119000" />
+      <workItem from="1640270678060" duration="6310000" />
+      <workItem from="1640434999069" duration="646000" />
+      <workItem from="1640435707518" duration="1172000" />
+      <workItem from="1642945352257" duration="139000" />
+      <workItem from="1644146750663" duration="523000" />
+      <workItem from="1645969075649" duration="1943000" />
+      <workItem from="1646149647726" duration="7041000" />
+      <workItem from="1646241294214" duration="1652000" />
+      <workItem from="1646243062483" duration="594000" />
+      <workItem from="1646319987538" duration="4259000" />
+      <workItem from="1646576610085" duration="5061000" />
+      <workItem from="1646666784981" duration="8723000" />
+      <workItem from="1647176164711" duration="890000" />
+      <workItem from="1649081388123" duration="654000" />
+      <workItem from="1649170194550" duration="42000" />
+      <workItem from="1649170262286" duration="302000" />
+    </task>
+    <task id="LOCAL-00001" summary="修改注释问题">
+      <created>1639933377552</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639933377552</updated>
+    </task>
+    <task id="LOCAL-00002" summary="多线程-交替打印 FooBar">
+      <created>1640270715137</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640270715137</updated>
+    </task>
+    <task id="LOCAL-00003" summary="多线程-打印零与奇偶数">
+      <created>1640272560180</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640272560180</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LIMIT_HISTORY" value="false" />
+    <MESSAGE value="修改注释问题" />
+    <MESSAGE value="多线程-交替打印 FooBar" />
+    <MESSAGE value="多线程-打印零与奇偶数" />
+    <option name="LAST_COMMIT_MESSAGE" value="多线程-打印零与奇偶数" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="448" y="88" key="#Project_Structure" timestamp="1646320598462">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state x="448" y="88" key="#Project_Structure/0.25.1920.970@0.25.1920.970" timestamp="1646320598462" />
+    <state x="773" y="198" key="#com.intellij.ide.util.MemberChooser" timestamp="1646236016685">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state x="773" y="198" key="#com.intellij.ide.util.MemberChooser/0.25.1920.970@0.25.1920.970" timestamp="1646236016685" />
+    <state x="573" y="438" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1646059142059">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state x="573" y="438" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.25.1920.970@0.25.1920.970" timestamp="1646059142059" />
+    <state x="734" y="395" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1646059144589">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state x="734" y="395" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.25.1920.970@0.25.1920.970" timestamp="1646059144589" />
+    <state width="484" height="741" key="Git.Branch.Popup" timestamp="1646319581967">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state width="484" height="741" key="Git.Branch.Popup/0.25.1920.970@0.25.1920.970" timestamp="1646319581967" />
+    <state width="1878" height="245" key="GridCell.Tab.0.bottom" timestamp="1649083002273">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state width="1878" height="245" key="GridCell.Tab.0.bottom/0.25.1920.970@0.25.1920.970" timestamp="1649083002273" />
+    <state width="1878" height="245" key="GridCell.Tab.0.center" timestamp="1649083002271">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state width="1878" height="245" key="GridCell.Tab.0.center/0.25.1920.970@0.25.1920.970" timestamp="1649083002271" />
+    <state width="1878" height="245" key="GridCell.Tab.0.left" timestamp="1649083002270">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state width="1878" height="245" key="GridCell.Tab.0.left/0.25.1920.970@0.25.1920.970" timestamp="1649083002270" />
+    <state width="1878" height="245" key="GridCell.Tab.0.right" timestamp="1649083002272">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state width="1878" height="245" key="GridCell.Tab.0.right/0.25.1920.970@0.25.1920.970" timestamp="1649083002272" />
+    <state width="1878" height="426" key="GridCell.Tab.1.bottom" timestamp="1646241917412">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state width="1878" height="426" key="GridCell.Tab.1.bottom/0.25.1920.970@0.25.1920.970" timestamp="1646241917412" />
+    <state width="1878" height="426" key="GridCell.Tab.1.center" timestamp="1646241917411">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state width="1878" height="426" key="GridCell.Tab.1.center/0.25.1920.970@0.25.1920.970" timestamp="1646241917411" />
+    <state width="1878" height="426" key="GridCell.Tab.1.left" timestamp="1646241917410">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state width="1878" height="426" key="GridCell.Tab.1.left/0.25.1920.970@0.25.1920.970" timestamp="1646241917410" />
+    <state width="1878" height="426" key="GridCell.Tab.1.right" timestamp="1646241917412">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state width="1878" height="426" key="GridCell.Tab.1.right/0.25.1920.970@0.25.1920.970" timestamp="1646241917412" />
+    <state x="753" y="216" key="RollbackChangesDialog" timestamp="1646581214279">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state x="753" y="216" key="RollbackChangesDialog/0.25.1920.970@0.25.1920.970" timestamp="1646581214279" />
+    <state x="448" y="88" key="SettingsEditor" timestamp="1646668302249">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state x="448" y="88" key="SettingsEditor/0.25.1920.970@0.25.1920.970" timestamp="1646668302249" />
+    <state x="751" y="428" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1646319584270">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state x="751" y="428" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1920.970@0.25.1920.970" timestamp="1646319584270" />
+    <state width="93" height="36" key="documentation.popup.size" timestamp="1646239288133">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state width="93" height="36" key="documentation.popup.size/0.25.1920.970@0.25.1920.970" timestamp="1646239288133" />
+    <state x="661" y="265" width="597" height="490" key="find.popup" timestamp="1646579274293">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state x="661" y="265" width="597" height="490" key="find.popup/0.25.1920.970@0.25.1920.970" timestamp="1646579274293" />
+    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1646755056273">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup/0.25.1920.970@0.25.1920.970" timestamp="1646755056273" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/multithread/printInOrder/PrintInOrder.java</url>
+          <line>200</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/linkedlist/ReverseLinkedList.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/jdk/Test.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/jdk/Test.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
