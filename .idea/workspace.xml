@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="commit" />
+    <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dp/FibonacciTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dp/RobotWalk.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +37,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/repository" />
+        <option name="mavenHome" value="$USER_HOME$/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$USER_HOME$/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="22Vhs1jamMjSQoIgfVQ6wvlh5m0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -53,7 +65,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -63,7 +75,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Student">
+  <component name="RunManager" selected="Application.RobotWalk">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedlist.AddTwoNumbers" />
       <module name="xuefei-algorithm" />
@@ -71,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.MergeTwoLists" />
+    <configuration name="RobotWalk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.RobotWalk" />
       <module name="xuefei-algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RobotWalk" />
         <item itemvalue="Application.Student" />
         <item itemvalue="Application.SwapPairs" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.AddTwoNumbers" />
-        <item itemvalue="Application.MergeTwoLists" />
       </list>
     </recent_temporary>
   </component>
@@ -134,6 +146,7 @@
       <workItem from="1649081388123" duration="654000" />
       <workItem from="1649170194550" duration="42000" />
       <workItem from="1649170262286" duration="302000" />
+      <workItem from="1649170950623" duration="2324000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -202,22 +215,22 @@
       <screen x="0" y="25" width="1920" height="970" />
     </state>
     <state width="484" height="741" key="Git.Branch.Popup/0.25.1920.970@0.25.1920.970" timestamp="1646319581967" />
-    <state width="1878" height="245" key="GridCell.Tab.0.bottom" timestamp="1649083002273">
+    <state width="1878" height="245" key="GridCell.Tab.0.bottom" timestamp="1649174213165">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="245" key="GridCell.Tab.0.bottom/0.25.1920.970@0.25.1920.970" timestamp="1649083002273" />
-    <state width="1878" height="245" key="GridCell.Tab.0.center" timestamp="1649083002271">
+    <state width="1878" height="245" key="GridCell.Tab.0.bottom/0.25.1920.970@0.25.1920.970" timestamp="1649174213165" />
+    <state width="1878" height="245" key="GridCell.Tab.0.center" timestamp="1649174213164">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="245" key="GridCell.Tab.0.center/0.25.1920.970@0.25.1920.970" timestamp="1649083002271" />
-    <state width="1878" height="245" key="GridCell.Tab.0.left" timestamp="1649083002270">
+    <state width="1878" height="245" key="GridCell.Tab.0.center/0.25.1920.970@0.25.1920.970" timestamp="1649174213164" />
+    <state width="1878" height="245" key="GridCell.Tab.0.left" timestamp="1649174213163">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="245" key="GridCell.Tab.0.left/0.25.1920.970@0.25.1920.970" timestamp="1649083002270" />
-    <state width="1878" height="245" key="GridCell.Tab.0.right" timestamp="1649083002272">
+    <state width="1878" height="245" key="GridCell.Tab.0.left/0.25.1920.970@0.25.1920.970" timestamp="1649174213163" />
+    <state width="1878" height="245" key="GridCell.Tab.0.right" timestamp="1649174213164">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="245" key="GridCell.Tab.0.right/0.25.1920.970@0.25.1920.970" timestamp="1649083002272" />
+    <state width="1878" height="245" key="GridCell.Tab.0.right/0.25.1920.970@0.25.1920.970" timestamp="1649174213164" />
     <state width="1878" height="426" key="GridCell.Tab.1.bottom" timestamp="1646241917412">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
@@ -238,10 +251,10 @@
       <screen x="0" y="25" width="1920" height="970" />
     </state>
     <state x="753" y="216" key="RollbackChangesDialog/0.25.1920.970@0.25.1920.970" timestamp="1646581214279" />
-    <state x="448" y="88" key="SettingsEditor" timestamp="1646668302249">
+    <state x="448" y="88" key="SettingsEditor" timestamp="1649170989884">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state x="448" y="88" key="SettingsEditor/0.25.1920.970@0.25.1920.970" timestamp="1646668302249" />
+    <state x="448" y="88" key="SettingsEditor/0.25.1920.970@0.25.1920.970" timestamp="1649170989884" />
     <state x="751" y="428" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1646319584270">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
