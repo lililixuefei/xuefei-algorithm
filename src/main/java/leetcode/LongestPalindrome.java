@@ -6,4 +6,8 @@ package leetcode;
  * @date: 2022/05/02 20:36
  */
 public class LongestPalindrome {
+
+//    public String longestPalindrome(String s) {
+//
+//    }
 }
