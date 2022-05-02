@@ -1,7 +1,7 @@
 package leetcode;
 
 /**
- * @description:
+ * @description: 到达终点数字   https://leetcode-cn.com/problems/reach-a-number
  * @author: xuefei
  * @date: 2022/04/10 00:10
  */
@@ -13,7 +13,6 @@ public class ReachNumber {
      * 每次你可以选择向左或向右移动。
      * 第 i 次移动（从  i == 1 开始，到 i == numMoves ），在选择的方向上走 i 步。
      * 给定整数 target ，返回 到达目标所需的 最小 移动次数(即最小 numMoves ) 。
-     * 链接：https://leetcode-cn.com/problems/reach-a-number
      */
 
     public static int reachNumber(long target) {
