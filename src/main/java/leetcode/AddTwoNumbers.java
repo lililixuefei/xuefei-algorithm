@@ -1,6 +1,5 @@
 package leetcode;
 
-
 /**
  * @description: 两数相加  https://leetcode-cn.com/problems/add-two-numbers/
  * @author: xuefei
@@ -50,7 +49,7 @@ public class AddTwoNumbers {
         return pre.next;
     }
 
-   static class ListNode {
+    static class ListNode {
         int val;
         ListNode next;
 

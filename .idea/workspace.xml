@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/FindMedianSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/LengthOfLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/LengthOfLongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/IsPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/AddTwoNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LengthOfLongestSubstring">
+  <component name="RunManager" selected="Application.IsPalindrome">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.AddTwoNumbers" />
       <module name="xuefei-algorithm" />
@@ -84,15 +84,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.LengthOfLongestSubstring" />
+    <configuration name="IsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.IsPalindrome" />
       <module name="xuefei-algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RobotWalk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.RobotWalk" />
+    <configuration name="LengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.LengthOfLongestSubstring" />
       <module name="xuefei-algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsPalindrome" />
         <item itemvalue="Application.LengthOfLongestSubstring" />
         <item itemvalue="Application.AddTwoNumbers" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.SumOfFactorial" />
-        <item itemvalue="Application.RobotWalk" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +153,7 @@
       <workItem from="1649520175873" duration="3320000" />
       <workItem from="1649687246217" duration="293000" />
       <workItem from="1651155259596" duration="6798000" />
-      <workItem from="1651490728605" duration="2014000" />
+      <workItem from="1651490728605" duration="3479000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -222,22 +222,22 @@
       <screen x="0" y="25" width="1920" height="970" />
     </state>
     <state width="484" height="741" key="Git.Branch.Popup/0.25.1920.970@0.25.1920.970" timestamp="1646319581967" />
-    <state width="1878" height="178" key="GridCell.Tab.0.bottom" timestamp="1651491710645">
+    <state width="1878" height="178" key="GridCell.Tab.0.bottom" timestamp="1651494372901">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="178" key="GridCell.Tab.0.bottom/0.25.1920.970@0.25.1920.970" timestamp="1651491710645" />
-    <state width="1878" height="178" key="GridCell.Tab.0.center" timestamp="1651491710643">
+    <state width="1878" height="178" key="GridCell.Tab.0.bottom/0.25.1920.970@0.25.1920.970" timestamp="1651494372901" />
+    <state width="1878" height="178" key="GridCell.Tab.0.center" timestamp="1651494372901">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="178" key="GridCell.Tab.0.center/0.25.1920.970@0.25.1920.970" timestamp="1651491710643" />
-    <state width="1878" height="178" key="GridCell.Tab.0.left" timestamp="1651491710642">
+    <state width="1878" height="178" key="GridCell.Tab.0.center/0.25.1920.970@0.25.1920.970" timestamp="1651494372901" />
+    <state width="1878" height="178" key="GridCell.Tab.0.left" timestamp="1651494372900">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="178" key="GridCell.Tab.0.left/0.25.1920.970@0.25.1920.970" timestamp="1651491710642" />
-    <state width="1878" height="178" key="GridCell.Tab.0.right" timestamp="1651491710644">
+    <state width="1878" height="178" key="GridCell.Tab.0.left/0.25.1920.970@0.25.1920.970" timestamp="1651494372900" />
+    <state width="1878" height="178" key="GridCell.Tab.0.right" timestamp="1651494372901">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="178" key="GridCell.Tab.0.right/0.25.1920.970@0.25.1920.970" timestamp="1651491710644" />
+    <state width="1878" height="178" key="GridCell.Tab.0.right/0.25.1920.970@0.25.1920.970" timestamp="1651494372901" />
     <state width="1878" height="308" key="GridCell.Tab.1.bottom" timestamp="1651320085832">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
@@ -304,7 +304,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/AddTwoNumbers.java</url>
-          <line>68</line>
+          <line>67</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
