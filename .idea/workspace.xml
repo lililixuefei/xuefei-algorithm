@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/zuo/ReverseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wushixiong/linkedlist/IntersectionNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zuo/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zuoshen/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zuo/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zuoshen/ReverseList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +86,7 @@
       </method>
     </configuration>
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zuo.BinarySearch" />
+      <option name="MAIN_CLASS_NAME" value="zuoshen.BinarySearch" />
       <module name="xuefei-algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,7 +107,7 @@
       </method>
     </configuration>
     <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zuo.ReverseList" />
+      <option name="MAIN_CLASS_NAME" value="zuoshen.ReverseList" />
       <module name="xuefei-algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,7 +156,8 @@
       <workItem from="1651155259596" duration="6798000" />
       <workItem from="1651490728605" duration="4044000" />
       <workItem from="1651511382802" duration="4508000" />
-      <workItem from="1651554421618" duration="2436000" />
+      <workItem from="1651554421618" duration="3050000" />
+      <workItem from="1651589875529" duration="413000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -223,22 +226,22 @@
       <screen x="0" y="25" width="1920" height="970" />
     </state>
     <state width="484" height="741" key="Git.Branch.Popup/0.25.1920.970@0.25.1920.970" timestamp="1646319581967" />
-    <state width="1878" height="178" key="GridCell.Tab.0.bottom" timestamp="1651558010026">
+    <state width="1878" height="178" key="GridCell.Tab.0.bottom" timestamp="1651558686995">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="178" key="GridCell.Tab.0.bottom/0.25.1920.970@0.25.1920.970" timestamp="1651558010026" />
-    <state width="1878" height="178" key="GridCell.Tab.0.center" timestamp="1651558010024">
+    <state width="1878" height="178" key="GridCell.Tab.0.bottom/0.25.1920.970@0.25.1920.970" timestamp="1651558686995" />
+    <state width="1878" height="178" key="GridCell.Tab.0.center" timestamp="1651558686995">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="178" key="GridCell.Tab.0.center/0.25.1920.970@0.25.1920.970" timestamp="1651558010024" />
-    <state width="1878" height="178" key="GridCell.Tab.0.left" timestamp="1651558010022">
+    <state width="1878" height="178" key="GridCell.Tab.0.center/0.25.1920.970@0.25.1920.970" timestamp="1651558686995" />
+    <state width="1878" height="178" key="GridCell.Tab.0.left" timestamp="1651558686994">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="178" key="GridCell.Tab.0.left/0.25.1920.970@0.25.1920.970" timestamp="1651558010022" />
-    <state width="1878" height="178" key="GridCell.Tab.0.right" timestamp="1651558010025">
+    <state width="1878" height="178" key="GridCell.Tab.0.left/0.25.1920.970@0.25.1920.970" timestamp="1651558686994" />
+    <state width="1878" height="178" key="GridCell.Tab.0.right" timestamp="1651558686995">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="178" key="GridCell.Tab.0.right/0.25.1920.970@0.25.1920.970" timestamp="1651558010025" />
+    <state width="1878" height="178" key="GridCell.Tab.0.right/0.25.1920.970@0.25.1920.970" timestamp="1651558686995" />
     <state width="1878" height="154" key="GridCell.Tab.1.bottom" timestamp="1651549990239">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
@@ -309,12 +312,12 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/zuo/BinarySearch.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/zuoshen/BinarySearch.java</url>
           <line>100</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/zuo/BinarySearch.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/zuoshen/BinarySearch.java</url>
           <line>106</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
