@@ -1,5 +1,6 @@
 package wushixiong.linkedlist;
 
+
 /**
  * @description: 分隔链表   https://leetcode-cn.com/problems/partition-list/
  * @author: xuefei
@@ -7,7 +8,17 @@ package wushixiong.linkedlist;
  */
 public class PartitionLinkedList {
 
-    public ListNode partition(ListNode head, int x) {
+
+
+    /**
+     * 输入：head = [1,4,3,2,5,2], x = 3
+     * 输出：[1,2,2,4,3,5]
+     *
+     * @param head
+     * @param x
+     * @return
+     */
+    public static ListNode partition(ListNode head, int x) {
 
         ListNode bigHead = new ListNode(-1);
         ListNode bigTail = bigHead;
@@ -31,7 +42,7 @@ public class PartitionLinkedList {
     }
 
 
-    public class ListNode {
+    public static class ListNode {
         int val;
         ListNode next;
 
