@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="commit">
-      <change beforePath="$PROJECT_DIR$/src/main/java/zuo/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zuo/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zuo/ReverseList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.ReverseList">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.AddTwoNumbers" />
       <module name="xuefei-algorithm" />
@@ -104,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.TwoSum" />
+    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zuo.ReverseList" />
       <module name="xuefei-algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseList" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.IsPalindrome" />
         <item itemvalue="Application.LengthOfLongestSubstring" />
         <item itemvalue="Application.AddTwoNumbers" />
-        <item itemvalue="Application.TwoSum" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +153,8 @@
       <workItem from="1649687246217" duration="293000" />
       <workItem from="1651155259596" duration="6798000" />
       <workItem from="1651490728605" duration="4044000" />
-      <workItem from="1651511382802" duration="3816000" />
+      <workItem from="1651511382802" duration="4508000" />
+      <workItem from="1651554421618" duration="2436000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -206,10 +207,10 @@
       <screen x="0" y="25" width="1920" height="970" />
     </state>
     <state x="448" y="88" key="#Project_Structure/0.25.1920.970@0.25.1920.970" timestamp="1646320598462" />
-    <state x="773" y="198" key="#com.intellij.ide.util.MemberChooser" timestamp="1646236016685">
+    <state x="773" y="198" key="#com.intellij.ide.util.MemberChooser" timestamp="1651557324516">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state x="773" y="198" key="#com.intellij.ide.util.MemberChooser/0.25.1920.970@0.25.1920.970" timestamp="1646236016685" />
+    <state x="773" y="198" key="#com.intellij.ide.util.MemberChooser/0.25.1920.970@0.25.1920.970" timestamp="1651557324516" />
     <state x="573" y="438" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1646059142059">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
@@ -222,38 +223,38 @@
       <screen x="0" y="25" width="1920" height="970" />
     </state>
     <state width="484" height="741" key="Git.Branch.Popup/0.25.1920.970@0.25.1920.970" timestamp="1646319581967" />
-    <state width="1878" height="154" key="GridCell.Tab.0.bottom" timestamp="1651515609385">
+    <state width="1878" height="178" key="GridCell.Tab.0.bottom" timestamp="1651558010026">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="154" key="GridCell.Tab.0.bottom/0.25.1920.970@0.25.1920.970" timestamp="1651515609385" />
-    <state width="1878" height="154" key="GridCell.Tab.0.center" timestamp="1651515609383">
+    <state width="1878" height="178" key="GridCell.Tab.0.bottom/0.25.1920.970@0.25.1920.970" timestamp="1651558010026" />
+    <state width="1878" height="178" key="GridCell.Tab.0.center" timestamp="1651558010024">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="154" key="GridCell.Tab.0.center/0.25.1920.970@0.25.1920.970" timestamp="1651515609383" />
-    <state width="1878" height="154" key="GridCell.Tab.0.left" timestamp="1651515609382">
+    <state width="1878" height="178" key="GridCell.Tab.0.center/0.25.1920.970@0.25.1920.970" timestamp="1651558010024" />
+    <state width="1878" height="178" key="GridCell.Tab.0.left" timestamp="1651558010022">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="154" key="GridCell.Tab.0.left/0.25.1920.970@0.25.1920.970" timestamp="1651515609382" />
-    <state width="1878" height="154" key="GridCell.Tab.0.right" timestamp="1651515609384">
+    <state width="1878" height="178" key="GridCell.Tab.0.left/0.25.1920.970@0.25.1920.970" timestamp="1651558010022" />
+    <state width="1878" height="178" key="GridCell.Tab.0.right" timestamp="1651558010025">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="154" key="GridCell.Tab.0.right/0.25.1920.970@0.25.1920.970" timestamp="1651515609384" />
-    <state width="1878" height="154" key="GridCell.Tab.1.bottom" timestamp="1651515609388">
+    <state width="1878" height="178" key="GridCell.Tab.0.right/0.25.1920.970@0.25.1920.970" timestamp="1651558010025" />
+    <state width="1878" height="154" key="GridCell.Tab.1.bottom" timestamp="1651549990239">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="154" key="GridCell.Tab.1.bottom/0.25.1920.970@0.25.1920.970" timestamp="1651515609388" />
-    <state width="1878" height="154" key="GridCell.Tab.1.center" timestamp="1651515609387">
+    <state width="1878" height="154" key="GridCell.Tab.1.bottom/0.25.1920.970@0.25.1920.970" timestamp="1651549990239" />
+    <state width="1878" height="154" key="GridCell.Tab.1.center" timestamp="1651549990238">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="154" key="GridCell.Tab.1.center/0.25.1920.970@0.25.1920.970" timestamp="1651515609387" />
-    <state width="1878" height="154" key="GridCell.Tab.1.left" timestamp="1651515609386">
+    <state width="1878" height="154" key="GridCell.Tab.1.center/0.25.1920.970@0.25.1920.970" timestamp="1651549990238" />
+    <state width="1878" height="154" key="GridCell.Tab.1.left" timestamp="1651549990237">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="154" key="GridCell.Tab.1.left/0.25.1920.970@0.25.1920.970" timestamp="1651515609386" />
-    <state width="1878" height="154" key="GridCell.Tab.1.right" timestamp="1651515609387">
+    <state width="1878" height="154" key="GridCell.Tab.1.left/0.25.1920.970@0.25.1920.970" timestamp="1651549990237" />
+    <state width="1878" height="154" key="GridCell.Tab.1.right" timestamp="1651549990238">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="154" key="GridCell.Tab.1.right/0.25.1920.970@0.25.1920.970" timestamp="1651515609387" />
+    <state width="1878" height="154" key="GridCell.Tab.1.right/0.25.1920.970@0.25.1920.970" timestamp="1651549990238" />
     <state x="753" y="216" key="RollbackChangesDialog" timestamp="1646581214279">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
@@ -309,12 +310,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/zuo/BinarySearch.java</url>
-          <line>102</line>
+          <line>100</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/zuo/BinarySearch.java</url>
-          <line>108</line>
+          <line>106</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
