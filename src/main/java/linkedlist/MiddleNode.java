@@ -5,7 +5,7 @@ import linkedlist.assist.LinkedListCreator;
 import java.util.Arrays;
 
 /**
- * @description: 链表的中间节点
+ * @description: 链表的中间节点   https://leetcode-cn.com/problems/middle-of-the-linked-list/
  * @author: xuefei
  * @date: 2022/03/03 00:07
  */
