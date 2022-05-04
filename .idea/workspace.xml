@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/wushixiong/linkedlist/ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wushixiong/linkedlist/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wushixiong/linkedlist/ReverseList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +159,7 @@
       <workItem from="1651511382802" duration="4508000" />
       <workItem from="1651554421618" duration="3050000" />
       <workItem from="1651589875529" duration="4550000" />
-      <workItem from="1651676807758" duration="364000" />
+      <workItem from="1651676807758" duration="1121000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -208,10 +208,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="多线程-打印零与奇偶数" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="448" y="88" key="#Project_Structure" timestamp="1646320598462">
+    <state x="448" y="88" key="#Project_Structure" timestamp="1651677259431">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state x="448" y="88" key="#Project_Structure/0.25.1920.970@0.25.1920.970" timestamp="1646320598462" />
+    <state x="448" y="88" key="#Project_Structure/0.25.1920.970@0.25.1920.970" timestamp="1651677259431" />
     <state x="773" y="198" key="#com.intellij.ide.util.MemberChooser" timestamp="1651557324516">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
