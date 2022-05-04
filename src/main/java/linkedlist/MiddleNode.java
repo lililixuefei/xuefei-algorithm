@@ -36,7 +36,6 @@ public class MiddleNode {
      * @return
      */
     public static Node middleNode(Node head) {
-        //边界条件不用忘记处理了
         if (head == null || head.next == null) {
             return head;
         }
