@@ -1,7 +1,5 @@
 package linkedlist;
 
-import java.util.HashSet;
-import java.util.Set;
 
 /**
  * @description: 删除排序链表中的重复元素   https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/
