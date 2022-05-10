@@ -1,6 +1,9 @@
 package leetcode.everyday;
 
 
+import linkedlist.assist.LinkedListCreator;
+import linkedlist.node.ListNode;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -13,7 +16,7 @@ import java.util.List;
 public class SwapPairs {
 
     public static void main(String[] args) {
-        ListNode headNode1 = createLinkedList(Arrays.asList(2, 5, 3, 4, 6, 2, 2));
+        ListNode headNode1 = LinkedListCreator.createLinkedList(Arrays.asList(2, 5, 3, 4, 6, 2, 2));
         swapPairs(headNode1);
     }
 
@@ -73,36 +76,4 @@ public class SwapPairs {
         return temp.next;
     }
 
-    /**
-     * 构建链表
-     *
-     * @param list
-     * @return
-     */
-    public static ListNode createLinkedList(List<Integer> list) {
-        if (list.isEmpty()) {
-            return null;
-        }
-        ListNode headNode = new ListNode(list.get(0));
-        ListNode tempNode = createLinkedList(list.subList(1, list.size()));
-        headNode.next = tempNode;
-        return headNode;
-    }
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
 }

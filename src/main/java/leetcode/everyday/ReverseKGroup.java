@@ -1,5 +1,6 @@
 package leetcode.everyday;
 
+import linkedlist.assist.LinkedListCreator;
 import linkedlist.node.ListNode;
 
 import java.util.ArrayList;
@@ -14,7 +15,7 @@ import java.util.List;
 public class ReverseKGroup {
 
     public static void main(String[] args) {
-        ListNode headNode1 = createLinkedList(Arrays.asList(1, 2, 3, 4, 5));
+        ListNode headNode1 = LinkedListCreator.createLinkedList(Arrays.asList(1, 2, 3, 4, 5));
 
         reverseKGroup2(headNode1, 2);
     }
@@ -88,21 +89,9 @@ public class ReverseKGroup {
         return pre;
     }
 
-    /**
-     * 构建链表
-     *
-     * @param list
-     * @return
-     */
-    public static ListNode createLinkedList(List<Integer> list) {
-        if (list.isEmpty()) {
-            return null;
-        }
-        ListNode headNode = new ListNode(list.get(0));
-        ListNode tempNode = createLinkedList(list.subList(1, list.size()));
-        headNode.next = tempNode;
-        return headNode;
-    }
+
+
+
 
 
 }

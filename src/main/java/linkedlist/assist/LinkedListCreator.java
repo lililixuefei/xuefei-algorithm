@@ -1,6 +1,6 @@
 package linkedlist.assist;
 
-import linkedlist.Node;
+import linkedlist.node.ListNode;
 
 import java.util.List;
 
@@ -11,19 +11,20 @@ import java.util.List;
  */
 public class LinkedListCreator {
 
+
     /**
      * 构建链表
      *
      * @param list
      * @return
      */
-    public static Node createLinkedList(List<Integer> list) {
+    public static ListNode createLinkedList(List<Integer> list) {
         if (list.isEmpty()) {
             return null;
         }
-        Node headNode = new Node(list.get(0));
-        Node tempNode = createLinkedList(list.subList(1, list.size()));
-        headNode.setNext(tempNode);
+        ListNode headNode = new ListNode(list.get(0));
+        ListNode tempNode = createLinkedList(list.subList(1, list.size()));
+        headNode.next = tempNode;
         return headNode;
     }
 
@@ -32,11 +33,11 @@ public class LinkedListCreator {
      *
      * @param node
      */
-    public static void printList(Node node) {
+    public static void printList(ListNode node) {
         while (node != null) {
-            System.out.print(node.getData());
+            System.out.print(node.val);
             System.out.print(" ");
-            node = node.getNext();
+            node = node.next;
         }
         System.out.println();
     }
