@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/everyday/NumSubarrayProductLessThanK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/everyday/SwapPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/everyday/ReverseKGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedlist/node/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/SwapPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/everyday/SwapPairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SwapPairs">
+  <component name="RunManager" selected="Application.ReverseKGroup">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zuoshen.BinarySearch" />
       <module name="xuefei-algorithm" />
@@ -94,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.LengthOfLongestSubstring" />
+    <configuration name="ReverseKGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.everyday.ReverseKGroup" />
       <module name="xuefei-algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseKGroup" />
         <item itemvalue="Application.SwapPairs" />
         <item itemvalue="Application.ReverseList" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.IsPalindrome" />
-        <item itemvalue="Application.LengthOfLongestSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +162,8 @@
       <workItem from="1651554421618" duration="3050000" />
       <workItem from="1651589875529" duration="4550000" />
       <workItem from="1651676807758" duration="4178000" />
-      <workItem from="1652107809174" duration="3108000" />
+      <workItem from="1652107809174" duration="3599000" />
+      <workItem from="1652190779564" duration="3269000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -230,38 +232,38 @@
       <screen x="0" y="25" width="1920" height="970" />
     </state>
     <state width="484" height="741" key="Git.Branch.Popup/0.25.1920.970@0.25.1920.970" timestamp="1646319581967" />
-    <state width="1878" height="385" key="GridCell.Tab.0.bottom" timestamp="1652110924672">
+    <state width="1878" height="345" key="GridCell.Tab.0.bottom" timestamp="1652194295368">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="385" key="GridCell.Tab.0.bottom/0.25.1920.970@0.25.1920.970" timestamp="1652110924672" />
-    <state width="1878" height="385" key="GridCell.Tab.0.center" timestamp="1652110924669">
+    <state width="1878" height="345" key="GridCell.Tab.0.bottom/0.25.1920.970@0.25.1920.970" timestamp="1652194295368" />
+    <state width="1878" height="345" key="GridCell.Tab.0.center" timestamp="1652194295367">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="385" key="GridCell.Tab.0.center/0.25.1920.970@0.25.1920.970" timestamp="1652110924669" />
-    <state width="1878" height="385" key="GridCell.Tab.0.left" timestamp="1652110924668">
+    <state width="1878" height="345" key="GridCell.Tab.0.center/0.25.1920.970@0.25.1920.970" timestamp="1652194295367" />
+    <state width="1878" height="345" key="GridCell.Tab.0.left" timestamp="1652194295366">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="385" key="GridCell.Tab.0.left/0.25.1920.970@0.25.1920.970" timestamp="1652110924668" />
-    <state width="1878" height="385" key="GridCell.Tab.0.right" timestamp="1652110924670">
+    <state width="1878" height="345" key="GridCell.Tab.0.left/0.25.1920.970@0.25.1920.970" timestamp="1652194295366" />
+    <state width="1878" height="345" key="GridCell.Tab.0.right" timestamp="1652194295368">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="385" key="GridCell.Tab.0.right/0.25.1920.970@0.25.1920.970" timestamp="1652110924670" />
-    <state width="1878" height="385" key="GridCell.Tab.1.bottom" timestamp="1652110924675">
+    <state width="1878" height="345" key="GridCell.Tab.0.right/0.25.1920.970@0.25.1920.970" timestamp="1652194295368" />
+    <state width="1878" height="345" key="GridCell.Tab.1.bottom" timestamp="1652194295371">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="385" key="GridCell.Tab.1.bottom/0.25.1920.970@0.25.1920.970" timestamp="1652110924675" />
-    <state width="1878" height="385" key="GridCell.Tab.1.center" timestamp="1652110924673">
+    <state width="1878" height="345" key="GridCell.Tab.1.bottom/0.25.1920.970@0.25.1920.970" timestamp="1652194295371" />
+    <state width="1878" height="345" key="GridCell.Tab.1.center" timestamp="1652194295370">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="385" key="GridCell.Tab.1.center/0.25.1920.970@0.25.1920.970" timestamp="1652110924673" />
-    <state width="1878" height="385" key="GridCell.Tab.1.left" timestamp="1652110924673">
+    <state width="1878" height="345" key="GridCell.Tab.1.center/0.25.1920.970@0.25.1920.970" timestamp="1652194295370" />
+    <state width="1878" height="345" key="GridCell.Tab.1.left" timestamp="1652194295369">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="385" key="GridCell.Tab.1.left/0.25.1920.970@0.25.1920.970" timestamp="1652110924673" />
-    <state width="1878" height="385" key="GridCell.Tab.1.right" timestamp="1652110924674">
+    <state width="1878" height="345" key="GridCell.Tab.1.left/0.25.1920.970@0.25.1920.970" timestamp="1652194295369" />
+    <state width="1878" height="345" key="GridCell.Tab.1.right" timestamp="1652194295370">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="385" key="GridCell.Tab.1.right/0.25.1920.970@0.25.1920.970" timestamp="1652110924674" />
+    <state width="1878" height="345" key="GridCell.Tab.1.right/0.25.1920.970@0.25.1920.970" timestamp="1652194295370" />
     <state x="753" y="216" key="RollbackChangesDialog" timestamp="1646581214279">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
@@ -278,10 +280,10 @@
       <screen x="0" y="25" width="1920" height="970" />
     </state>
     <state width="93" height="36" key="documentation.popup.size/0.25.1920.970@0.25.1920.970" timestamp="1646239288133" />
-    <state x="661" y="265" width="597" height="490" key="find.popup" timestamp="1646579274293">
+    <state x="661" y="265" width="597" height="490" key="find.popup" timestamp="1652192106421">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state x="661" y="265" width="597" height="490" key="find.popup/0.25.1920.970@0.25.1920.970" timestamp="1646579274293" />
+    <state x="661" y="265" width="597" height="490" key="find.popup/0.25.1920.970@0.25.1920.970" timestamp="1652192106421" />
     <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1646755056273">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
@@ -326,24 +328,14 @@
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/everyday/SwapPairs.java</url>
-          <line>44</line>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/everyday/ReverseKGroup.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/everyday/ReverseKGroup.java</url>
+          <line>40</line>
           <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/everyday/SwapPairs.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/everyday/SwapPairs.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/everyday/SwapPairs.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
