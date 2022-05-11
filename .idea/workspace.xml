@@ -20,23 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/everyday/RotateRight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/ReverseKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/everyday/ReverseKGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/SwapPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/everyday/SwapPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/AddTwoNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/DeleteDuplicates.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/HasCycle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/LRUCache.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/MergeTwoLists.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/MiddleNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/RemoveElements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/RemoveNthFromEnd.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/ReverseLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/SortList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/SwapPairs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/assist/LinkedListCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/assist/LinkedListCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/everyday/GenerateParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wushixiong/tree/PreorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wushixiong/tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/RotateRight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/everyday/RotateRight.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,9 +81,9 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RotateRight">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zuoshen.BinarySearch" />
+  <component name="RunManager" selected="Application.GenerateParenthesis">
+    <configuration name="GenerateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.everyday.GenerateParenthesis" />
       <module name="xuefei-algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenerateParenthesis" />
         <item itemvalue="Application.RotateRight" />
         <item itemvalue="Application.ReverseKGroup" />
         <item itemvalue="Application.SwapPairs" />
         <item itemvalue="Application.ReverseList" />
-        <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +164,8 @@
       <workItem from="1651589875529" duration="4550000" />
       <workItem from="1651676807758" duration="4178000" />
       <workItem from="1652107809174" duration="3599000" />
-      <workItem from="1652190779564" duration="6125000" />
+      <workItem from="1652190779564" duration="7580000" />
+      <workItem from="1652282914193" duration="909000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -250,38 +238,38 @@
       <screen x="0" y="25" width="1920" height="970" />
     </state>
     <state width="484" height="741" key="Git.Branch.Popup/0.25.1920.970@0.25.1920.970" timestamp="1646319581967" />
-    <state width="1878" height="396" key="GridCell.Tab.0.bottom" timestamp="1652197240341">
+    <state width="1878" height="223" key="GridCell.Tab.0.bottom" timestamp="1652198751437">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="396" key="GridCell.Tab.0.bottom/0.25.1920.970@0.25.1920.970" timestamp="1652197240341" />
-    <state width="1878" height="396" key="GridCell.Tab.0.center" timestamp="1652197240339">
+    <state width="1878" height="223" key="GridCell.Tab.0.bottom/0.25.1920.970@0.25.1920.970" timestamp="1652198751437" />
+    <state width="1878" height="223" key="GridCell.Tab.0.center" timestamp="1652198751437">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="396" key="GridCell.Tab.0.center/0.25.1920.970@0.25.1920.970" timestamp="1652197240339" />
-    <state width="1878" height="396" key="GridCell.Tab.0.left" timestamp="1652197240338">
+    <state width="1878" height="223" key="GridCell.Tab.0.center/0.25.1920.970@0.25.1920.970" timestamp="1652198751437" />
+    <state width="1878" height="223" key="GridCell.Tab.0.left" timestamp="1652198751436">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="396" key="GridCell.Tab.0.left/0.25.1920.970@0.25.1920.970" timestamp="1652197240338" />
-    <state width="1878" height="396" key="GridCell.Tab.0.right" timestamp="1652197240340">
+    <state width="1878" height="223" key="GridCell.Tab.0.left/0.25.1920.970@0.25.1920.970" timestamp="1652198751436" />
+    <state width="1878" height="223" key="GridCell.Tab.0.right" timestamp="1652198751437">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="396" key="GridCell.Tab.0.right/0.25.1920.970@0.25.1920.970" timestamp="1652197240340" />
-    <state width="1878" height="396" key="GridCell.Tab.1.bottom" timestamp="1652197240344">
+    <state width="1878" height="223" key="GridCell.Tab.0.right/0.25.1920.970@0.25.1920.970" timestamp="1652198751437" />
+    <state width="1878" height="379" key="GridCell.Tab.1.bottom" timestamp="1652198751433">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="396" key="GridCell.Tab.1.bottom/0.25.1920.970@0.25.1920.970" timestamp="1652197240344" />
-    <state width="1878" height="396" key="GridCell.Tab.1.center" timestamp="1652197240343">
+    <state width="1878" height="379" key="GridCell.Tab.1.bottom/0.25.1920.970@0.25.1920.970" timestamp="1652198751433" />
+    <state width="1878" height="379" key="GridCell.Tab.1.center" timestamp="1652198751431">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="396" key="GridCell.Tab.1.center/0.25.1920.970@0.25.1920.970" timestamp="1652197240343" />
-    <state width="1878" height="396" key="GridCell.Tab.1.left" timestamp="1652197240342">
+    <state width="1878" height="379" key="GridCell.Tab.1.center/0.25.1920.970@0.25.1920.970" timestamp="1652198751431" />
+    <state width="1878" height="379" key="GridCell.Tab.1.left" timestamp="1652198751430">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="396" key="GridCell.Tab.1.left/0.25.1920.970@0.25.1920.970" timestamp="1652197240342" />
-    <state width="1878" height="396" key="GridCell.Tab.1.right" timestamp="1652197240343">
+    <state width="1878" height="379" key="GridCell.Tab.1.left/0.25.1920.970@0.25.1920.970" timestamp="1652198751430" />
+    <state width="1878" height="379" key="GridCell.Tab.1.right" timestamp="1652198751432">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
-    <state width="1878" height="396" key="GridCell.Tab.1.right/0.25.1920.970@0.25.1920.970" timestamp="1652197240343" />
+    <state width="1878" height="379" key="GridCell.Tab.1.right/0.25.1920.970@0.25.1920.970" timestamp="1652198751432" />
     <state x="753" y="216" key="RollbackChangesDialog" timestamp="1646581214279">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
@@ -294,6 +282,10 @@
       <screen x="0" y="25" width="1920" height="970" />
     </state>
     <state x="751" y="428" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1920.970@0.25.1920.970" timestamp="1646319584270" />
+    <state x="504" y="243" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1652197379684">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state x="504" y="243" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.25.1920.970@0.25.1920.970" timestamp="1652197379684" />
     <state width="93" height="36" key="documentation.popup.size" timestamp="1646239288133">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
@@ -310,44 +302,44 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/multithread/printInOrder/PrintInOrder.java</url>
           <line>200</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xuefei/jdk/Test.java</url>
           <line>16</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xuefei/jdk/Test.java</url>
           <line>11</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/AddTwoNumbers.java</url>
           <line>67</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/zuoshen/BinarySearch.java</url>
           <line>100</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/zuoshen/BinarySearch.java</url>
           <line>106</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/everyday/RotateRight.java</url>
-          <line>55</line>
+          <line>50</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/everyday/RotateRight.java</url>
-          <line>57</line>
+          <line>52</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>

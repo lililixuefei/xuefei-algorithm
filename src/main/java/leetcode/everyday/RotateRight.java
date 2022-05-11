@@ -25,7 +25,6 @@ public class RotateRight {
         }
 
         ListNode dummy = head;
-
         List<ListNode> listNodes = new ArrayList<>();
         while (head != null) {
             listNodes.add(head);
