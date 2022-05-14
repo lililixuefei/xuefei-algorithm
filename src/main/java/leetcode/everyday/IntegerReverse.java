@@ -11,8 +11,20 @@ public class IntegerReverse {
         System.out.println(reverse(-2147483648));
     }
 
-
     public static int reverse(int x) {
+        int rev = 0;
+        while (x != 0) {
+            if (rev < Integer.MIN_VALUE / 10 || rev > Integer.MAX_VALUE / 10) {
+                return 0;
+            }
+            int digit = x % 10;
+            x /= 10;
+            rev = rev * 10 + digit;
+        }
+        return rev;
+    }
+
+    public static int reverse2(int x) {
         if (x == 0 || x / 10 == 0) {
             return x;
         }
