@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/everyday/IntegerReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/everyday/LengthOfLastWord.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -76,7 +77,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IntegerReverse">
+  <component name="RunManager" selected="Application.LengthOfLastWord">
     <configuration name="GenerateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.everyday.GenerateParenthesis" />
       <module name="xuefei-algorithm" />
@@ -86,6 +87,13 @@
     </configuration>
     <configuration name="IntegerReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.everyday.IntegerReverse" />
+      <module name="xuefei-algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.everyday.LengthOfLastWord" />
       <module name="xuefei-algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,20 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwapPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.everyday.SwapPairs" />
-      <module name="xuefei-algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LengthOfLastWord" />
         <item itemvalue="Application.IntegerReverse" />
         <item itemvalue="Application.GenerateParenthesis" />
         <item itemvalue="Application.RotateRight" />
         <item itemvalue="Application.ReverseKGroup" />
-        <item itemvalue="Application.SwapPairs" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +163,7 @@
       <workItem from="1652107809174" duration="3599000" />
       <workItem from="1652190779564" duration="7580000" />
       <workItem from="1652282914193" duration="1090000" />
-      <workItem from="1652516988371" duration="1384000" />
+      <workItem from="1652516988371" duration="1707000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -254,12 +255,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/everyday/IntegerReverse.java</url>
-          <line>17</line>
+          <line>27</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/everyday/IntegerReverse.java</url>
-          <line>35</line>
+          <line>45</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
