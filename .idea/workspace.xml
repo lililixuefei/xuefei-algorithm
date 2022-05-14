@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,10 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/everyday/GenerateParenthesis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wushixiong/tree/PreorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wushixiong/tree/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/RotateRight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/everyday/RotateRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/everyday/IntegerReverse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -57,19 +60,11 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -81,7 +76,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenerateParenthesis">
+  <component name="RunManager" selected="Application.IntegerReverse">
     <configuration name="GenerateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.everyday.GenerateParenthesis" />
       <module name="xuefei-algorithm" />
@@ -89,15 +84,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseKGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.everyday.ReverseKGroup" />
+    <configuration name="IntegerReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.everyday.IntegerReverse" />
       <module name="xuefei-algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zuoshen.ReverseList" />
+    <configuration name="ReverseKGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.everyday.ReverseKGroup" />
       <module name="xuefei-algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,14 +114,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntegerReverse" />
         <item itemvalue="Application.GenerateParenthesis" />
         <item itemvalue="Application.RotateRight" />
         <item itemvalue="Application.ReverseKGroup" />
         <item itemvalue="Application.SwapPairs" />
-        <item itemvalue="Application.ReverseList" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="" />
@@ -165,7 +161,8 @@
       <workItem from="1651676807758" duration="4178000" />
       <workItem from="1652107809174" duration="3599000" />
       <workItem from="1652190779564" duration="7580000" />
-      <workItem from="1652282914193" duration="909000" />
+      <workItem from="1652282914193" duration="1090000" />
+      <workItem from="1652516988371" duration="1384000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -192,7 +189,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -204,7 +201,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LIMIT_HISTORY" value="false" />
@@ -212,92 +208,6 @@
     <MESSAGE value="多线程-交替打印 FooBar" />
     <MESSAGE value="多线程-打印零与奇偶数" />
     <option name="LAST_COMMIT_MESSAGE" value="多线程-打印零与奇偶数" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="448" y="88" key="#Project_Structure" timestamp="1651677259431">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="448" y="88" key="#Project_Structure/0.25.1920.970@0.25.1920.970" timestamp="1651677259431" />
-    <state x="773" y="198" key="#com.intellij.ide.util.MemberChooser" timestamp="1651557324516">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="773" y="198" key="#com.intellij.ide.util.MemberChooser/0.25.1920.970@0.25.1920.970" timestamp="1651557324516" />
-    <state x="573" y="438" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1646059142059">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="573" y="438" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.25.1920.970@0.25.1920.970" timestamp="1646059142059" />
-    <state x="734" y="395" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1646059144589">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="734" y="395" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.25.1920.970@0.25.1920.970" timestamp="1646059144589" />
-    <state x="723" y="217" key="#xdebugger.evaluate" timestamp="1652197095458">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="723" y="217" key="#xdebugger.evaluate/0.25.1920.970@0.25.1920.970" timestamp="1652197095458" />
-    <state width="484" height="741" key="Git.Branch.Popup" timestamp="1646319581967">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state width="484" height="741" key="Git.Branch.Popup/0.25.1920.970@0.25.1920.970" timestamp="1646319581967" />
-    <state width="1878" height="223" key="GridCell.Tab.0.bottom" timestamp="1652198751437">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state width="1878" height="223" key="GridCell.Tab.0.bottom/0.25.1920.970@0.25.1920.970" timestamp="1652198751437" />
-    <state width="1878" height="223" key="GridCell.Tab.0.center" timestamp="1652198751437">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state width="1878" height="223" key="GridCell.Tab.0.center/0.25.1920.970@0.25.1920.970" timestamp="1652198751437" />
-    <state width="1878" height="223" key="GridCell.Tab.0.left" timestamp="1652198751436">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state width="1878" height="223" key="GridCell.Tab.0.left/0.25.1920.970@0.25.1920.970" timestamp="1652198751436" />
-    <state width="1878" height="223" key="GridCell.Tab.0.right" timestamp="1652198751437">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state width="1878" height="223" key="GridCell.Tab.0.right/0.25.1920.970@0.25.1920.970" timestamp="1652198751437" />
-    <state width="1878" height="379" key="GridCell.Tab.1.bottom" timestamp="1652198751433">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state width="1878" height="379" key="GridCell.Tab.1.bottom/0.25.1920.970@0.25.1920.970" timestamp="1652198751433" />
-    <state width="1878" height="379" key="GridCell.Tab.1.center" timestamp="1652198751431">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state width="1878" height="379" key="GridCell.Tab.1.center/0.25.1920.970@0.25.1920.970" timestamp="1652198751431" />
-    <state width="1878" height="379" key="GridCell.Tab.1.left" timestamp="1652198751430">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state width="1878" height="379" key="GridCell.Tab.1.left/0.25.1920.970@0.25.1920.970" timestamp="1652198751430" />
-    <state width="1878" height="379" key="GridCell.Tab.1.right" timestamp="1652198751432">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state width="1878" height="379" key="GridCell.Tab.1.right/0.25.1920.970@0.25.1920.970" timestamp="1652198751432" />
-    <state x="753" y="216" key="RollbackChangesDialog" timestamp="1646581214279">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="753" y="216" key="RollbackChangesDialog/0.25.1920.970@0.25.1920.970" timestamp="1646581214279" />
-    <state x="597" y="89" key="SettingsEditor" timestamp="1651513361046">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="597" y="89" key="SettingsEditor/0.25.1920.970@0.25.1920.970" timestamp="1651513361046" />
-    <state x="751" y="428" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1646319584270">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="751" y="428" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1920.970@0.25.1920.970" timestamp="1646319584270" />
-    <state x="504" y="243" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1652197379684">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="504" y="243" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.25.1920.970@0.25.1920.970" timestamp="1652197379684" />
-    <state width="93" height="36" key="documentation.popup.size" timestamp="1646239288133">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state width="93" height="36" key="documentation.popup.size/0.25.1920.970@0.25.1920.970" timestamp="1646239288133" />
-    <state x="661" y="265" width="597" height="490" key="find.popup" timestamp="1652192106421">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="661" y="265" width="597" height="490" key="find.popup/0.25.1920.970@0.25.1920.970" timestamp="1652192106421" />
-    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1646755056273">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup/0.25.1920.970@0.25.1920.970" timestamp="1646755056273" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -341,6 +251,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/everyday/RotateRight.java</url>
           <line>52</line>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/everyday/IntegerReverse.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/everyday/IntegerReverse.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
