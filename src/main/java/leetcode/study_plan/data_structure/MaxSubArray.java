@@ -1,4 +1,4 @@
-package leetcode.everyday;
+package leetcode.study_plan.data_structure;
 
 /**
  * @description: 最大子数组和   https://leetcode.cn/problems/maximum-subarray/

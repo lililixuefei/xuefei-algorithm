@@ -1,4 +1,4 @@
-package leetcode.everyday;
+package leetcode.study_plan.data_structure;
 
 import java.util.HashSet;
 import java.util.Set;

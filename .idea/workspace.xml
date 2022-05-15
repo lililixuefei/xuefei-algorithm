@@ -23,7 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/data_structure/MergeTwoOrderedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/programme_ability/HammingWeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/AverageSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/programme_ability/AverageSalary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/data_structure/ContainsDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/CountOdds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/programme_ability/CountOdds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/data_structure/MaxSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/data_structure/MergeTwoOrderedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/data_structure/MergeTwoOrderedArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,16 +82,9 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeTwoOrderedArrays">
-    <configuration name="CountOdds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.everyday.CountOdds" />
-      <module name="xuefei-algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.everyday.LengthOfLastWord" />
+  <component name="RunManager" selected="Application.HammingWeight">
+    <configuration name="HammingWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.study_plan.programme_ability.HammingWeight" />
       <module name="xuefei-algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,13 +111,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="leetcode.study_plan.programme_ability.CountOdds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.study_plan.programme_ability.CountOdds" />
+      <module name="xuefei-algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HammingWeight" />
         <item itemvalue="Application.MergeTwoOrderedArrays" />
         <item itemvalue="Application.SearchInsert" />
-        <item itemvalue="Application.CountOdds" />
+        <item itemvalue="Application.leetcode.study_plan.programme_ability.CountOdds" />
         <item itemvalue="Application.leetcode.study_plan.binary_search.BinarySearch" />
-        <item itemvalue="Application.LengthOfLastWord" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +170,7 @@
       <workItem from="1652282914193" duration="1090000" />
       <workItem from="1652516988371" duration="7566000" />
       <workItem from="1652599475220" duration="2126000" />
-      <workItem from="1652617805131" duration="2322000" />
+      <workItem from="1652617805131" duration="2915000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -272,17 +277,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/study_plan/data_structure/MergeTwoOrderedArrays.java</url>
-          <line>25</line>
+          <line>47</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/study_plan/data_structure/MergeTwoOrderedArrays.java</url>
-          <line>42</line>
+          <line>64</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/study_plan/data_structure/MergeTwoOrderedArrays.java</url>
-          <line>44</line>
+          <line>66</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
