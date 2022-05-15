@@ -1,4 +1,4 @@
-package leetcode.everyday;
+package leetcode.study_plan.binary_search;
 
 /**
  * @description: 猜数字大小   https://leetcode.cn/problems/guess-number-higher-or-lower/

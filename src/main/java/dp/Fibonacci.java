@@ -5,7 +5,7 @@ package dp;
  * @author: xuefei
  * @date: 2022/04/05 23:10
  */
-public class FibonacciTest {
+public class Fibonacci {
 
     public int fibonacci(int n) {
         if (n == 0) {

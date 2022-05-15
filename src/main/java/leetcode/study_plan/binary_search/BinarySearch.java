@@ -1,4 +1,4 @@
-package leetcode.everyday;
+package leetcode.study_plan.binary_search;
 
 /**
  * @description: 二分查找  https://leetcode.cn/problems/binary-search/
