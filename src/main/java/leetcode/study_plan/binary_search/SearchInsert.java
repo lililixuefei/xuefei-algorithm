@@ -12,7 +12,25 @@ public class SearchInsert {
         System.out.println(searchInsert(nums, 2));
     }
 
+
     public static int searchInsert(int[] nums, int target) {
+        int n = nums.length;
+        int left = 0, right = n - 1, ans = n;
+        while (left <= right) {
+            int mid = ((right - left) >> 1) + left;
+            if (target <= nums[mid]) {
+                ans = mid;
+                right = mid - 1;
+            } else {
+                left = mid + 1;
+            }
+        }
+        return ans;
+    }
+
+
+
+    public static int searchInsert1(int[] nums, int target) {
         int low = 0, high = nums.length - 1;
 
         if (target > nums[nums.length-1]){
