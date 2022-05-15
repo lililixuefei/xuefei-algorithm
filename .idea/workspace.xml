@@ -23,12 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/programme_ability/HammingWeight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/AverageSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/programme_ability/AverageSalary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/data_structure/ContainsDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/CountOdds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/programme_ability/CountOdds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/data_structure/MaxSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/data_structure/MergeTwoOrderedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/data_structure/MergeTwoOrderedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/programme_ability/SubtractProductAndSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +165,7 @@
       <workItem from="1652282914193" duration="1090000" />
       <workItem from="1652516988371" duration="7566000" />
       <workItem from="1652599475220" duration="2126000" />
-      <workItem from="1652617805131" duration="2915000" />
+      <workItem from="1652617805131" duration="3491000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
