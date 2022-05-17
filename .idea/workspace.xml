@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="commit">
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/binary_search/FindTheDistanceValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/binary_search/FindTheDistanceValue.java" afterDir="false" />
-    </list>
+    <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +61,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -165,7 +164,7 @@
       <workItem from="1652599475220" duration="2126000" />
       <workItem from="1652617805131" duration="3597000" />
       <workItem from="1652712615245" duration="453000" />
-      <workItem from="1652713451582" duration="189000" />
+      <workItem from="1652713451582" duration="648000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
