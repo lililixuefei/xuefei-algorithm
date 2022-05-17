@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/binary_search/NextGreatestLetter.java" afterDir="false" />
-    </list>
+    <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="两个数组的交集 II" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,7 +165,7 @@
       <workItem from="1652617805131" duration="3597000" />
       <workItem from="1652712615245" duration="453000" />
       <workItem from="1652713451582" duration="648000" />
-      <workItem from="1652801474647" duration="306000" />
+      <workItem from="1652801474647" duration="1481000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -190,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640272560180</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="两个数组的交集 II">
+      <created>1652803446829</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652803446829</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +218,8 @@
     <MESSAGE value="修改注释问题" />
     <MESSAGE value="多线程-交替打印 FooBar" />
     <MESSAGE value="多线程-打印零与奇偶数" />
-    <option name="LAST_COMMIT_MESSAGE" value="多线程-打印零与奇偶数" />
+    <MESSAGE value="两个数组的交集 II" />
+    <option name="LAST_COMMIT_MESSAGE" value="两个数组的交集 II" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
