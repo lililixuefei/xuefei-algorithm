@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="两个数组的交集 II">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/binary_search/FirstBadVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/binary_search/SearchRange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HammingWeight">
+  <component name="RunManager" selected="Application.SearchRange">
     <configuration name="HammingWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.study_plan.programme_ability.HammingWeight" />
       <module name="xuefei-algorithm" />
@@ -98,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.study_plan.binary_search.BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.study_plan.binary_search.BinarySearch" />
+    <configuration name="SearchRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.study_plan.binary_search.SearchRange" />
       <module name="xuefei-algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchRange" />
         <item itemvalue="Application.HammingWeight" />
         <item itemvalue="Application.MergeTwoOrderedArrays" />
         <item itemvalue="Application.SearchInsert" />
         <item itemvalue="Application.leetcode.study_plan.programme_ability.CountOdds" />
-        <item itemvalue="Application.leetcode.study_plan.binary_search.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +168,7 @@
       <workItem from="1652712615245" duration="453000" />
       <workItem from="1652713451582" duration="648000" />
       <workItem from="1652801474647" duration="1733000" />
-      <workItem from="1652888845881" duration="382000" />
+      <workItem from="1652888845881" duration="2769000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -296,6 +296,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/study_plan/data_structure/MergeTwoOrderedArrays.java</url>
           <line>66</line>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/study_plan/binary_search/SearchRange.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/study_plan/binary_search/SearchRange.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
