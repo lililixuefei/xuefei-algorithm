@@ -41,7 +41,6 @@ public class LevelOrder {
             }
             ret.add(level);
         }
-
         return ret;
     }
 }
