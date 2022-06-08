@@ -23,7 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="两个数组的交集 II">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/basic/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dp/GetMinCoinCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/OddEvenList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/PalindromeLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +82,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArraySign">
+  <component name="RunManager" selected="Application.GetMinCoinCount">
     <configuration name="ArrangeCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.study_plan.binary_search.ArrangeCoins" />
       <module name="xuefei-leetcode" />
@@ -94,15 +97,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HammingWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.study_plan.programme_ability.HammingWeight" />
+    <configuration name="GetMinCoinCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.GetMinCoinCount" />
       <module name="xuefei-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoOrderedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.study_plan.data_structure.MergeTwoOrderedArrays" />
+    <configuration name="HammingWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.study_plan.programme_ability.HammingWeight" />
       <module name="xuefei-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,60 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="xuefei-leetcode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="xuefei-leetcode" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetMinCoinCount" />
         <item itemvalue="Application.ArraySign" />
         <item itemvalue="Application.ArrangeCoins" />
         <item itemvalue="Application.SearchRange" />
         <item itemvalue="Application.HammingWeight" />
-        <item itemvalue="Application.MergeTwoOrderedArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +181,13 @@
       <workItem from="1653364347211" duration="589000" />
       <workItem from="1653409678294" duration="317000" />
       <workItem from="1653579605314" duration="1472000" />
-      <workItem from="1653581523214" duration="312000" />
+      <workItem from="1653581523214" duration="674000" />
+      <workItem from="1653745114706" duration="1039000" />
+      <workItem from="1653754993841" duration="2816000" />
+      <workItem from="1653817102271" duration="215000" />
+      <workItem from="1653837312404" duration="234000" />
+      <workItem from="1653923442867" duration="138000" />
+      <workItem from="1654702333143" duration="1934000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -363,6 +325,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/study_plan/binary_search/SearchRange.java</url>
           <line>29</line>
           <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dp/GetMinCoinCount.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
