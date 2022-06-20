@@ -15,3 +15,5 @@ d
 4src/main/java/wushixiong/linkedlist/ReverseList.java,3/7/37281034f76a99383f861dde1691a29cc91a6497
 c
 3src/main/java/wushixiong/firstweek/ReverseList.java,5/b/5b63c71f946ac7cbb093dbde7b17e05dde6e9876
+h
+8src/main/java/wushixiong/firstweek/IntersectionList.java,7/c/7c8fd3f07510daca388ad4ff50047137397e7718

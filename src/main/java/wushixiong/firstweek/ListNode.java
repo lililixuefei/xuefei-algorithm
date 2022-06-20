@@ -6,8 +6,8 @@ package wushixiong.firstweek;
  * @date: 2022/06/08 23:33
  */
 public class ListNode {
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
 
     ListNode() {
     }
