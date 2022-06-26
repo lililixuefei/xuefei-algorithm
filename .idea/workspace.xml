@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="两个数组的交集 II">
-      <change afterPath="$PROJECT_DIR$/src/main/java/wushixiong/done/IntersectList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/RunningSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +67,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -194,7 +195,8 @@
       <workItem from="1655220092966" duration="952000" />
       <workItem from="1655389588003" duration="2083000" />
       <workItem from="1655651342766" duration="1477000" />
-      <workItem from="1655741346446" duration="1826000" />
+      <workItem from="1655741346446" duration="2050000" />
+      <workItem from="1656243817338" duration="296000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
