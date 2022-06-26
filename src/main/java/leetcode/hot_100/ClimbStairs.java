@@ -14,21 +14,34 @@ public class ClimbStairs {
     public int climbStairs(int n) {
 
         int[] result = new int[n];
-        climbStairs1(n, result);
+        climbStairsRecursion(n, result);
 
         return result[n - 1];
     }
 
-    private int climbStairs1(int n, int[] result) {
+    public int climbStairsDP(int n) {
+        if (n == 0 || n == 1 || n == 2) {
+            return n;
+        }
+        int[] result = new int[n];
+        result[0] = 1;
+        result[1] = 2;
+        for (int i = 2; i < n; i++) {
+            result[i] = result[i - 1] + result[i - 2];
+        }
+        return result[n - 1];
+    }
+
+    private int climbStairsRecursion(int n, int[] result) {
         if (n == 0 || n == 1 || n == 2) {
             return n;
         }
         if (result[n - 1] == 0) {
-            result[n - 1] = climbStairs1(n - 1, result);
+            result[n - 1] = climbStairsRecursion(n - 1, result);
         }
 
         if (result[n - 2] == 0) {
-            result[n - 2] = climbStairs1(n - 2, result);
+            result[n - 2] = climbStairsRecursion(n - 2, result);
         }
         return result[n - 1] + result[n - 2];
     }
