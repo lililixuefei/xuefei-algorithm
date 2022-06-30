@@ -49,3 +49,11 @@ _
 /src/main/java/leetcode/hot_100/ClimbStairs.java,f/2/f290a113474b6a3e83a34acc1bfcc0614926bf85
 l
 <src/main/java/leetcode/hot_100/LengthOfLongestSubstring.java,e/f/ef5a19c14c72a09d127e8f867662a714365a2075
+^
+.src/main/java/leetcode/hot_100/MoveZeroes.java,6/2/625d696fb52d1e96687a63660b9f6d9fe04e4852
+a
+1src/main/java/leetcode/everyday/IsIsomorphic.java,b/6/b61c3241668bb1ae4fe1bccf45df23e9582c16a7
+b
+2src/main/java/leetcode/everyday/IsSubsequence.java,2/2/2209f0f4db16793c6f7d3bc5e946cf022438d1bb
+f
+6src/main/java/leetcode/everyday/LongestPalindrome.java,9/f/9fdd211fa061735146083362ad095fc08ef256f1
