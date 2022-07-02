@@ -1,6 +1,6 @@
-package linkedlist.assist;
+package basic.linkedlist.assist;
 
-import linkedlist.node.ListNode;
+import basic.linkedlist.node.ListNode;
 
 import java.util.List;
 

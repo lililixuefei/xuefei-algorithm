@@ -23,7 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="两个数组的交集 II">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dp/ClimbStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basic/tree/BinaryTreePreorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basic/tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/ReverseKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/everyday/ReverseKGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/RotateRight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/everyday/RotateRight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/SwapPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/everyday/SwapPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/assist/LinkedListCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic/linkedlist/assist/LinkedListCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/node/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic/linkedlist/node/ListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,26 +84,27 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="basic.tree" />
       <recent name="wushixiong.linkedlist.assist" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.MoveZeroes">
-    <configuration name="ArrangeCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.study_plan.binary_search.ArrangeCoins" />
+  <component name="RunManager" selected="Application.Divide">
+    <configuration name="ArraySign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.study_plan.programme_ability.ArraySign" />
       <module name="xuefei-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraySign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.study_plan.programme_ability.ArraySign" />
+    <configuration name="Divide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviews.offer.Divide" />
       <module name="xuefei-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Divide" />
         <item itemvalue="Application.MoveZeroes" />
         <item itemvalue="Application.PivotIndex" />
         <item itemvalue="Application.GetMinCoinCount" />
         <item itemvalue="Application.ArraySign" />
-        <item itemvalue="Application.ArrangeCoins" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +215,8 @@
       <workItem from="1656342216053" duration="3724000" />
       <workItem from="1656427787809" duration="1279000" />
       <workItem from="1656515208009" duration="764000" />
-      <workItem from="1656599008857" duration="1383000" />
+      <workItem from="1656599008857" duration="2836000" />
+      <workItem from="1656769106683" duration="775000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>

@@ -1,7 +1,7 @@
 package leetcode.everyday;
 
-import linkedlist.assist.LinkedListCreator;
-import linkedlist.node.ListNode;
+import basic.linkedlist.assist.LinkedListCreator;
+import basic.linkedlist.node.ListNode;
 
 import java.util.ArrayList;
 import java.util.Arrays;

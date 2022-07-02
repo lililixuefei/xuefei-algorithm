@@ -1,4 +1,4 @@
-package linkedlist.node;
+package basic.linkedlist.node;
 
 /**
  * @description:
