@@ -59,8 +59,6 @@ W
 'src/main/java/basic/SumOfFactorial.java,6/1/61c9511e650f641cbef27d6e009ecdac8aa340c2
 V
 &src/main/java/basic/tree/TreeNode.java,b/1/b1bdb33b4be5267ca982991e86beb456558e1278
-i
-9src/main/java/basic/tree/BinaryTreePreorderTraversal.java,2/d/2dc05ccf88bc1dd062cda099adad3b82385b401e
 a
 1src/main/java/leetcode/leetcode_75/MaxProfit.java,b/d/bd55fe3d57c1baff0c6ad9ecc4b4b106c25bfcab
 b
