@@ -51,8 +51,6 @@ _
 /src/main/java/leetcode/linkedlist/ListNode.java,2/2/22513e6fcb2e9e572b8ca17763dc62d2d9654e52
 d
 4src/main/java/leetcode/LengthOfLongestSubstring.java,d/4/d46eccd9c877e661264b4a09861bf6d24df5f069
-d
-4src/main/java/leetcode/tree/BinaryTreeTraversal.java,a/d/ada2b9f599a401fef4be1ac98a67b2094c45a21f
 Y
 )src/main/java/leetcode/tree/TreeNode.java,e/0/e03a1e9532364d6ec437137778193f9399c715c5
 W
