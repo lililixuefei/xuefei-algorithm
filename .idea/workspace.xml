@@ -23,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="两个数组的交集 II">
-      <change afterPath="$PROJECT_DIR$/src/main/java/basic/tree/LevelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basic/tree/WidthOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zuoshen/binary_tree/SuccessorNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zuoshen/binary_tree/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +87,7 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="zuoshen.binary_tree" />
       <recent name="basic.tree" />
       <recent name="wushixiong.linkedlist.assist" />
     </key>
@@ -211,7 +214,8 @@
       <workItem from="1656515208009" duration="764000" />
       <workItem from="1656599008857" duration="2836000" />
       <workItem from="1656769106683" duration="4161000" />
-      <workItem from="1656832735341" duration="1029000" />
+      <workItem from="1656832735341" duration="1842000" />
+      <workItem from="1656950556836" duration="615000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
