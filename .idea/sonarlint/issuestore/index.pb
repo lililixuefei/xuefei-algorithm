@@ -101,8 +101,6 @@ d
 ,src/main/java/interviews/offer/TreeNode.java,7/5/75070b7866db9e8402eae20c3c107e2f77205e7b
 d
 4src/main/java/leetcode/tree/BinaryTreeTraversal.java,a/d/ada2b9f599a401fef4be1ac98a67b2094c45a21f
-d
-4src/main/java/interviews/offer/InorderSuccessor.java,3/c/3c54e7dca4d1cf1ee68cd542a532f87e47d4b53d
 c
 3src/main/java/zuoshen/binary_tree/PaperFolding.java,1/0/1070618a1c1cbc058a13ea18faf2a046f92db3d1
 p

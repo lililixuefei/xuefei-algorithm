@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="两个数组的交集 II">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dp/MaxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dp/UniquePaths.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -91,16 +92,9 @@
       <recent name="wushixiong.linkedlist.assist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PaperFolding">
+  <component name="RunManager" selected="Application.UniquePaths">
     <configuration name="Divide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interviews.offer.Divide" />
-      <module name="xuefei-leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetMinCoinCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.GetMinCoinCount" />
       <module name="xuefei-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,13 +121,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.UniquePaths" />
+      <module name="xuefei-leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UniquePaths" />
         <item itemvalue="Application.PaperFolding" />
         <item itemvalue="Application.Divide" />
         <item itemvalue="Application.MoveZeroes" />
         <item itemvalue="Application.PivotIndex" />
-        <item itemvalue="Application.GetMinCoinCount" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +216,7 @@
       <workItem from="1656769106683" duration="4161000" />
       <workItem from="1656832735341" duration="1842000" />
       <workItem from="1656950556836" duration="2353000" />
-      <workItem from="1657035761428" duration="345000" />
+      <workItem from="1657035761428" duration="1656000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
