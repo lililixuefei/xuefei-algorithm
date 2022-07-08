@@ -23,7 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="两个数组的交集 II">
-      <change afterPath="$PROJECT_DIR$/src/main/java/a/labuladong/MinAddToMakeValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/a/labuladong/MinInsertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/a/labuladong/NextGreaterElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +93,7 @@
       <recent name="wushixiong.linkedlist.assist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CoinChange">
+  <component name="RunManager" selected="Application.MinInsertions">
     <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dp.CoinChange" />
       <module name="xuefei-leetcode" />
@@ -107,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hot_100.MoveZeroes" />
+    <configuration name="MinInsertions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a.labuladong.MinInsertions" />
       <module name="xuefei-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinInsertions" />
         <item itemvalue="Application.CoinChange" />
         <item itemvalue="Application.UniquePaths" />
         <item itemvalue="Application.PaperFolding" />
         <item itemvalue="Application.Divide" />
-        <item itemvalue="Application.MoveZeroes" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +219,7 @@
       <workItem from="1656950556836" duration="2353000" />
       <workItem from="1657035761428" duration="3414000" />
       <workItem from="1657119240320" duration="1673000" />
-      <workItem from="1657298172570" duration="1091000" />
+      <workItem from="1657298172570" duration="2648000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
