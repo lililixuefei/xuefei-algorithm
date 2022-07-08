@@ -23,8 +23,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="两个数组的交集 II">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dp/CoinChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp/MaxSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/a/labuladong/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wushixiong/done/IntersectList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/done/IntersectList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wushixiong/done/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/done/ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wushixiong/firstweek/CopyRandomList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/CopyRandomList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wushixiong/firstweek/DailyTemperatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/DailyTemperatures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wushixiong/firstweek/IntersectionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/IntersectionList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wushixiong/firstweek/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wushixiong/firstweek/MergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/MergeTwoLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wushixiong/firstweek/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wushixiong/firstweek/RandomNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/RandomNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wushixiong/firstweek/ReverseBetween.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/ReverseBetween.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wushixiong/firstweek/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wushixiong/firstweek/SeparatedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/SeparatedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wushixiong/firstweek/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wushixiong/firstweek/ValidateStackSequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/ValidateStackSequences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wushixiong/linkedlist/DetectCycleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/linkedlist/DetectCycleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wushixiong/linkedlist/IntersectionNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/linkedlist/IntersectionNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wushixiong/linkedlist/MergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/linkedlist/MergeTwoLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wushixiong/linkedlist/PartitionLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/linkedlist/PartitionLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wushixiong/linkedlist/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/linkedlist/ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wushixiong/stack/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/stack/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wushixiong/tree/PreorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/tree/PreorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wushixiong/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zuoshen/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/zuoshen/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zuoshen/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/zuoshen/ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zuoshen/binary_tree/PaperFolding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/zuoshen/binary_tree/PaperFolding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zuoshen/binary_tree/SuccessorNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/zuoshen/binary_tree/SuccessorNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zuoshen/binary_tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/zuoshen/binary_tree/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +143,7 @@
       </method>
     </configuration>
     <configuration name="PaperFolding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zuoshen.binary_tree.PaperFolding" />
+      <option name="MAIN_CLASS_NAME" value="a.zuoshen.binary_tree.PaperFolding" />
       <module name="xuefei-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -218,7 +245,8 @@
       <workItem from="1656832735341" duration="1842000" />
       <workItem from="1656950556836" duration="2353000" />
       <workItem from="1657035761428" duration="3414000" />
-      <workItem from="1657119240320" duration="1569000" />
+      <workItem from="1657119240320" duration="1673000" />
+      <workItem from="1657298172570" duration="818000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -298,12 +326,12 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/zuoshen/BinarySearch.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/a/zuoshen/BinarySearch.java</url>
           <line>100</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/zuoshen/BinarySearch.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/a/zuoshen/BinarySearch.java</url>
           <line>106</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
