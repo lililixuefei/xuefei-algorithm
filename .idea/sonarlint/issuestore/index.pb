@@ -94,3 +94,5 @@ a
 -src/main/java/a/labuladong/MinInsertions.java,a/a/aae935b9cde64baacd111c9ed00c9ac6b4927406
 b
 2src/main/java/a/labuladong/NextGreaterElement.java,7/f/7fcc2c2343700a3245b13b7b76d46e5b63b0b499
+\
+,src/main/java/a/labuladong/BinarySearch.java,3/0/3098f26ac8e1a7915ad2ebe79d9b3014c4e1d16a

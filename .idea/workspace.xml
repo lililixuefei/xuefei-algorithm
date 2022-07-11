@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="两个数组的交集 II">
-      <change afterPath="$PROJECT_DIR$/src/main/java/a/labuladong/MinWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/labuladong/MinWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/labuladong/MinWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +220,7 @@
       <workItem from="1657119240320" duration="1673000" />
       <workItem from="1657298172570" duration="4292000" />
       <workItem from="1657367481389" duration="1295000" />
-      <workItem from="1657552609911" duration="5061000" />
+      <workItem from="1657552609911" duration="6057000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -388,21 +388,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/dp/CoinChange.java</url>
           <line>43</line>
           <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/labuladong/MinWindow.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/labuladong/MinWindow.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/labuladong/MinWindow.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
