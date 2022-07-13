@@ -23,7 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="两个数组的交集 II">
-      <change afterPath="$PROJECT_DIR$/src/main/java/a/labuladong/LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/done/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/done/ReverseList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +87,7 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="done" />
       <recent name="interviews.offer" />
       <recent name="zuoshen.binary_tree" />
       <recent name="basic.tree" />
@@ -222,7 +224,8 @@
       <workItem from="1657367481389" duration="1295000" />
       <workItem from="1657552609911" duration="6057000" />
       <workItem from="1657561727315" duration="311000" />
-      <workItem from="1657636393500" duration="3281000" />
+      <workItem from="1657636393500" duration="4051000" />
+      <workItem from="1657724417721" duration="845000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
