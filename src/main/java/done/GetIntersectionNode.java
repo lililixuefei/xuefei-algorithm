@@ -32,7 +32,7 @@ public class GetIntersectionNode {
     }
 
 
-        // set
+    // set
     public ListNode getIntersectionNode2(ListNode headA, ListNode headB) {
         Set<ListNode> set = new HashSet<>();
         while (headA != null) {
