@@ -1,7 +1,5 @@
 package done;
 
-import java.util.Deque;
-import java.util.LinkedList;
 
 /**
  * @description: 反转链表 II
@@ -10,62 +8,74 @@ import java.util.LinkedList;
  */
 public class ReverseBetween {
 
-    public static void main(String[] args) {
-//        ListNode node5 = new ListNode(5,null);
-//        ListNode node4 = new ListNode(4,node5);
-//        ListNode node3 = new ListNode(3,node4);
-//        ListNode node2 = new ListNode(2,node3);
-//        ListNode node1 = new ListNode(1,node2);
 
+    public ListNode reverseBetween1(ListNode head, int left, int right) {
+        // 因为头节点有可能发生变化，使用虚拟头节点可以避免复杂的分类讨论
+        ListNode dummyNode = new ListNode(-1);
+        dummyNode.next = head;
 
-        ListNode node2 = new ListNode(5,null);
-        ListNode node1 = new ListNode(3,node2);
+        ListNode pre = dummyNode;
+        // 第 1 步：从虚拟头节点走 left - 1 步，来到 left 节点的前一个节点
+        // 建议写在 for 循环里，语义清晰
+        for (int i = 0; i < left - 1; i++) {
+            pre = pre.next;
+        }
 
-        System.out.println(reverseBetween(node1,1,2));
+        // 第 2 步：从 pre 再走 right - left + 1 步，来到 right 节点
+        ListNode rightNode = pre;
+        for (int i = 0; i < right - left + 1; i++) {
+            rightNode = rightNode.next;
+        }
+
+        // 第 3 步：切断出一个子链表（截取链表）
+        ListNode leftNode = pre.next;
+        ListNode curr = rightNode.next;
+
+        // 注意：切断链接
+        pre.next = null;
+        rightNode.next = null;
+
+        // 第 4 步：同第 206 题，反转链表的子区间
+        reverseLinkedList(leftNode);
+
+        // 第 5 步：接回到原来的链表中
+        pre.next = rightNode;
+        leftNode.next = curr;
+        return dummyNode.next;
     }
 
-    public static ListNode reverseBetween(ListNode head, int left, int right) {
-        if(head.next == null){
-            return head;
+    private void reverseLinkedList(ListNode head) {
+        // 也可以使用递归反转一个链表
+        ListNode pre = null;
+        ListNode cur = head;
+
+        while (cur != null) {
+            ListNode next = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = next;
         }
-        ListNode temp = head;
-        ListNode temp2 = temp;
-        int index = 0;
-        Deque<ListNode> stack = new LinkedList<>();
-        while (head != null) {
-            index++;
-            if (index >= left && index <= right) {
-                stack.push(head);
-            }
-            head = head.next;
-        }
+    }
 
-        ListNode peek = stack.peek();
-        ListNode next = peek.next;
+    public static ListNode reverseBetween2(ListNode head, int left, int right) {
+        ListNode dummy = new ListNode();
 
-        int pre = 1;
+        dummy.next = head;
+        ListNode pre = dummy;
+        ListNode curr = head;
 
-        if (left == 1){
-            pre = 0;
-        }
-
-        while (temp != null) {
-            if (++pre == left) {
-                break;
-            }
-            temp = temp.next;
+        for (int i = 0; i < left - 1; i++) {
+            pre = pre.next;
+            curr = curr.next;
         }
 
-        if (temp != null) {
-            while (!stack.isEmpty()) {
-                temp.next = stack.pop();
-                temp = temp.next;
-            }
+        for (int i = 0; i < right - left; i++) {
+            ListNode temp = curr.next;
+            curr.next = curr.next.next;
+            temp.next = pre.next;
+            pre.next = temp;
         }
 
-        if (temp != null) {
-            temp.next = next;
-        }
-        return temp2;
+        return dummy.next;
     }
 }
