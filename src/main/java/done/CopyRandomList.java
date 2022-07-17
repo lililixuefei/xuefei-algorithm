@@ -15,16 +15,6 @@ public class CopyRandomList {
             return null;
         }
 
-        if (head.next == null && head.random != null){
-            Node node = new Node(head.val);
-            node.random = node;
-            return node;
-        }
-
-        if (head.next == null){
-            return new Node(head.val);
-        }
-
         Node temp = head;
         Node dummy = new Node(-1);
 
