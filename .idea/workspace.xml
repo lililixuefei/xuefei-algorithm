@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="两个数组的交集 II">
-      <change beforePath="$PROJECT_DIR$/src/main/java/done/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/done/TrappingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/MaxSlidingWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,9 +93,9 @@
       <recent name="wushixiong.linkedlist.assist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TrappingRainWater">
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.CoinChange" />
+  <component name="RunManager" selected="Application.MaxSlidingWindow">
+    <configuration name="MaxSlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a.wushixiong.MaxSlidingWindow" />
       <module name="xuefei-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSlidingWindow" />
         <item itemvalue="Application.TrappingRainWater" />
         <item itemvalue="Application.ReverseBetween" />
         <item itemvalue="Application.MinWindow" />
         <item itemvalue="Application.MinInsertions" />
-        <item itemvalue="Application.CoinChange" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +227,8 @@
       <workItem from="1657724417721" duration="4437000" />
       <workItem from="1657811432836" duration="4282000" />
       <workItem from="1658050886437" duration="1343000" />
-      <workItem from="1658066467877" duration="4454000" />
+      <workItem from="1658066467877" duration="5029000" />
+      <workItem from="1658156312264" duration="1709000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -395,6 +396,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/dp/CoinChange.java</url>
           <line>43</line>
           <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/a/wushixiong/MaxSlidingWindow.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
