@@ -18,7 +18,35 @@ public class MaxSlidingWindow {
 
     }
 
+
     public static int[] maxSlidingWindow(int[] nums, int k) {
+        if(nums.length == 0 || k == 0){
+            return new int[0];
+        }
+        int[] res = new int[nums.length - k + 1];
+        // 单调递减的双端队列
+        Deque<Integer> deque = new LinkedList<>();
+        int r = 0;
+        while (r < nums.length){
+
+            while(!deque.isEmpty() && nums[deque.peekLast()] < nums[r]){
+                deque.removeLast();
+            }
+            deque.addLast(r);
+
+            if (r >= k && r - k == deque.peekFirst()) {
+                deque.removeFirst();
+            }
+
+            if (r + 1 >= k){
+                res[r - k + 1] = nums[deque.peek()];
+            }
+            r++;
+        }
+        return res;
+    }
+
+    public static int[] maxSlidingWindow2(int[] nums, int k) {
         if(nums.length == 0 || k == 0){
             return new int[0];
         }
@@ -47,7 +75,7 @@ public class MaxSlidingWindow {
     }
 
 
-    public static int[] maxSlidingWindow2(int[] nums, int k) {
+    public static int[] maxSlidingWindow3(int[] nums, int k) {
         Deque<Integer> queue1 = new LinkedList<>();
         for (int i = 0; i < nums.length; i++) {
             if ((i + k) > nums.length) {

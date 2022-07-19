@@ -228,7 +228,8 @@
       <workItem from="1657811432836" duration="4282000" />
       <workItem from="1658050886437" duration="1343000" />
       <workItem from="1658066467877" duration="5029000" />
-      <workItem from="1658156312264" duration="2821000" />
+      <workItem from="1658156312264" duration="3143000" />
+      <workItem from="1658244772811" duration="1258000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -399,8 +400,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/a/wushixiong/MaxSlidingWindow.java</url>
-          <line>65</line>
+          <line>93</line>
           <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/a/wushixiong/MaxSlidingWindow.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="68" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
