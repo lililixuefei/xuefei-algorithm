@@ -20,16 +20,15 @@ public class MaxSlidingWindow {
 
 
     public static int[] maxSlidingWindow(int[] nums, int k) {
-        if(nums.length == 0 || k == 0){
+        if (nums.length == 0 || k == 0) {
             return new int[0];
         }
         int[] res = new int[nums.length - k + 1];
         // 单调递减的双端队列
         Deque<Integer> deque = new LinkedList<>();
         int r = 0;
-        while (r < nums.length){
-
-            while(!deque.isEmpty() && nums[deque.peekLast()] < nums[r]){
+        while (r < nums.length) {
+            while (!deque.isEmpty() && nums[deque.peekLast()] < nums[r]) {
                 deque.removeLast();
             }
             deque.addLast(r);
@@ -38,7 +37,7 @@ public class MaxSlidingWindow {
                 deque.removeFirst();
             }
 
-            if (r + 1 >= k){
+            if (r + 1 >= k) {
                 res[r - k + 1] = nums[deque.peek()];
             }
             r++;
@@ -47,24 +46,24 @@ public class MaxSlidingWindow {
     }
 
     public static int[] maxSlidingWindow2(int[] nums, int k) {
-        if(nums.length == 0 || k == 0){
+        if (nums.length == 0 || k == 0) {
             return new int[0];
         }
         Deque<Integer> deque = new LinkedList<>();
         int[] res = new int[nums.length - k + 1];
-        for(int i = 0; i < k; i++) {
-            while(!deque.isEmpty() && deque.peekLast() < nums[i]){
+        for (int i = 0; i < k; i++) {
+            while (!deque.isEmpty() && deque.peekLast() < nums[i]) {
                 deque.removeLast();
             }
             deque.addLast(nums[i]);
         }
         res[0] = deque.peekFirst();
 
-        for(int i = k; i < nums.length; i++) {
-            if(deque.peekFirst() == nums[i - k]){
+        for (int i = k; i < nums.length; i++) {
+            if (deque.peekFirst() == nums[i - k]) {
                 deque.removeFirst();
             }
-            while(!deque.isEmpty() && deque.peekLast() < nums[i]){
+            while (!deque.isEmpty() && deque.peekLast() < nums[i]) {
                 deque.removeLast();
             }
 

@@ -23,6 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="两个数组的交集 II">
+      <change afterPath="$PROJECT_DIR$/src/main/java/a/zuoshen/recursion/PrintAllSubSubsequences.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/MaxSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/wushixiong/MaxSlidingWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +94,7 @@
       <recent name="wushixiong.linkedlist.assist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxSlidingWindow">
+  <component name="RunManager" selected="Application.PrintAllSubSubsequences">
     <configuration name="MaxSlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="a.wushixiong.MaxSlidingWindow" />
       <module name="xuefei-leetcode" />
@@ -101,15 +102,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinInsertions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a.labuladong.MinInsertions" />
+    <configuration name="MinWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a.labuladong.MinWindow" />
       <module name="xuefei-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a.labuladong.MinWindow" />
+    <configuration name="PrintAllSubSubsequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a.zuoshen.recursion.PrintAllSubSubsequences" />
       <module name="xuefei-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintAllSubSubsequences" />
         <item itemvalue="Application.MaxSlidingWindow" />
         <item itemvalue="Application.TrappingRainWater" />
         <item itemvalue="Application.ReverseBetween" />
         <item itemvalue="Application.MinWindow" />
-        <item itemvalue="Application.MinInsertions" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +230,7 @@
       <workItem from="1658050886437" duration="1343000" />
       <workItem from="1658066467877" duration="5029000" />
       <workItem from="1658156312264" duration="3143000" />
-      <workItem from="1658244772811" duration="1258000" />
+      <workItem from="1658244772811" duration="2923000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -400,12 +401,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/a/wushixiong/MaxSlidingWindow.java</url>
-          <line>93</line>
+          <line>92</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/a/wushixiong/MaxSlidingWindow.java</url>
-          <line>41</line>
+          <line>40</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
       </breakpoints>
