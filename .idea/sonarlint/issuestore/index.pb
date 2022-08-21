@@ -1,8 +1,6 @@
 
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-k
-;src/main/java/leetcode/linkedlist/PalindromeLinkedList.java,4/3/434956603fa8d451c40d0f8db93365c9fbaf5542
 b
 2src/main/java/leetcode/linkedlist/OddEvenList.java,2/a/2a6f0ffa264b97accfbcfac030e1cec51725fa69
 V
