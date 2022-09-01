@@ -172,3 +172,5 @@ a
 ,src/main/java/me/binary_tree/HasPathSum.java,9/e/9e1e546fbea7c7297d1dddf1f984f65010ce2f36
 Y
 )src/main/java/me/binary_tree/PathSum.java,a/2/a2c18202cd6b8de633c25129c854d822c4987178
+Y
+)src/main/java/me/search/BinarySearch.java,2/4/245462569891895fd3e7d48aebce3babe4a0ccf6
