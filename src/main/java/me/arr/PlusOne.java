@@ -1,5 +1,7 @@
 package me.arr;
 
+import java.util.Arrays;
+
 /**
  * @description: 加一
  * @author: xuefei
@@ -8,8 +10,9 @@ package me.arr;
 public class PlusOne {
 
     public static void main(String[] args) {
-        int[] digits = {9};
-        plusOne(digits);
+        int[] digits = {9,9,9,9};
+        int[] ans = plusOne(digits);
+        Arrays.stream(ans).forEach(System.out::println);
     }
 
     public static int[] plusOne(int[] digits) {
