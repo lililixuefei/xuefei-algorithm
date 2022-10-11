@@ -10,7 +10,7 @@ import java.util.Arrays;
 public class Sort {
 
     public static void main(String[] args) {
-        int[] arr = {7, 4, 8, 3, 6};
+        int[] arr = {1, 2, 3, 4, 5};
         quickSort(arr);
         Arrays.stream(arr).forEach(System.out::println);
     }
@@ -46,7 +46,7 @@ public class Sort {
 
         int lessEqual = l - 1;
         while (l < r) {
-            if (arr[l] <= arr[r]) {
+            if (arr[l] < arr[r]) {
                 swap(arr, l, ++lessEqual);
             }
             l++;

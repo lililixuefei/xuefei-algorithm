@@ -19,8 +19,6 @@ _
 /src/main/java/leetcode/linkedlist/ListNode.java,2/2/22513e6fcb2e9e572b8ca17763dc62d2d9654e52
 d
 4src/main/java/leetcode/LengthOfLongestSubstring.java,d/4/d46eccd9c877e661264b4a09861bf6d24df5f069
-W
-'src/main/java/basic/SumOfFactorial.java,6/1/61c9511e650f641cbef27d6e009ecdac8aa340c2
 V
 &src/main/java/basic/tree/TreeNode.java,b/1/b1bdb33b4be5267ca982991e86beb456558e1278
 a
