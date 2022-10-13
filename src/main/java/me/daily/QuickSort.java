@@ -3,11 +3,11 @@ package me.daily;
 import java.util.Arrays;
 
 /**
- * @description: 排序
+ * @description: 快排
  * @author: xuefei
  * @date: 2022/10/10 22:49
  */
-public class Sort {
+public class QuickSort {
 
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};

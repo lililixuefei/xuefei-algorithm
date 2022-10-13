@@ -172,8 +172,6 @@ X
 (src/main/java/me/sort/SelectionSort.java,c/5/c5708d1030c51da64f8da5b966c6a63654806720
 T
 $src/main/java/me/sort/SortArray.java,f/2/f2421e1cce9122414a54b62b6b709d5439d87979
-T
-$src/main/java/me/sort/MergeSort.java,3/1/31de54c2831ee1f371916e67c02e25b1836d1009
 c
 3src/main/java/me/binary_tree/WidthOfBinaryTree.java,f/5/f5e5681f3b1003b7ded2e50be9854544a0a44191
 _
@@ -192,3 +190,13 @@ Y
 ,src/main/java/me/binary_tree/LevelOrder.java,7/7/77c6c58a2d149568e0169a707cb8daa2e2a9452f
 V
 &src/main/java/me/arr/Intersection.java,5/a/5a7413790a2cdb1b7746f1b835602b7d08c11d7c
+W
+'src/main/java/basic/SumOfFactorial.java,6/1/61c9511e650f641cbef27d6e009ecdac8aa340c2
+^
+.src/main/java/me/daily/ScoreOfParentheses.java,d/c/dcd534371047c712f98b5dd3867828418aaaee44
+c
+3src/main/java/me/daily/LongestValidParentheses.java,d/b/db8e5a11654b8e1e1caedea08b0ffe17541a483a
+U
+%src/main/java/me/daily/Fibonacci.java,f/1/f1ccf0129bd6c0a11052028708694fef4fac6a23
+T
+$src/main/java/me/sort/MergeSort.java,3/1/31de54c2831ee1f371916e67c02e25b1836d1009
