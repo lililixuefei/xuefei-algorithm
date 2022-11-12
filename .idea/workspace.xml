@@ -23,9 +23,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="两个数组的交集 II">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/daily/MaxSlidingWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/daily/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/daily/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/daily/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/FindRepeatNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/daily/MaxSumMinProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/labuladong/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/labuladong/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/labuladong/DailyTemperatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/labuladong/DailyTemperatures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/labuladong/IsPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/labuladong/IsPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/labuladong/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/labuladong/LongestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/labuladong/MinAddToMakeValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/labuladong/MinAddToMakeValid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/labuladong/MinInsertions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/labuladong/MinInsertions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/labuladong/MinWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/labuladong/MinWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/labuladong/NextGreaterElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/labuladong/NextGreaterElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/labuladong/RemoveDuplicateLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/labuladong/RemoveDuplicateLetters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/labuladong/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/labuladong/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/labuladong/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/labuladong/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/labuladong/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/labuladong/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/MaxSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/wushixiong/MaxSlidingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/done/IntersectList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/wushixiong/done/IntersectList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/done/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/wushixiong/done/ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/CopyRandomList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/CopyRandomList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/DailyTemperatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/DailyTemperatures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/IntersectionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/IntersectionList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/MergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/MergeTwoLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/RandomNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/RandomNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/ReverseBetween.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/ReverseBetween.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/SeparatedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/SeparatedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/firstweek/ValidateStackSequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/ValidateStackSequences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/linkedlist/DetectCycleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/wushixiong/linkedlist/DetectCycleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/linkedlist/IntersectionNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/wushixiong/linkedlist/IntersectionNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/linkedlist/MergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/wushixiong/linkedlist/MergeTwoLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/linkedlist/PartitionLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/wushixiong/linkedlist/PartitionLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/linkedlist/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/wushixiong/linkedlist/ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/stack/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/wushixiong/stack/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/tree/PreorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/wushixiong/tree/PreorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/wushixiong/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/wushixiong/tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/zuoshen/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/zuoshen/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/zuoshen/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/zuoshen/ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/zuoshen/binary_tree/BalancedBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/BalancedBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/zuoshen/binary_tree/BuildTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/BuildTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/zuoshen/binary_tree/CompleteBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/CompleteBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/zuoshen/binary_tree/InorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/InorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/zuoshen/binary_tree/LevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/LevelOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/zuoshen/binary_tree/MaxDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/MaxDepth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/zuoshen/binary_tree/PaperFolding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/PaperFolding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/zuoshen/binary_tree/PostorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/PostorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/zuoshen/binary_tree/PreorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/PreorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/zuoshen/binary_tree/SameTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/SameTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/zuoshen/binary_tree/SuccessorNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/SuccessorNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/zuoshen/binary_tree/Symmetric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/Symmetric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/zuoshen/binary_tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/zuoshen/dp/RobotWalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/zuoshen/dp/RobotWalk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/zuoshen/recursion/PrintAllSubSubsequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/zuoshen/recursion/PrintAllSubSubsequences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/binary_tree/LevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/binary_tree/LevelOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/binary_tree/WidthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/binary_tree/WidthOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/daily/MaxSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/daily/MaxSlidingWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +131,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -95,7 +155,7 @@
       <recent name="wushixiong.linkedlist.assist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxSlidingWindow">
+  <component name="RunManager" selected="Application.FindRepeatNumber">
     <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.daily.Fibonacci" />
       <module name="xuefei-leetcode" />
@@ -103,8 +163,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.daily.LongestValidParentheses" />
+    <configuration name="FindRepeatNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.swordfinger_offer.FindRepeatNumber" />
       <module name="xuefei-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,6 +177,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaxSumMinProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.daily.MaxSumMinProduct" />
+      <module name="xuefei-leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.daily.MergeSort" />
       <module name="xuefei-leetcode" />
@@ -124,20 +191,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.daily.QuickSort" />
-      <module name="xuefei-leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindRepeatNumber" />
+        <item itemvalue="Application.MaxSumMinProduct" />
         <item itemvalue="Application.MaxSlidingWindow" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.LongestValidParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +313,11 @@
       <workItem from="1665328396935" duration="3326000" />
       <workItem from="1665410259649" duration="4927000" />
       <workItem from="1665501593527" duration="1267000" />
-      <workItem from="1665673005124" duration="3294000" />
+      <workItem from="1665673005124" duration="3905000" />
+      <workItem from="1666106392452" duration="3095000" />
+      <workItem from="1667719568636" duration="768000" />
+      <workItem from="1667741668050" duration="1715000" />
+      <workItem from="1668263906922" duration="1350000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -333,12 +397,12 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/zuoshen/BinarySearch.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/study/zuoshen/BinarySearch.java</url>
           <line>100</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/zuoshen/BinarySearch.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/study/zuoshen/BinarySearch.java</url>
           <line>106</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
@@ -423,12 +487,12 @@
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/wushixiong/MaxSlidingWindow.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/study/wushixiong/MaxSlidingWindow.java</url>
           <line>92</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/wushixiong/MaxSlidingWindow.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/study/wushixiong/MaxSlidingWindow.java</url>
           <line>40</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
@@ -459,8 +523,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/me/daily/MaxSlidingWindow.java</url>
-          <line>32</line>
+          <line>30</line>
           <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/me/daily/MaxSumMinProduct.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/me/daily/MaxSumMinProduct.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="77" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

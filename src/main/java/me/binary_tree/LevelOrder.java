@@ -1,6 +1,6 @@
 package me.binary_tree;
 
-import a.zuoshen.binary_tree.TreeNode;
+import study.zuoshen.binary_tree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.Deque;
