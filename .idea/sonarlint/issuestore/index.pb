@@ -11,8 +11,6 @@ a
 1src/main/java/leetcode/everyday/IsIsomorphic.java,b/6/b61c3241668bb1ae4fe1bccf45df23e9582c16a7
 b
 2src/main/java/leetcode/everyday/IsSubsequence.java,2/2/2209f0f4db16793c6f7d3bc5e946cf022438d1bb
-_
-/src/main/java/leetcode/linkedlist/ListNode.java,2/2/22513e6fcb2e9e572b8ca17763dc62d2d9654e52
 V
 &src/main/java/basic/tree/TreeNode.java,b/1/b1bdb33b4be5267ca982991e86beb456558e1278
 a

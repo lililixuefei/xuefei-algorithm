@@ -6,7 +6,9 @@ package leetcode.linkedlist;
  * @date: 2022/06/08 23:33
  */
 public class ListNode {
+
     public int val;
+
     public ListNode next;
 
     ListNode() {
