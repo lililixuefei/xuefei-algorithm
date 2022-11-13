@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="两个数组的交集 II">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/NumWays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/MinArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +265,7 @@
       <workItem from="1666106392452" duration="3095000" />
       <workItem from="1667719568636" duration="768000" />
       <workItem from="1667741668050" duration="1715000" />
-      <workItem from="1668263906922" duration="7226000" />
+      <workItem from="1668263906922" duration="7835000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
