@@ -178,3 +178,9 @@ e
 5src/main/java/leetcode/swordfinger_offer/NumWays.java,a/3/a3cc3d206f8067cd4ee338e3e344cf456464c99e
 j
 :src/main/java/leetcode/swordfinger_offer/PathInMatrix.java,9/1/910e16cb22504dd964546111aa8d053937edadfc
+k
+;src/main/java/leetcode/swordfinger_offer/FirstUniqChar.java,5/c/5c36b77db4fb564aaf5836138c94a6381a6f91d3
+d
+4src/main/java/leetcode/swordfinger_offer/TwoSum.java,3/0/30ee669cd700313593856e163459b9296a02428a
+f
+6src/main/java/leetcode/swordfinger_offer/MinArray.java,6/0/60d1e90788ce5eefff716b7bfcfe47217b6ce6d9
