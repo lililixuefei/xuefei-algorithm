@@ -128,8 +128,6 @@ U
 %src/main/java/me/daily/MergeSort.java,d/0/d01be2a6d4c7dce619075b10e58827be33375c83
 \
 ,src/main/java/me/daily/MaxSlidingWindow.java,d/e/de2566713071f2dc6e0323e1df9355be6af12797
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 \
 ,src/main/java/me/daily/MaxSumMinProduct.java,2/b/2bea54bba8440f67d0a053b2698abb8595bf9b72
 o
