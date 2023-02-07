@@ -1,11 +1,28 @@
 package leetcode.swordfinger_offer;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @description: 剑指 Offer 57. 和为s的两个数字
  * @author: xuefei
  * @date: 2022/11/13 17:13
  */
 public class TwoSum {
+
+    public static void main(String[] args)
+    {
+        Map<String,Integer> m = new HashMap<String,Integer>();
+
+        m.put("zhangsan", 19);
+        m.put("lisi", 49);
+        m.put("wangwu", 19);
+        m.put("lisi",20);
+        m.put("hanmeimei", null);
+
+        System.out.println(m.remove("wangwu"));
+        System.out.println(m.remove("111"));
+    }
 
     public int[] twoSum1(int[] nums, int target) {
         if (nums == null || nums.length < 1) {
