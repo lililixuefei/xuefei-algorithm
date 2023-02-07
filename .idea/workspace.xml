@@ -23,7 +23,199 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="两个数组的交集 II">
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/slidingwindow/LengthOfLongestSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/SumOfFactorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/basic/SumOfFactorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/linkedlist/assist/LinkedListCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/basic/linkedlist/assist/LinkedListCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/linkedlist/node/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/basic/linkedlist/node/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/tree/BinaryTreeInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/basic/tree/BinaryTreeInorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/tree/BinaryTreePreorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/basic/tree/BinaryTreePreorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/tree/LevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/basic/tree/LevelOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/basic/tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/tree/WidthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/basic/tree/WidthOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/done/CopyRandomList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/done/CopyRandomList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/done/DailyTemperatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/done/DailyTemperatures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/done/DetectCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/done/DetectCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/done/GetIntersectionNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/done/GetIntersectionNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/done/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/done/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/done/MergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/done/MergeTwoLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/done/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/done/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/done/PartitionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/done/PartitionList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/done/ReverseBetween.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/done/ReverseBetween.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/done/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/done/ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/done/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/done/TrappingRainWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp/ClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/dp/ClimbStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/dp/CoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/dp/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp/GetMinCoinCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/dp/GetMinCoinCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp/MaxProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/dp/MaxProfit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/dp/MaxSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp/RobotWalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/dp/RobotWalk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp/UniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/dp/UniquePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviews/offer/InorderSuccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/interviews/offer/InorderSuccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviews/offer/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/interviews/offer/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/FindMedianSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/FindMedianSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/IsPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/IsPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/LengthOfLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/LengthOfLongestSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/LongestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/PivotIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/PivotIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/ReachNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/ReachNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/RunningSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/RunningSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/UniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/UniquePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/basic/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/basic/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/GenerateParenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/everyday/GenerateParenthesis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/IntegerReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/everyday/IntegerReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/IsIsomorphic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/everyday/IsIsomorphic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/IsSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/everyday/IsSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/LengthOfLastWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/everyday/LengthOfLastWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/everyday/LongestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/MergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/everyday/MergeTwoLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/NumSubarrayProductLessThanK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/everyday/NumSubarrayProductLessThanK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/ReverseKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/everyday/ReverseKGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/RotateRight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/everyday/RotateRight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/everyday/SwapPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/everyday/SwapPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/hot_100/ClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/hot_100/ClimbStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/hot_100/LengthOfLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/hot_100/LengthOfLongestSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/hot_100/LevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/hot_100/LevelOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/hot_100/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/hot_100/LongestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/hot_100/MaxDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/hot_100/MaxDepth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/hot_100/MoveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/hot_100/MoveZeroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/hot_100/SingleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/hot_100/SingleNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/leetcode_75/DetectCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/leetcode_75/DetectCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/leetcode_75/MaxProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/leetcode_75/MaxProfit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/leetcode_75/MiddleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/leetcode_75/MiddleNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/leetcode_75/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/leetcode_75/ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/linkedlist/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/OddEvenList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/linkedlist/OddEvenList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/PalindromeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/linkedlist/PalindromeLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/SumLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/linkedlist/SumLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/prefixand/MinSubArrayLen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/prefixand/MinSubArrayLen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/binary_search/ArrangeCoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/binary_search/ArrangeCoins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/binary_search/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/binary_search/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/binary_search/FindTheDistanceValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/binary_search/FindTheDistanceValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/binary_search/FirstBadVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/binary_search/FirstBadVersion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/binary_search/GuessNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/binary_search/GuessNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/binary_search/IsPerfectSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/binary_search/IsPerfectSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/binary_search/MySqrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/binary_search/MySqrt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/binary_search/NextGreatestLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/binary_search/NextGreatestLetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/binary_search/PeakIndexInMountainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/binary_search/PeakIndexInMountainArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/binary_search/SearchInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/binary_search/SearchInsert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/binary_search/SearchRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/binary_search/SearchRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/data_structure/ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/data_structure/ContainsDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/data_structure/MaxProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/data_structure/MaxProfit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/data_structure/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/data_structure/MaxSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/data_structure/MergeTwoOrderedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/data_structure/MergeTwoOrderedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/data_structure/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/data_structure/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/programme_ability/ArraySign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/programme_ability/ArraySign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/programme_ability/AverageSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/programme_ability/AverageSalary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/programme_ability/CanMakeArithmeticProgression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/programme_ability/CanMakeArithmeticProgression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/programme_ability/CountOdds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/programme_ability/CountOdds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/programme_ability/HammingWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/programme_ability/HammingWeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/programme_ability/HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/programme_ability/HappyNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/programme_ability/Intersect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/programme_ability/Intersect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/programme_ability/LargestPerimeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/programme_ability/LargestPerimeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/programme_ability/NearestValidPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/programme_ability/NearestValidPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/study_plan/programme_ability/SubtractProductAndSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/programme_ability/SubtractProductAndSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/BuildTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/swordfinger_offer/BuildTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/Exchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/swordfinger_offer/Exchange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/FindNumberIn2DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/swordfinger_offer/FindNumberIn2DArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/FindRepeatNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/swordfinger_offer/FindRepeatNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/FirstUniqChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/swordfinger_offer/FirstUniqChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/IsSubStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/swordfinger_offer/IsSubStructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/LevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/swordfinger_offer/LevelOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/swordfinger_offer/MajorityElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/MinArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/swordfinger_offer/MinArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/MirrorTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/swordfinger_offer/MirrorTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/MyPow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/swordfinger_offer/MyPow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/NumWays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/swordfinger_offer/NumWays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/PathInMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/swordfinger_offer/PathInMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/PrintNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/swordfinger_offer/PrintNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/ReplaceSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/swordfinger_offer/ReplaceSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/ReversePrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/swordfinger_offer/ReversePrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/swordfinger_offer/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/BinaryTreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/tree/BinaryTreeTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/arr/Intersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/me/arr/Intersection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/arr/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/me/arr/PlusOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/binary_tree/BinaryTreePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/me/binary_tree/BinaryTreePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/binary_tree/DiameterBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/me/binary_tree/DiameterBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/binary_tree/HasPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/me/binary_tree/HasPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/binary_tree/LevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/me/binary_tree/LevelOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/binary_tree/MergeTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/me/binary_tree/MergeTrees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/binary_tree/PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/me/binary_tree/PathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/binary_tree/SymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/me/binary_tree/SymmetricTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/binary_tree/WidthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/me/binary_tree/WidthOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/daily/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/me/daily/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/daily/LongestValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/me/daily/LongestValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/daily/MaxSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/me/daily/MaxSlidingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/daily/MaxSumMinProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/me/daily/MaxSumMinProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/daily/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/me/daily/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/daily/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/me/daily/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/daily/ScoreOfParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/me/daily/ScoreOfParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/search/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/me/search/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/me/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/sort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/me/sort/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/sort/SortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/me/sort/SortArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/multithread/printInOrder/AlternatePrintFooBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/multithread/printInOrder/AlternatePrintFooBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/multithread/printInOrder/PrintInOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/multithread/printInOrder/PrintInOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/multithread/printInOrder/PrintZeroEvenOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/multithread/printInOrder/PrintZeroEvenOdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/labuladong/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/labuladong/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/labuladong/DailyTemperatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/labuladong/DailyTemperatures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/labuladong/IsPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/labuladong/IsPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/labuladong/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/labuladong/LongestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/labuladong/MinAddToMakeValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/labuladong/MinAddToMakeValid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/labuladong/MinInsertions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/labuladong/MinInsertions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/labuladong/MinWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/labuladong/MinWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/labuladong/NextGreaterElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/labuladong/NextGreaterElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/labuladong/RemoveDuplicateLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/labuladong/RemoveDuplicateLetters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/labuladong/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/labuladong/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/labuladong/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/labuladong/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/labuladong/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/labuladong/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/wushixiong/MaxSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/MaxSlidingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/wushixiong/done/IntersectList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/done/IntersectList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/wushixiong/done/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/done/ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/CopyRandomList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/firstweek/CopyRandomList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/DailyTemperatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/firstweek/DailyTemperatures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/IntersectionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/firstweek/IntersectionList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/firstweek/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/MergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/firstweek/MergeTwoLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/firstweek/MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/RandomNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/firstweek/RandomNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/ReverseBetween.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/firstweek/ReverseBetween.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/firstweek/ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/SeparatedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/firstweek/SeparatedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/firstweek/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/wushixiong/firstweek/ValidateStackSequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/firstweek/ValidateStackSequences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/wushixiong/linkedlist/DetectCycleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/linkedlist/DetectCycleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/wushixiong/linkedlist/IntersectionNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/linkedlist/IntersectionNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/wushixiong/linkedlist/MergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/linkedlist/MergeTwoLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/wushixiong/linkedlist/PartitionLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/linkedlist/PartitionLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/wushixiong/linkedlist/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/linkedlist/ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/wushixiong/stack/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/stack/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/wushixiong/tree/PreorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/tree/PreorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/wushixiong/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/zuoshen/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/zuoshen/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/zuoshen/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/zuoshen/ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/BalancedBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/zuoshen/binary_tree/BalancedBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/BuildTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/zuoshen/binary_tree/BuildTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/CompleteBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/zuoshen/binary_tree/CompleteBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/InorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/zuoshen/binary_tree/InorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/LevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/zuoshen/binary_tree/LevelOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/MaxDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/zuoshen/binary_tree/MaxDepth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/PaperFolding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/zuoshen/binary_tree/PaperFolding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/PostorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/zuoshen/binary_tree/PostorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/PreorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/zuoshen/binary_tree/PreorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/SameTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/zuoshen/binary_tree/SameTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/SuccessorNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/zuoshen/binary_tree/SuccessorNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/Symmetric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/zuoshen/binary_tree/Symmetric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/zuoshen/binary_tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/zuoshen/binary_tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/zuoshen/dp/RobotWalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/zuoshen/dp/RobotWalk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/zuoshen/novice_class/FactorialCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/zuoshen/novice_class/FactorialCalculation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/zuoshen/recursion/PrintAllSubSubsequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/study/zuoshen/recursion/PrintAllSubSubsequences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xuefei/jdk/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/jdk/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xuefei/jdk/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/jdk/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xuefei/jdk/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xuefei/done/jdk/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +274,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -103,37 +298,37 @@
       <recent name="wushixiong.linkedlist.assist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoSum">
-    <configuration name="FirstUniqChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.swordfinger_offer.FirstUniqChar" />
+  <component name="RunManager" selected="Application.LengthOfLongestSubstring">
+    <configuration name="LengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.slidingwindow.LengthOfLongestSubstring" />
       <module name="xuefei-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.swordfinger_offer.MajorityElement" />
+      <option name="MAIN_CLASS_NAME" value="xuefei.done.leetcode.swordfinger_offer.MajorityElement" />
       <module name="xuefei-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MyPow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.swordfinger_offer.MyPow" />
+      <option name="MAIN_CLASS_NAME" value="xuefei.done.leetcode.swordfinger_offer.MyPow" />
       <module name="xuefei-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="PrintNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.swordfinger_offer.PrintNumbers" />
+      <option name="MAIN_CLASS_NAME" value="xuefei.done.leetcode.swordfinger_offer.PrintNumbers" />
       <module name="xuefei-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.swordfinger_offer.TwoSum" />
+      <option name="MAIN_CLASS_NAME" value="xuefei.done.leetcode.swordfinger_offer.TwoSum" />
       <module name="xuefei-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +336,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LengthOfLongestSubstring" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.MajorityElement" />
         <item itemvalue="Application.PrintNumbers" />
         <item itemvalue="Application.MyPow" />
-        <item itemvalue="Application.FirstUniqChar" />
       </list>
     </recent_temporary>
   </component>
@@ -272,6 +467,9 @@
       <workItem from="1668351670074" duration="169000" />
       <workItem from="1670162606817" duration="656000" />
       <workItem from="1672148618107" duration="375000" />
+      <workItem from="1675782981221" duration="172000" />
+      <workItem from="1675783494100" duration="484000" />
+      <workItem from="1675783990732" duration="1575000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -331,179 +529,179 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/multithread/printInOrder/PrintInOrder.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/multithread/printInOrder/PrintInOrder.java</url>
           <line>200</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/xuefei/jdk/Test.java</url>
-          <line>16</line>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/jdk/Test.java</url>
+          <line>17</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/xuefei/jdk/Test.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/AddTwoNumbers.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/AddTwoNumbers.java</url>
           <line>67</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/study/zuoshen/BinarySearch.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/study/zuoshen/BinarySearch.java</url>
           <line>100</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/study/zuoshen/BinarySearch.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/study/zuoshen/BinarySearch.java</url>
           <line>106</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/everyday/RotateRight.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/everyday/RotateRight.java</url>
           <line>50</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/everyday/RotateRight.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/everyday/RotateRight.java</url>
           <line>52</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/everyday/IntegerReverse.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/everyday/IntegerReverse.java</url>
           <line>27</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/everyday/IntegerReverse.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/everyday/IntegerReverse.java</url>
           <line>45</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/study_plan/binary_search/SearchInsert.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/binary_search/SearchInsert.java</url>
           <line>43</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/study_plan/data_structure/MergeTwoOrderedArrays.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/data_structure/MergeTwoOrderedArrays.java</url>
           <line>47</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/study_plan/data_structure/MergeTwoOrderedArrays.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/data_structure/MergeTwoOrderedArrays.java</url>
           <line>64</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/study_plan/data_structure/MergeTwoOrderedArrays.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/data_structure/MergeTwoOrderedArrays.java</url>
           <line>66</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/study_plan/binary_search/SearchRange.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/binary_search/SearchRange.java</url>
           <line>37</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/study_plan/binary_search/SearchRange.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/study_plan/binary_search/SearchRange.java</url>
           <line>29</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dp/GetMinCoinCount.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/dp/GetMinCoinCount.java</url>
           <line>66</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/PivotIndex.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/PivotIndex.java</url>
           <line>30</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/PivotIndex.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/PivotIndex.java</url>
           <line>32</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/PivotIndex.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/PivotIndex.java</url>
           <line>38</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/hot_100/MoveZeroes.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/hot_100/MoveZeroes.java</url>
           <line>28</line>
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dp/CoinChange.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/dp/CoinChange.java</url>
           <line>43</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/study/wushixiong/MaxSlidingWindow.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/MaxSlidingWindow.java</url>
           <line>92</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/study/wushixiong/MaxSlidingWindow.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/study/wushixiong/MaxSlidingWindow.java</url>
           <line>40</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/me/sort/SortArray.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/me/sort/SortArray.java</url>
           <line>13</line>
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/me/arr/PlusOne.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/me/arr/PlusOne.java</url>
           <line>35</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/me/arr/PlusOne.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/me/arr/PlusOne.java</url>
           <line>24</line>
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/me/daily/LongestValidParentheses.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/me/daily/LongestValidParentheses.java</url>
           <line>46</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/me/daily/LongestValidParentheses.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/me/daily/LongestValidParentheses.java</url>
           <line>23</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/me/daily/MaxSlidingWindow.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/me/daily/MaxSlidingWindow.java</url>
           <line>30</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/me/daily/MaxSumMinProduct.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/me/daily/MaxSumMinProduct.java</url>
           <line>32</line>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/me/daily/MaxSumMinProduct.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/me/daily/MaxSumMinProduct.java</url>
           <line>29</line>
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/FirstUniqChar.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/swordfinger_offer/FirstUniqChar.java</url>
           <line>45</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/PrintNumbers.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/swordfinger_offer/PrintNumbers.java</url>
           <line>19</line>
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/swordfinger_offer/MajorityElement.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/xuefei/done/leetcode/swordfinger_offer/MajorityElement.java</url>
           <line>43</line>
           <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/slidingwindow/LengthOfLongestSubstring.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="85" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
