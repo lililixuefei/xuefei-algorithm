@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="两个数组的交集 II">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/prefixand/CheckSubarraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/monotonestack/NextGreaterElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +106,7 @@
       <recent name="basic.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LengthOfLongestSubstring">
+  <component name="RunManager" selected="Application.NextGreaterElement">
     <configuration name="LengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.slidingwindow.LengthOfLongestSubstring" />
       <module name="xuefei-leetcode" />
@@ -121,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyPow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xuefei.done.leetcode.swordfinger_offer.MyPow" />
+    <configuration name="NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.monotonestack.NextGreaterElement" />
       <module name="xuefei-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NextGreaterElement" />
         <item itemvalue="Application.LengthOfLongestSubstring" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.MajorityElement" />
         <item itemvalue="Application.PrintNumbers" />
-        <item itemvalue="Application.MyPow" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +278,7 @@
       <workItem from="1675782981221" duration="172000" />
       <workItem from="1675783494100" duration="484000" />
       <workItem from="1675783990732" duration="2132000" />
-      <workItem from="1675952215634" duration="3720000" />
+      <workItem from="1675952215634" duration="5888000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -511,6 +511,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/slidingwindow/LengthOfLongestSubstring.java</url>
           <line>25</line>
           <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/monotonestack/NextGreaterElement.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="86" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
