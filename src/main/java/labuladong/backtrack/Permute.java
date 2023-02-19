@@ -10,11 +10,15 @@ import java.util.List;
  */
 public class Permute {
 
-    List<List<Integer>> res = new LinkedList<>();
+    public static List<List<Integer>> res = new LinkedList<>();
+
+    public static void main(String[] args) {
+        permute(new int[]{1,2,3});
+    }
 
 
     /* 主函数，输入一组不重复的数字，返回它们的全排列 */
-    List<List<Integer>> permute(int[] nums) {
+   public static List<List<Integer>> permute(int[] nums) {
         // 记录「路径」
         LinkedList<Integer> track = new LinkedList<>();
         backtrack(nums, track);
@@ -24,7 +28,7 @@ public class Permute {
     // 路径：记录在 track 中
     // 选择列表：nums 中不存在于 track 的那些元素
     // 结束条件：nums 中的元素全都在 track 中出现
-    void backtrack(int[] nums, LinkedList<Integer> track) {
+    public static void backtrack(int[] nums, LinkedList<Integer> track) {
         // 触发结束条件
         if (track.size() == nums.length) {
             res.add(new LinkedList(track));
