@@ -14,6 +14,7 @@ public class PreSerialize {
     String SEP = ",";
     String NULL = "#";
 
+
     /* 主函数，将二叉树序列化为字符串 */
     String serialize(TreeNode root) {
         StringBuilder sb = new StringBuilder();
