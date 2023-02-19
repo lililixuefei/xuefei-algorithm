@@ -7,11 +7,19 @@ import java.util.HashMap;
  * @author: xuefei
  * @date: 2023/02/19 12:48
  */
-public class BuildTree {
+public class PreAndInBuildTree {
 
     // 存储 inorder 中值到索引的映射
     HashMap<Integer, Integer> valToIndex = new HashMap<>();
 
+
+    /**
+     * 通过前序和中序遍历结果构造二叉树
+     *
+     * @param preorder
+     * @param inorder
+     * @return
+     */
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         for (int i = 0; i < inorder.length; i++) {
             valToIndex.put(inorder[i], i);
