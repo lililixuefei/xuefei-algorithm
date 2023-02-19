@@ -37,8 +37,6 @@ a
 m
 =src/main/java/labuladong/binarytree/DiameterOfBinaryTree.java,5/8/58f26e1cb631ec2232587ba7340963e5a1eb1cdb
 a
-1src/main/java/labuladong/binarytree/TreeNode.java,0/b/0bdacfd9991ab250fa0c74fff6c9e5d72172760d
-a
 1src/main/java/labuladong/binarytree/Traverse.java,0/a/0a16e24887ed4c49d776d1dcee79912929407e8a
 c
 3src/main/java/labuladong/binarytree/InvertTree.java,2/e/2efd7cd82bf7fb2d21d7f8a416f8af7677a561bc
