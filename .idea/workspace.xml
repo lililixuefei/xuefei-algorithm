@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="两个数组的交集 II">
-      <change afterPath="$PROJECT_DIR$/src/main/java/labuladong/binarytree/bst/InsertIntoBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labuladong/binarytree/BuildTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +106,14 @@
       <recent name="zuoshen.binary_tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NextGreaterElement">
+  <component name="RunManager" selected="Application.DeleteNode">
+    <configuration name="DeleteNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labuladong.binarytree.bst.DeleteNode" />
+      <module name="xuefei-leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.slidingwindow.LengthOfLongestSubstring" />
       <module name="xuefei-leetcode" />
@@ -128,13 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xuefei.done.leetcode.swordfinger_offer.PrintNumbers" />
-      <module name="xuefei-leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xuefei.done.leetcode.swordfinger_offer.TwoSum" />
       <module name="xuefei-leetcode" />
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteNode" />
         <item itemvalue="Application.NextGreaterElement" />
         <item itemvalue="Application.LengthOfLongestSubstring" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.MajorityElement" />
-        <item itemvalue="Application.PrintNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +279,8 @@
       <workItem from="1675783494100" duration="484000" />
       <workItem from="1675783990732" duration="2132000" />
       <workItem from="1675952215634" duration="8848000" />
-      <workItem from="1676699053640" duration="3616000" />
+      <workItem from="1676699053640" duration="5626000" />
+      <workItem from="1676784735228" duration="301000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
