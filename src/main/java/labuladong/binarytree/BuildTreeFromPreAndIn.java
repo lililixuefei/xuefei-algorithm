@@ -7,7 +7,7 @@ import java.util.HashMap;
  * @author: xuefei
  * @date: 2023/02/19 12:48
  */
-public class PreAndInBuildTree {
+public class BuildTreeFromPreAndIn {
 
     // 存储 inorder 中值到索引的映射
     HashMap<Integer, Integer> valToIndex = new HashMap<>();

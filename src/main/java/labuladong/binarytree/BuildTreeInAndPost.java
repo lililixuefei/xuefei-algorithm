@@ -7,7 +7,7 @@ import java.util.HashMap;
  * @author: xuefei
  * @date: 2023/02/19 13:44
  */
-public class InAndPostBuildTree {
+public class BuildTreeInAndPost {
 
 
     // 存储 inorder 中值到索引的映射
