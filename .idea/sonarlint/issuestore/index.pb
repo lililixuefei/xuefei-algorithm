@@ -44,14 +44,6 @@ c
 0src/main/java/labuladong/binarytree/Connect.java,3/8/384fe9219fffda14a563d5098ad6a3fd7cfcc372
 `
 0src/main/java/labuladong/binarytree/Flatten.java,b/3/b3a718370453a104bd47bd5869b110f2b35d6d39
-h
-8src/main/java/labuladong/binarytree/bst/KthSmallest.java,8/7/87a1f8bf2dc6020888d4279aa1c9bc894eca4c5a
-g
-7src/main/java/labuladong/binarytree/bst/ConvertBST.java,3/6/36be87fe746a534c31dc8c0f47b7845af2180834
-d
-4src/main/java/labuladong/binarytree/bst/IsInBST.java,1/f/1fe96efa05749cff75717d572c8857b876838a46
-j
-:src/main/java/labuladong/binarytree/bst/InsertIntoBST.java,3/7/37e38aaeec91089edbe71d18a91b09b1e883fe5d
 s
 Csrc/main/java/labuladong/binarytree/ConstructMaximumBinaryTree.java,4/8/481dd1d6ff4ab1ac5184d8fed067d15a3e9d62c9
 n
