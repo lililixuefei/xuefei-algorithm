@@ -13,7 +13,7 @@ public class Permute {
     public static List<List<Integer>> res = new LinkedList<>();
 
     public static void main(String[] args) {
-        permute(new int[]{1,2,3});
+        permute(new int[]{1,2});
     }
 
 
