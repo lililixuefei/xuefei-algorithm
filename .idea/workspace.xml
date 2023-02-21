@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="两个数组的交集 II">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/prefixand/LargestAltitude.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/prefixand/PivotInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,7 @@
       <recent name="interviews.offer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumOddLengthSubarrays">
+  <component name="RunManager" selected="Application.PivotInteger">
     <configuration name="DeleteNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="labuladong.binarytree.bst.DeleteNode" />
       <module name="xuefei-leetcode" />
@@ -116,14 +116,7 @@
       </method>
     </configuration>
     <configuration name="MinStartValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.prefixand.MinStartValue" />
-      <module name="xuefei-leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.monotonestack.NextGreaterElement" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.prefixand.done.MinStartValue" />
       <module name="xuefei-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,6 +124,13 @@
     </configuration>
     <configuration name="Permute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="labuladong.backtrack.Permute" />
+      <module name="xuefei-leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PivotInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.prefixand.PivotInteger" />
       <module name="xuefei-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PivotInteger" />
         <item itemvalue="Application.SumOddLengthSubarrays" />
         <item itemvalue="Application.MinStartValue" />
         <item itemvalue="Application.Permute" />
         <item itemvalue="Application.DeleteNode" />
-        <item itemvalue="Application.NextGreaterElement" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +282,7 @@
       <workItem from="1675952215634" duration="8848000" />
       <workItem from="1676699053640" duration="5626000" />
       <workItem from="1676784735228" duration="8623000" />
-      <workItem from="1676812808661" duration="12012000" />
+      <workItem from="1676812808661" duration="13472000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -547,7 +547,7 @@
           <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/prefixand/MinStartValue.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/prefixand/done/MinStartValue.java</url>
           <line>32</line>
           <option name="timeStamp" value="96" />
         </line-breakpoint>
@@ -555,6 +555,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/prefixand/done/SumOddLengthSubarrays.java</url>
           <line>23</line>
           <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/prefixand/PivotInteger.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="99" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
