@@ -23,8 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="两个数组的交集 II">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/prefixand/SumOddLengthSubarrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/prefixand/NumArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/prefixand/done/NumArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/prefixand/LargestAltitude.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +137,7 @@
       </method>
     </configuration>
     <configuration name="SumOddLengthSubarrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.prefixand.SumOddLengthSubarrays" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.prefixand.done.SumOddLengthSubarrays" />
       <module name="xuefei-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -283,7 +282,7 @@
       <workItem from="1675952215634" duration="8848000" />
       <workItem from="1676699053640" duration="5626000" />
       <workItem from="1676784735228" duration="8623000" />
-      <workItem from="1676812808661" duration="11384000" />
+      <workItem from="1676812808661" duration="12012000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -551,6 +550,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/prefixand/MinStartValue.java</url>
           <line>32</line>
           <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/prefixand/done/SumOddLengthSubarrays.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="97" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

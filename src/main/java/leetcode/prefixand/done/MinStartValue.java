@@ -1,4 +1,4 @@
-package leetcode.prefixand;
+package leetcode.prefixand.done;
 
 /**
  * @description: 逐步求和得到正数的最小值
