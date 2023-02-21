@@ -1,4 +1,4 @@
-package leetcode.prefixand;
+package leetcode.prefixand.done;
 
 /**
  * @description: 区域和检索 - 数组不可变
