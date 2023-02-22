@@ -1,4 +1,4 @@
-package leetcode.prefixand;
+package leetcode.prefixand.done;
 
 /**
  * @description: 左右两边子数组的和相等

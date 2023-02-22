@@ -23,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="两个数组的交集 II">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/prefixand/PivotIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/prefixand/FindMaxLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/slidingwindow/ContainsNearbyDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/prefixand/PivotIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/prefixand/done/PivotIndex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +125,7 @@
       </method>
     </configuration>
     <configuration name="PivotIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.prefixand.PivotIndex" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.prefixand.done.PivotIndex" />
       <module name="xuefei-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -282,7 +284,7 @@
       <workItem from="1675952215634" duration="8848000" />
       <workItem from="1676699053640" duration="5626000" />
       <workItem from="1676784735228" duration="8623000" />
-      <workItem from="1676812808661" duration="14236000" />
+      <workItem from="1676812808661" duration="17016000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -562,9 +564,9 @@
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/prefixand/PivotIndex.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="100" />
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/prefixand/done/PivotIndex.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="101" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
