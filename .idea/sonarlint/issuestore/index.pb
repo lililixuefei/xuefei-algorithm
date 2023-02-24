@@ -128,8 +128,6 @@ Z
 +src/main/java/leetcode/list/DeleteNode.java,8/5/852f74aa671272b15086e635247bc12290d0f618
 d
 4src/main/java/leetcode/list/GetIntersectionNode.java,c/c/cc898f249776d7d3a740c0acb22bdb4315a65384
-Y
-)src/main/java/leetcode/list/ListNode.java,1/1/11f84561a6ad795fb95d84a7ee46a94d8cb0ecbb
 e
 5src/main/java/leetcode/list/RemoveDuplicateNodes.java,7/9/79736f03d013ae34ea677c49bab6465636ef71c8
 Y
