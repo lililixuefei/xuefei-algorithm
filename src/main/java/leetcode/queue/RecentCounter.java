@@ -1,7 +1,9 @@
 package leetcode.queue;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Queue;
 
 /**
  * @description: 写一个 RecentCounter 类来计算特定时间范围内最近的请求。
@@ -10,7 +12,24 @@ import java.util.List;
  */
 public class RecentCounter {
 
-	private final List<Integer> list;
+
+	private final Queue<Integer> queue;
+
+
+	public RecentCounter() {
+		queue = new ArrayDeque<>();
+	}
+
+
+	public int ping(int t) {
+		queue.offer(t);
+		while (queue.peek() < t - 3000) {
+			queue.poll();
+		}
+		return queue.size();
+	}
+
+/*	private final List<Integer> list;
 
 	public RecentCounter() {
 		list = new ArrayList<>();
@@ -35,5 +54,5 @@ public class RecentCounter {
 
 	private void addPing(int t) {
 		list.add(t);
-	}
+	}*/
 }
