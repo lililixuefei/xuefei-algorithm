@@ -11,10 +11,16 @@ public class MajorityElement {
 
 	public static void main(String[] args) {
 		int[] nums = new int[]{3, 2, 3};
-		System.out.println(majorityElement(nums));
+		System.out.println(majorityElement_good(nums));
 	}
 
-	public static int majorityElement(int[] nums) {
+	public static int majorityElement_good(int[] nums) {
+		Arrays.sort(nums);
+		return nums[nums.length / 2];
+	}
+
+
+	public static int majorityElement_me(int[] nums) {
 		Arrays.sort(nums);
 		int value = nums[0];
 		int ans = 1;
