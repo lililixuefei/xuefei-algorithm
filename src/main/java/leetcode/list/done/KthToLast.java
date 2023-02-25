@@ -1,4 +1,6 @@
-package leetcode.list;
+package leetcode.list.done;
+
+import leetcode.list.ListNode;
 
 /**
  * @description: 返回倒数第 k 个节点

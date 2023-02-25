@@ -1,5 +1,7 @@
-package leetcode.list;
+package leetcode.list.done;
 
+
+import leetcode.list.ListNode;
 
 import java.util.*;
 

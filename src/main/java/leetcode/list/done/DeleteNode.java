@@ -1,4 +1,6 @@
-package leetcode.list;
+package leetcode.list.done;
+
+import leetcode.list.ListNode;
 
 /**
  * @description: 删除链表的节点

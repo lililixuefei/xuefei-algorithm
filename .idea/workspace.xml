@@ -23,7 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97da3b54-188a-49e4-ad3f-8e07a3bceae0" name="Default Changelist" comment="两个数组的交集 II">
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/list/SortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/list/SortList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/binarytree/InvertTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/binarytree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/list/ReorderList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/list/DeleteNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/list/done/DeleteNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/list/GetIntersectionNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/list/done/GetIntersectionNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/list/KthToLast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/list/done/KthToLast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/list/RemoveDuplicateNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/list/done/RemoveDuplicateNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/list/SortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/list/done/SortList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +116,7 @@
   </component>
   <component name="RunManager" selected="Application.SortList">
     <configuration name="DeleteNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.list.DeleteNode" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.list.done.DeleteNode" />
       <module name="xuefei-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,7 +137,7 @@
       </method>
     </configuration>
     <configuration name="SortList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.list.SortList" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.list.done.SortList" />
       <module name="xuefei-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -285,7 +292,7 @@
       <workItem from="1676812808661" duration="21982000" />
       <workItem from="1677161918538" duration="4707000" />
       <workItem from="1677247428311" duration="3547000" />
-      <workItem from="1677258659623" duration="1156000" />
+      <workItem from="1677258659623" duration="3337000" />
     </task>
     <task id="LOCAL-00001" summary="修改注释问题">
       <created>1639933377552</created>
@@ -585,12 +592,12 @@
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/list/DeleteNode.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/list/done/DeleteNode.java</url>
           <line>23</line>
           <option name="timeStamp" value="106" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/list/DeleteNode.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/list/done/DeleteNode.java</url>
           <line>34</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>
@@ -600,8 +607,8 @@
           <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/list/SortList.java</url>
-          <line>51</line>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/list/done/SortList.java</url>
+          <line>62</line>
           <option name="timeStamp" value="109" />
         </line-breakpoint>
       </breakpoints>
