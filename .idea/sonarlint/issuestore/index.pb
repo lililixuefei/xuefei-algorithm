@@ -122,3 +122,15 @@ n
 >src/main/java/leetcode/slidingwindow/LongestNiceSubstring.java,5/8/5894afcefb891979fe992132c30a769877a2d3e9
 Y
 )src/main/java/leetcode/stack/MyQueue.java,1/2/124a28fbad17bc1964decbd0dccb43a3f4307d01
+Z
+*src/main/java/leetcode/stack/MinStack.java,8/4/849eb4f198e12be18def3f941c055cd3c0c10c01
+e
+5src/main/java/leetcode/monotonestack/FinalPrices.java,2/e/2eb8de3bf456eea9a1999f4c9722bcea685ef9f0
+e
+5src/main/java/leetcode/monotonestack/RemoveNodes.java,0/4/04e850cb2fef29d5d3bb57ae7faf5db417ec1ef1
+l
+<src/main/java/leetcode/monotonestack/NextGreaterElement.java,5/2/5234aa8a019747a1ca30aaba9861093f6c88489c
+h
+8src/main/java/leetcode/monotonestack/SubArrayRanges.java,b/2/b2d67130dbb82d9f30344acb8fe3651f3364a056
+\
+,src/main/java/xuefei/done/jdk/ArrayList.java,c/e/ce73658c909b734738e3621e51082a281901605e
