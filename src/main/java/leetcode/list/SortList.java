@@ -1,8 +1,7 @@
 package leetcode.list;
 
 
-import java.util.Comparator;
-import java.util.PriorityQueue;
+import java.util.*;
 
 /**
  * @description: 排序链表
@@ -20,11 +19,42 @@ public class SortList {
 		node2.next = node3;
 		node3.next = node4;
 
-		sortList(node1);
+		sortListUserList(node1);
 	}
 
-	public static ListNode sortList(ListNode head) {
+	/**
+	 * 使用集合排序
+	 *
+	 * @param head
+	 * @return
+	 */
+	public static ListNode sortListUserList(ListNode head) {
+		List<ListNode> list = new ArrayList<>();
+		while (head != null) {
+			list.add(head);
+			head = head.next;
+		}
+		for (ListNode listNode : list) {
+			listNode.next = null;
+		}
+		list.sort(Comparator.comparingInt(e -> e.val));
+		ListNode dummy = new ListNode();
+		head = dummy;
+		for (ListNode listNode : list) {
+			head.next = listNode;
+			head = head.next;
+		}
+		return dummy.next;
+	}
 
+
+	/**
+	 * 使用优先级队列
+	 *
+	 * @param head
+	 * @return
+	 */
+	public static ListNode sortListUserPriorityQueue(ListNode head) {
 		PriorityQueue<ListNode> priorityQueue = new PriorityQueue<>(Comparator.comparingInt(e -> e.val));
 		while (head != null) {
 			priorityQueue.add(head);
