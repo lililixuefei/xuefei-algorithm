@@ -124,13 +124,9 @@ Z
 *src/main/java/leetcode/list/KthToLast.java,7/8/780766cb66bf7d9cb7ad0bb83a62d9404fbaad82
 ]
 -src/main/java/leetcode/list/IsPalindrome.java,3/1/319eff01fb590f380942cdba2d608d1f7874305b
-[
-+src/main/java/leetcode/list/DeleteNode.java,8/5/852f74aa671272b15086e635247bc12290d0f618
 d
 4src/main/java/leetcode/list/GetIntersectionNode.java,c/c/cc898f249776d7d3a740c0acb22bdb4315a65384
 e
 5src/main/java/leetcode/list/RemoveDuplicateNodes.java,7/9/79736f03d013ae34ea677c49bab6465636ef71c8
 Y
 )src/main/java/leetcode/stack/MyQueue.java,1/2/124a28fbad17bc1964decbd0dccb43a3f4307d01
-Z
-*src/main/java/leetcode/stack/MinStack.java,8/4/849eb4f198e12be18def3f941c055cd3c0c10c01
