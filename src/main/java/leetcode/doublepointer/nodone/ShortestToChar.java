@@ -1,4 +1,4 @@
-package leetcode.doublepointer;
+package leetcode.doublepointer.nodone;
 
 /**
  * @description: 字符的最短距离

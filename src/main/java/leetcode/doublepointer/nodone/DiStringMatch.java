@@ -1,4 +1,4 @@
-package leetcode.doublepointer;
+package leetcode.doublepointer.nodone;
 
 /**
  * @description: 增减字符串匹配
