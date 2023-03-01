@@ -1,4 +1,4 @@
-package leetcode.doublepointer;
+package leetcode.doublepointer.nodone;
 
 /**
  * @description: 反转字符串 II
