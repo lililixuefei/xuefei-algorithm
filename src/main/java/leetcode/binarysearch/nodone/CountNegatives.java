@@ -9,26 +9,22 @@ public class CountNegatives {
 
 	public int countNegatives(int[][] grid) {
 		int count = 0;
-		int m = grid.length;
 		int n = grid[0].length;
-		for (int i = 0; i < m; i++) {
-			int[] row = grid[i];
-			if (row[n - 1] >= 0) {
-				continue;
-			}
-			if (row[0] < 0) {
-				count += (m - i) * n;
-				break;
-			}
-			// 当前行二分查找第一个小于 0 的数的索引
+		for (int[] row : grid) {
+			// 二分查找第一个小于 0 的数的索引
 			int first = binarySearch(row);
 			count += n - first;
 		}
 		return count;
 	}
 
+	public static void main(String[] args) {
+		int[] nums = new int[]{1, 1, -1, -2};
+		System.out.println(binarySearch(nums));
+	}
+
 	// 查找第一个小于 0 的数的索引
-	private int binarySearch(int[] arr) {
+	private static int binarySearch(int[] arr) {
 		int left = 0;
 		int right = arr.length - 1;
 		while (left <= right) {
@@ -41,4 +37,6 @@ public class CountNegatives {
 		}
 		return left;
 	}
+
+
 }
