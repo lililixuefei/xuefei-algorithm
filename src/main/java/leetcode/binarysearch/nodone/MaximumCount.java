@@ -1,4 +1,4 @@
-package leetcode.binarysearch;
+package leetcode.binarysearch.nodone;
 
 /**
  * @description: 正整数和负整数的最大计数
