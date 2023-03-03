@@ -1,4 +1,4 @@
-package leetcode.binarysearch;
+package leetcode.binarysearch.nodone;
 
 /**
  * @description: 查找插入位置
