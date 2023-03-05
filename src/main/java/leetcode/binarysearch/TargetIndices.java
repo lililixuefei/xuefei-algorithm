@@ -27,6 +27,25 @@ public class TargetIndices {
 		return list;
 	}
 
+	private int rightMostSearch_2(int[] nums, int target) {
+		int i = 0;
+		int j = nums.length - 1;
+		while (i <= j) {
+			int mid = i + (j - i) / 2;
+			if (nums[mid] == target) {
+				i = mid + 1;
+			}else if (nums[mid] > target){
+				j = mid - 1;
+			}else {
+				i = mid + 1;
+			}
+		}
+		if(i - 1 < 0){
+			return - 1;
+		}
+		return nums[i - 1] == target ? i - 1  : -1;
+	}
+
 	private int rightMostSearch(int[] nums, int target) {
 		int i = 0;
 		int j = nums.length - 1;
