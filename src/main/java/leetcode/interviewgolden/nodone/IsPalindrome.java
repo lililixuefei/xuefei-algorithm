@@ -1,10 +1,9 @@
-package leetcode.interviewgolden;
+package leetcode.interviewgolden.nodone;
 
 import labuladong.list.ListNode;
 
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.List;
 
 /**
  * @description: 回文链表
@@ -17,13 +16,13 @@ public class IsPalindrome {
 		Deque<Integer> deque = new LinkedList<>();
 
 		ListNode dummy = head;
-		while (head != null){
+		while (head != null) {
 			deque.push(head.val);
 			head = head.next;
 		}
 
-		while (dummy != null){
-			if (dummy.val != deque.pop()){
+		while (dummy != null) {
+			if (dummy.val != deque.pop()) {
 				return false;
 			}
 			dummy = dummy.next;
