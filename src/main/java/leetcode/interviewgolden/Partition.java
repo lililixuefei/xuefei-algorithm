@@ -12,7 +12,29 @@ import java.util.List;
  */
 public class Partition {
 
-	public ListNode partition(ListNode head, int x) {
+	public ListNode partition_2(ListNode head, int x) {
+		ListNode lessXList = new ListNode(-1);
+		ListNode mareXList = new ListNode(-1);
+
+		ListNode lessXHead = lessXList;
+		ListNode moreXHead = mareXList;
+
+		while (head != null){
+			if (head.val < x) {
+				lessXHead.next = new ListNode(head.val);
+				lessXHead = lessXHead.next;
+			}else {
+				moreXHead.next = new ListNode(head.val);
+				moreXHead = moreXHead.next;
+			}
+			head = head.next;
+		}
+		lessXHead.next = moreXHead.next;
+		return lessXList.next;
+	}
+
+
+	public ListNode partition_1(ListNode head, int x) {
 		List<ListNode> lessXList = new ArrayList<>();
 		List<ListNode> moreXList = new ArrayList<>();
 		while (head != null){
