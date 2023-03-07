@@ -1,7 +1,5 @@
 package leetcode.swordfingeroffer;
 
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * @description: 数组相对排序
@@ -12,14 +10,13 @@ public class RelativeSortArray {
 
 	public static void main(String[] args) {
 
-		int[] arr1 = new int[]{2,3,1,3,2,4,6,7,9,2,19};
-		int[] arr2 = new int[]{2,1,4,3,9,6};
-		relativeSortArray(arr1,arr2);
+		int[] arr1 = new int[]{2, 3, 1, 3, 2, 4, 6, 7, 9, 2, 19};
+		int[] arr2 = new int[]{2, 1, 4, 3, 9, 6};
+		relativeSortArray(arr1, arr2);
 	}
 
 	public static int[] relativeSortArray(int[] arr1, int[] arr2) {
 		int[] count = new int[1001];
-
 		for (int i : arr1) {
 			count[i]++;
 		}
@@ -29,7 +26,7 @@ public class RelativeSortArray {
 			int num = count[i];
 			count[i] = 0;
 			int limit = j + num;
-			while (j < limit){
+			while (j < limit) {
 				ans[j++] = i;
 			}
 		}
