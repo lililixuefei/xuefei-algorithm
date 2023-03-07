@@ -8,11 +8,12 @@ import leetcode.basic.binarytree.TreeNode;
  * @date: 2023/03/07 23:31
  */
 public class IsBalanced {
-	private boolean isBalanced = true;
+
+	private boolean balanced = true;
 
 	public boolean isBalanced(TreeNode root) {
 		maxDepth(root);
-		return isBalanced;
+		return balanced;
 	}
 
 	public int maxDepth(TreeNode root) {
@@ -22,7 +23,7 @@ public class IsBalanced {
 		int lDepth = maxDepth(root.left);
 		int rDepth = maxDepth(root.right);
 		if (Math.abs(lDepth - rDepth) > 1) {
-			isBalanced = false;
+			balanced = false;
 		}
 		return Math.max(lDepth, rDepth) + 1;
 	}
