@@ -1,4 +1,4 @@
-package leetcode.interviewgolden;
+package leetcode.interviewgolden.nodone;
 
 import java.util.ArrayList;
 import java.util.HashSet;
