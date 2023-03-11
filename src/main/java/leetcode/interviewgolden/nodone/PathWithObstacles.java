@@ -11,21 +11,28 @@ import java.util.List;
  */
 public class PathWithObstacles {
 
-	List<List<Integer>> path = new LinkedList<>();  // 记录路径
-	int r = 0;  // 行数
-	int c = 0;  // 列数
+
+	// 行数
+	int r = 0;
+	// 列数
+	int c = 0;
+	// 记录路径
+	List<List<Integer>> path = new LinkedList<>();
 
 	public List<List<Integer>> pathWithObstacles(int[][] obstacleGrid) {
 		r = obstacleGrid.length;
-		if (r == 0) {       // 空网格
+		// 空网格
+		if (r == 0) {
 			return path;
 		}
 		c = obstacleGrid[0].length;
-		if (obstacleGrid[r - 1][c - 1] == 1) {  // 终点有障碍
+		// 终点有障碍
+		if (obstacleGrid[r - 1][c - 1] == 1) {
 			return path;
 		}
 
-		boolean[][] visit = new boolean[r][c];  // 记录数组
+		// 记录数组
+		boolean[][] visit = new boolean[r][c];
 		backtrack(obstacleGrid, 0, 0, visit);
 		return path;
 	}
