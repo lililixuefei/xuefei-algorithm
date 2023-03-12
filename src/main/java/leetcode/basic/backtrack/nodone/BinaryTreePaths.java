@@ -22,7 +22,7 @@ public class BinaryTreePaths {
 		if (root == null) {
 			return;
 		}
-		StringBuffer pathSB = new StringBuffer(path);
+		StringBuilder pathSB = new StringBuilder(path);
 		pathSB.append(root.val);
 		if (root.left == null && root.right == null) {  // 当前节点是叶子节点
 			paths.add(pathSB.toString());  // 把路径加入到答案中
