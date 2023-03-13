@@ -1,4 +1,4 @@
-package leetcode.interviewgolden;
+package leetcode.interviewgolden.nodone;
 
 
 /**
