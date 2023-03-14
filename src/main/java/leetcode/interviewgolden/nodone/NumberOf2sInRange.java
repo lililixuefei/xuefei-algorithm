@@ -11,14 +11,29 @@ public class NumberOf2sInRange {
 
 	public static void main(String[] args) {
 		NumberOf2sInRange numberOf2sInRange = new NumberOf2sInRange();
-		System.out.println(numberOf2sInRange.numberOf2sInRange_longtime(559366752));
+		System.out.println(numberOf2sInRange.numberOf2sInRange(25));
 	}
+
+	public int numberOf2sInRange(int n) {
+		int ans = 0;
+		int count;
+		int rest;
+		for (int i = 1; i <= n; i *= 10) {
+			count = (n / (i * 10)) * i;
+			rest = Math.min(Math.max(n % (i * 10) - (i * 2 - 1), 0), i);
+			ans += (count + rest);
+		}
+		return ans;
+	}
+
+	// ---------------------------------
+
 
 	char[] s;
 
 	int[][] dp;
 
-	public int numberOf2sInRange(int n) {
+	public int numberOf2sInRange_dp(int n) {
 		s = Integer.toString(n).toCharArray();
 		int m = s.length;
 		dp = new int[m][m];
