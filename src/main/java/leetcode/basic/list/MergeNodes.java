@@ -14,11 +14,12 @@ public class MergeNodes {
 		while (head != null) {
 			if (head.val == 0) {
 				sum = 0;
-			}
-			sum += head.val;
-			if (head.next != null && head.next.val == 0) {
-				temp.next = new ListNode(sum);
-				temp = temp.next;
+			} else {
+				sum += head.val;
+				if (head.next != null && head.next.val == 0) {
+					temp.next = new ListNode(sum);
+					temp = temp.next;
+				}
 			}
 			head = head.next;
 		}
