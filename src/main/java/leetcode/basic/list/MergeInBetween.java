@@ -13,9 +13,8 @@ public class MergeInBetween {
 		while (list1 != null) {
 			if (index + 1 == a) {
 				int p = index;
-				while (list1.next != null && p < b) {
+				while (list1.next != null && p++ < b) {
 					list1.next = list1.next.next;
-					p++;
 				}
 				ListNode nextList = list1.next;
 				list1.next = list2;
