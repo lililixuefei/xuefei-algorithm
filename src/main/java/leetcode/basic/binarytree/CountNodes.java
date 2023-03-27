@@ -7,10 +7,18 @@ package leetcode.basic.binarytree;
  */
 public class CountNodes {
 
+	public int countNodes_2(TreeNode root) {
+		if (root == null) {
+			return 0;
+		}
+		return countNodes(root.left) + countNodes(root.right) + 1;
+	}
+
+
 	int count = 0;
 
 	public int countNodes(TreeNode root) {
-		if (root == null){
+		if (root == null) {
 			return 0;
 		}
 		count++;
