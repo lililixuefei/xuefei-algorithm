@@ -17,8 +17,8 @@ public class GetKthMagicNumber {
 
 	public static int getKthMagicNumber(int k) {
 		int[] factors = {3, 5, 7};
-		Set<Long> seen = new HashSet<>();
 		PriorityQueue<Long> heap = new PriorityQueue<>();
+		Set<Long> seen = new HashSet<>();
 		seen.add(1L);
 		heap.offer(1L);
 		int magic = 0;
