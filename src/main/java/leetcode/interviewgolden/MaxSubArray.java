@@ -11,19 +11,30 @@ public class MaxSubArray {
 		System.out.println(maxSubArray_2(new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4}));
 	}
 
-	public static int maxSubArray_2(int[] nums) {
-			int sum = Integer.MIN_VALUE;
-			int pre = 0;
-			for (int i = 0; i < nums.length; i++) {
-				int curr = nums[i];
-				if (curr < pre + nums[i]) {
-					curr = pre + nums[i];
-				}
-				pre = curr;
-				sum = Math.max(sum, curr);
+	public static int maxSubArray_3(int[] nums) {
+		int sum = nums[0];
+		for (int i = 1; i < nums.length; i++) {
+			if (nums[i - 1] > 0) {
+				nums[i] += nums[i - 1];
 			}
-			return sum;
+			sum = Math.max(sum, nums[i]);
 		}
+		return sum;
+	}
+
+	public static int maxSubArray_2(int[] nums) {
+		int sum = Integer.MIN_VALUE;
+		int pre = 0;
+		for (int i = 0; i < nums.length; i++) {
+			int curr = nums[i];
+			if (curr < pre + nums[i]) {
+				curr = pre + nums[i];
+			}
+			pre = curr;
+			sum = Math.max(sum, curr);
+		}
+		return sum;
+	}
 
 	public int maxSubArray_1(int[] nums) {
 		int[] dp = new int[nums.length];
