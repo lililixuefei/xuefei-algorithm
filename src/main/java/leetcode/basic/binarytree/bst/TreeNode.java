@@ -1,4 +1,4 @@
-package leetcode.basic.bst;
+package leetcode.basic.binarytree.bst;
 
 /**
  * @description:

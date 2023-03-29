@@ -1,4 +1,4 @@
-package leetcode.basic.bst;
+package leetcode.basic.binarytree.bst;
 
 /**
  * @description: 将有序数组转换为二叉搜索树
