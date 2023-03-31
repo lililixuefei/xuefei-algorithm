@@ -7,6 +7,7 @@ package leetcode.basic.dp;
  */
 public class CountBits {
 
+
 	public int[] countBits(int n) {
 		int[] bits = new int[n + 1];
 		int highBit = 0;
