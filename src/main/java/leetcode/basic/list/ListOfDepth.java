@@ -36,7 +36,6 @@ public class ListOfDepth {
 			res.add(dummy.next);
 			dummy.next = null;
 		}
-
 		return res.toArray(new ListNode[]{});
 	}
 
