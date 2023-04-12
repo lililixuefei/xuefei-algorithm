@@ -13,7 +13,7 @@ public class DeepestLeavesSum {
 	int maxLevel = -1;
 	int sum = 0;
 
-	public int deepestLeavesSum(TreeNode root) {
+	public int deepestLeavesSum_1(TreeNode root) {
 		dfs(root, 0);
 		return sum;
 	}
@@ -30,6 +30,27 @@ public class DeepestLeavesSum {
 		}
 		dfs(node.left, level + 1);
 		dfs(node.right, level + 1);
+	}
+
+	public int deepestLeavesSum_2(TreeNode root) {
+		int sum = 0;
+		Queue<TreeNode> queue = new ArrayDeque<>();
+		queue.offer(root);
+		while (!queue.isEmpty()) {
+			sum = 0;
+			int size = queue.size();
+			for (int i = 0; i < size; i++) {
+				TreeNode node = queue.poll();
+				sum += node.val;
+				if (node.left != null) {
+					queue.offer(node.left);
+				}
+				if (node.right != null) {
+					queue.offer(node.right);
+				}
+			}
+		}
+		return sum;
 	}
 
 
