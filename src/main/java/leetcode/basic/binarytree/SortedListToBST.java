@@ -28,8 +28,7 @@ public class SortedListToBST {
 		ListNode fast = left;
 		ListNode slow = left;
 		while (fast != right && fast.next != right) {
-			fast = fast.next;
-			fast = fast.next;
+			fast = fast.next.next;
 			slow = slow.next;
 		}
 		return slow;
