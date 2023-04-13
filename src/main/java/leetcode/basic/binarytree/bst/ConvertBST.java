@@ -1,4 +1,6 @@
-package leetcode.basic.binarytree;
+package leetcode.basic.binarytree.bst;
+
+import leetcode.basic.binarytree.TreeNode;
 
 /**
  * @description: 所有大于等于节点的值之和
@@ -7,7 +9,7 @@ package leetcode.basic.binarytree;
  */
 public class ConvertBST {
 
-	public TreeNode convertBST(TreeNode root) {
+	public leetcode.basic.binarytree.TreeNode convertBST(leetcode.basic.binarytree.TreeNode root) {
 		traverse(root);
 		return root;
 	}

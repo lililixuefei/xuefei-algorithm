@@ -1,4 +1,6 @@
-package leetcode.basic.binarytree;
+package leetcode.basic.binarytree.bst;
+
+import leetcode.basic.binarytree.TreeNode;
 
 /**
  * @description: 二叉搜索树的范围和
@@ -8,7 +10,7 @@ package leetcode.basic.binarytree;
 public class RangeSumBST {
 
 
-	public int rangeSumBST(TreeNode root, int L, int R) {
+	public int rangeSumBST(leetcode.basic.binarytree.TreeNode root, int L, int R) {
 		if (root == null) {
 			return 0;
 		}

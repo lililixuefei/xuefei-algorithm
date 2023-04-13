@@ -1,6 +1,7 @@
-package leetcode.basic.binarytree;
+package leetcode.basic.binarytree.bst;
 
 import labuladong.list.ListNode;
+import leetcode.basic.binarytree.TreeNode;
 
 /**
  * @description: 有序链表转换二叉搜索树
@@ -9,16 +10,16 @@ import labuladong.list.ListNode;
  */
 public class SortedListToBST {
 
-	public TreeNode sortedListToBST(ListNode head) {
+	public leetcode.basic.binarytree.TreeNode sortedListToBST(ListNode head) {
 		return buildTree(head, null);
 	}
 
-	public TreeNode buildTree(ListNode left, ListNode right) {
+	public leetcode.basic.binarytree.TreeNode buildTree(ListNode left, ListNode right) {
 		if (left == right) {
 			return null;
 		}
 		ListNode mid = getMedian(left, right);
-		TreeNode root = new TreeNode(mid.val);
+		leetcode.basic.binarytree.TreeNode root = new TreeNode(mid.val);
 		root.left = buildTree(left, mid);
 		root.right = buildTree(mid.next, right);
 		return root;
