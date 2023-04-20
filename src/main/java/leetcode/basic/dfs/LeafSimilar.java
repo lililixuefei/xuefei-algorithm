@@ -12,6 +12,15 @@ import java.util.List;
  */
 public class LeafSimilar {
 
+	public static void main(String[] args) {
+		List<Integer> seq1 = new ArrayList<>();
+		List<Integer> seq2 = new ArrayList<>();
+
+		seq1.add(11111);
+		seq2.add(11111);
+		System.out.println(seq1.equals(seq2));
+	}
+
 	public boolean leafSimilar(TreeNode root1, TreeNode root2) {
 		List<Integer> seq1 = new ArrayList<>();
 		if (root1 != null) {
