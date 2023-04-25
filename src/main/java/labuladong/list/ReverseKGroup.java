@@ -8,7 +8,6 @@ package labuladong.list;
  */
 public class ReverseKGroup {
 
-
     ListNode reverseKGroup(ListNode head, int k) {
         if (head == null) {
             return null;
