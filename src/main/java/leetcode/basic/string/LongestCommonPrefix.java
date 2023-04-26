@@ -9,9 +9,6 @@ package leetcode.basic.string;
 public class LongestCommonPrefix {
 
     public String longestCommonPrefix(String[] strs) {
-        if (strs == null || strs.length == 0) {
-            return null;
-        }
         if (strs.length == 1) {
             return strs[0];
         }
@@ -20,10 +17,8 @@ public class LongestCommonPrefix {
         while (flag) {
             char c = 0;
             i++;
-
             for (String str : strs) {
-                int length = str.length();
-                if (length <= i) {
+                if (str.length() <= i) {
                     flag = false;
                     break;
                 }
