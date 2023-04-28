@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @description: 旋转字符串
+ * @description: 旅行终点站
  * @author: xuefei
  * @date: 2023/02/09 22:38
  */
