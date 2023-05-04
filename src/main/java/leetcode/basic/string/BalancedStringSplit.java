@@ -51,10 +51,7 @@ public class BalancedStringSplit {
         if (lChar == 'L' && rChar == 'R') {
             return true;
         }
-        if (lChar == 'R' && rChar == 'L') {
-            return true;
-        }
-        return false;
+        return lChar == 'R' && rChar == 'L';
     }
 
 }
