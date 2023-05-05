@@ -14,7 +14,6 @@ public class Problem_01_GetMinStack {
 			this.stackMin = new Stack<>();
 		}
 
-
 		public void push(int newNum) {
 			if (this.stackMin.isEmpty()) {
 				this.stackMin.push(newNum);
