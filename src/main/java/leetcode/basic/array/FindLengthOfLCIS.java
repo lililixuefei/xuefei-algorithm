@@ -20,12 +20,10 @@ public class FindLengthOfLCIS {
 		int l = 0;
 		int r = 1;
 		while (r < nums.length) {
-			if (nums[r] > nums[r - 1]) {
-				r++;
-			} else {
+			if (nums[r] <= nums[r - 1]) {
 				l = r;
-				r++;
 			}
+			r++;
 			length = Math.max(length, r - l);
 		}
 		return length;
