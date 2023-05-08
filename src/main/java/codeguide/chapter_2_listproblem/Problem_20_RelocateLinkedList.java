@@ -2,6 +2,7 @@ package codeguide.chapter_2_listproblem;
 
 public class Problem_20_RelocateLinkedList {
 
+
 	public static class Node {
 		public int value;
 		public Node next;
