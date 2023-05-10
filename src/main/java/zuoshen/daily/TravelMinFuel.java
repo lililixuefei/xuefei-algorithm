@@ -39,8 +39,11 @@ public class TravelMinFuel {
 			graph.get(b[i]).add(a[i]);
 		}
 
+		// a 号  dfn[a] == 0 没遍历过  dfn[a] != 0 遍历过
 		int[] dfn = new int[n + 1];
+		// a 为头的数，一共有10个节点
 		int[] size = new int[n + 1];
+		// cast[a] 所有居民汇聚到a耗费的总量汽油
 		int[] cost = new int[n + 1];
 		cnt = 0;
 		dfs(graph, 0, dfn, size, cost);
