@@ -31,7 +31,7 @@ public class TravelMinFuel {
 	public static int minFuel(int[] a, int[] b, int n) {
 		// 先建图
 		List<List<Integer>> graph = new ArrayList<>();
-		for (int i = 0; i < n; i++) {
+		for (int i = 0; i <= n; i++) {
 			graph.add(new ArrayList<>());
 		}
 		for (int i = 0; i < a.length; i++) {
@@ -62,6 +62,13 @@ public class TravelMinFuel {
 				cost[cur] += (size[next] + 4) / 5;
 			}
 		}
+	}
+
+	public static void main(String[] args) {
+		int[] a1 = {0, 1, 1};
+		int[] b1 = {1, 2, 3};
+		int n1 = 3;
+		System.out.println(minFuel(a1, b1, n1));
 	}
 
 
