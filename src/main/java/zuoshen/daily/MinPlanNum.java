@@ -33,7 +33,7 @@ public class MinPlanNum {
 
 		// index号方案要
 		int p2 = Integer.MAX_VALUE;
-		int next = minPlanNum(arr, index + 1, restFunny - arr[index][0], restOffence - arr[index][0]);
+		int next = minPlanNum(arr, index + 1, restFunny - arr[index][0], restOffence - arr[index][1]);
 		if (next != Integer.MAX_VALUE) {
 			p2 = 1 + next;
 		}
