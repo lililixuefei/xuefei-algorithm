@@ -17,8 +17,8 @@ public class MinCostMostE {
 	 */
 
 	static class Info {
-		private int mostGoodE;
-		private int minCost;
+		private final int mostGoodE;
+		private final int minCost;
 
 		public Info(int mostGoodE, int minCost) {
 			this.mostGoodE = mostGoodE;
