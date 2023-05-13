@@ -25,6 +25,13 @@ public class PrintAllPermutations {
 		return ans;
 	}
 
+	/**
+	 * 去重的
+	 *
+	 * @param str
+	 * @param index
+	 * @param ans
+	 */
 	public void g2(char[] str, int index, List<String> ans) {
 		if (index == str.length) {
 			ans.add(String.valueOf(str));
