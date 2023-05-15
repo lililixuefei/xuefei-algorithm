@@ -7,6 +7,7 @@ package zuoshen.follow;
  */
 public class LongestCommonSubsequence {
 
+
 	public static void main(String[] args) {
 		String s1 = "abcd123gg";
 		String s2 = "sssabcd123";
