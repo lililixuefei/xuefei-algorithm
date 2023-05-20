@@ -1,9 +1,13 @@
-package zuoshen.solveproblem.class04;
+package leetcode.daily;
 
-// 本题测试链接 : https://leetcode.com/problems/interleaving-string/
-public class Code07_InterleavingString {
+/**
+ * @description: 交错字符串
+ * @author: xuefei
+ * @date: 2023/05/20 23:14
+ */
+public class IsInterleave {
 
-	public static boolean isInterleave(String s1, String s2, String s3) {
+	public boolean isInterleave(String s1, String s2, String s3) {
 		if (s1 == null || s2 == null || s3 == null) {
 			return false;
 		}
@@ -31,10 +35,10 @@ public class Code07_InterleavingString {
 			for (int j = 1; j <= str2.length; j++) {
 				if (
 						(str1[i - 1] == str3[i + j - 1] && dp[i - 1][j])
-						||
-						(str2[j - 1] == str3[i + j - 1] && dp[i][j - 1])
+								||
+								(str2[j - 1] == str3[i + j - 1] && dp[i][j - 1])
 
-						) {
+				) {
 					dp[i][j] = true;
 				}
 			}
