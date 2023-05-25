@@ -14,13 +14,13 @@ public class Code03_ReceiveAndPrintOrderLine {
 	}
 
 	public static class MessageBox {
-		private HashMap<Integer, Node> headMap;
-		private HashMap<Integer, Node> tailMap;
+		private final HashMap<Integer, Node> headMap;
+		private final HashMap<Integer, Node> tailMap;
 		private int waitPoint;
 
 		public MessageBox() {
-			headMap = new HashMap<Integer, Node>();
-			tailMap = new HashMap<Integer, Node>();
+			headMap = new HashMap<>();
+			tailMap = new HashMap<>();
 			waitPoint = 1;
 		}
 
