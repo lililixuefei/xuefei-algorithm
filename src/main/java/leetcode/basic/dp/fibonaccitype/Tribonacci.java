@@ -1,4 +1,4 @@
-package leetcode.basic.dp;
+package leetcode.basic.dp.fibonaccitype;
 
 /**
  * @description: 第 N 个泰波那契数

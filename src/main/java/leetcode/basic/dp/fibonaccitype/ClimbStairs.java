@@ -1,4 +1,4 @@
-package leetcode.basic.dp;
+package leetcode.basic.dp.fibonaccitype;
 
 /**
  * @description: 爬楼梯

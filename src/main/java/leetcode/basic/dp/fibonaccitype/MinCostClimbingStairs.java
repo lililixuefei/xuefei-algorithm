@@ -1,4 +1,4 @@
-package leetcode.basic.dp;
+package leetcode.basic.dp.fibonaccitype;
 
 /**
  * @description: 使用最小花费爬楼梯
