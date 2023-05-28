@@ -1,4 +1,4 @@
-package leetcode.basic.dp.fibonaccitype;
+package leetcode.basic.dp.basic.fibonaccitype;
 
 /**
  * @description: 删除并获得点数
