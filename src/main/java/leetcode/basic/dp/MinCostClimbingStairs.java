@@ -18,4 +18,19 @@ public class MinCostClimbingStairs {
 		return minCost[size - 1];
 	}
 
+	public int process(int[] cost, int n) {
+
+		if (n <= 1) {
+			return 0; //如果顶楼是0和层 不需要消耗任能量
+		}
+		if (n == 2) {
+			return Math.min(cost[0], cost[1]);
+		}
+
+		int one = process(cost, n - 1) + cost[n - 1];//走过阶梯n 需要消耗能量
+		int two = process(cost, n - 2) + cost[n - 2]; //走过阶梯n 需要消耗能量
+
+		return Math.min(one, two);
+	}
+
 }
