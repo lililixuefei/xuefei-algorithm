@@ -21,7 +21,7 @@ public class MinCostClimbingStairs {
 	public int process(int[] cost, int n) {
 
 		if (n <= 1) {
-			return 0; //如果顶楼是0和层 不需要消耗任能量
+			return 0; //如果顶楼是0和1层 不需要消耗任能量
 		}
 		if (n == 2) {
 			return Math.min(cost[0], cost[1]);
