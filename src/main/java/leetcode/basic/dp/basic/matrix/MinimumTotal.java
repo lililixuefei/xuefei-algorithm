@@ -12,6 +12,20 @@ import java.util.List;
  */
 public class MinimumTotal {
 
+	public int minimumTotal_dp(List<List<Integer>> triangle) {
+		int n = triangle.size();
+		// dp[i][j] 表示从点 (i, j) 到底边的最小路径和。
+		int[][] dp = new int[n + 1][n + 1];
+		// 从三角形的最后一行开始递推。
+		for (int i = n - 1; i >= 0; i--) {
+			for (int j = 0; j <= i; j++) {
+				dp[i][j] = Math.min(dp[i + 1][j], dp[i + 1][j + 1]) + triangle.get(i).get(j);
+			}
+		}
+		return dp[0][0];
+	}
+
+
 	public int minimumTotal(List<List<Integer>> triangle) {
 
 		return process(triangle, 0, 0, new HashMap<Pair, Integer>());
@@ -26,9 +40,6 @@ public class MinimumTotal {
 		// 边界
 		if (j >= size2) {
 			return 0;
-		}
-		if (i == size1 - 1 && j == size2 - 1) {
-			return triangle.get(i).get(j);
 		}
 
 		Pair p = new Pair(i, j);
