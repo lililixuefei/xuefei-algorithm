@@ -1,4 +1,4 @@
-package leetcode.basic.dp.basic.longestcommonsubsequence;
+package leetcode.basic.dp.basic.lcs;
 
 /**
  * @description: 最长公共子序列
