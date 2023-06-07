@@ -16,8 +16,7 @@ public class MaxEnvelopes {
 		Arrays.sort(envelopes, new Comparator<int[]>() {
 			@Override
 			public int compare(int[] a, int[] b) {
-				return a[0] == b[0] ?
-						b[1] - a[1] : a[0] - b[0];
+				return a[0] == b[0] ? b[1] - a[1] : a[0] - b[0];
 			}
 		});
 		// 对高度数组寻找 LIS
@@ -29,20 +28,27 @@ public class MaxEnvelopes {
 	}
 
 	public int lengthOfLIS(int[] nums) {
-		int[] dp = new int[nums.length];
-		Arrays.fill(dp, 1);
-		for (int i = 0; i < nums.length; i++) {
-			for (int j = 0; j < i; j++) {
-				if (nums[i] > nums[j]) {
-					dp[i] = Math.max(dp[i], dp[j] + 1);
+		int piles = 0, n = nums.length;
+		int[] top = new int[n];
+		for (int i = 0; i < n; i++) {
+			int poker = nums[i];
+			int left = 0, right = piles;
+			// 二分查找插入位置
+			while (left < right) {
+				int mid = (left + right) / 2;
+				if (top[mid] >= poker) {
+					right = mid;
+				} else {
+					left = mid + 1;
 				}
 			}
+			if (left == piles) {
+				piles++;
+			}
+			top[left] = poker;
 		}
-		int res = 0;
-		for (int i = 0; i < dp.length; i++) {
-			res = Math.max(res, dp[i]);
-		}
-		return res;
+		return piles;
 	}
+
 
 }
