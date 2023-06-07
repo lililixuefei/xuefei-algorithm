@@ -32,7 +32,8 @@ public class MaxEnvelopes {
 		int[] top = new int[n];
 		for (int i = 0; i < n; i++) {
 			int poker = nums[i];
-			int left = 0, right = piles;
+			int left = 0;
+			int right = piles;
 			// 二分查找插入位置
 			while (left < right) {
 				int mid = (left + right) / 2;
