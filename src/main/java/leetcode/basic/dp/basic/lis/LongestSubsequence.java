@@ -11,7 +11,12 @@ import java.util.Map;
  */
 public class LongestSubsequence {
 
-	public int longestSubsequence(int[] arr, int difference) {
+	public static void main(String[] args) {
+		int[] arr = {1, 2, 3, 4};
+		System.out.println(longestSubsequence(arr, 1));
+	}
+
+	public static int longestSubsequence(int[] arr, int difference) {
 		int ans = 0;
 		Map<Integer, Integer> dp = new HashMap<>();
 		for (int v : arr) {
