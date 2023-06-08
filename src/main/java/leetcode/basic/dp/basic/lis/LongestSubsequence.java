@@ -1,6 +1,8 @@
 package leetcode.basic.dp.basic.lis;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @description: 最长定差子序列
@@ -9,8 +11,18 @@ import java.util.Arrays;
  */
 public class LongestSubsequence {
 
-
 	public int longestSubsequence(int[] arr, int difference) {
+		int ans = 0;
+		Map<Integer, Integer> dp = new HashMap<>();
+		for (int v : arr) {
+			dp.put(v, dp.getOrDefault(v - difference, 0) + 1);
+			ans = Math.max(ans, dp.get(v));
+		}
+		return ans;
+	}
+
+
+	public int longestSubsequence_me(int[] arr, int difference) {
 		int[] dp = new int[arr.length];
 		Arrays.fill(dp, 1);
 		int res = 1;
