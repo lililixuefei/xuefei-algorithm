@@ -22,7 +22,9 @@ public class Code08_DistanceKNodes {
 	public static List<Node> distanceKNodes(Node root, Node target, int K) {
 		HashMap<Node, Node> parents = new HashMap<>();
 		parents.put(root, null);
+
 		createParentMap(root, parents);
+
 		Queue<Node> queue = new LinkedList<>();
 		HashSet<Node> visited = new HashSet<>();
 		queue.offer(target);

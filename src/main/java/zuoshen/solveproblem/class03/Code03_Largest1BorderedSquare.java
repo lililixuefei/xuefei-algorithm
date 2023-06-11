@@ -6,7 +6,9 @@ public class Code03_Largest1BorderedSquare {
 	public static int largest1BorderedSquare(int[][] m) {
 		int[][] right = new int[m.length][m[0].length];
 		int[][] down = new int[m.length][m[0].length];
+
 		setBorderMap(m, right, down);
+
 		for (int size = Math.min(m.length, m[0].length); size != 0; size--) {
 			if (hasSizeOfBorder(size, right, down)) {
 				return size * size;
