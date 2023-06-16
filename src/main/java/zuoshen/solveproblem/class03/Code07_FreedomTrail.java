@@ -35,7 +35,7 @@ public class Code07_FreedomTrail {
 	// N: 电话大小
 	// f(0, 0, aim, map, N)
 	public static int process(int preButton, int index, char[] str, HashMap<Character, ArrayList<Integer>> map, int N,
-			int[][] dp) {
+							  int[][] dp) {
 		if (dp[preButton][index] != -1) {
 			return dp[preButton][index];
 		}
