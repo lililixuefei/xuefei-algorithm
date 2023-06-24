@@ -15,6 +15,7 @@ public class DiffArray {
         Arrays.stream(diffArray.result()).forEach(System.out::println);
     }
 
+
     private int[] diffNums;
 
     public DiffArray(int[] nums) {
