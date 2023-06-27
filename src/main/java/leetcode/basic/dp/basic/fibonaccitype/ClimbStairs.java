@@ -8,7 +8,14 @@ package leetcode.basic.dp.basic.fibonaccitype;
 public class ClimbStairs {
 
 	public int climbStairs(int n) {
-		return process3(n);
+		return process1(n);
+	}
+
+	private int process1(int n) {
+		if (n <= 2) {
+			return n;
+		}
+		return process1(n - 1) + process1(n - 2);
 	}
 
 
@@ -52,13 +59,6 @@ public class ClimbStairs {
 			dp[i] = dp[i - 1] + dp[i - 2];
 		}
 		return dp[n - 1];
-	}
-
-	private int process1(int n) {
-		if (n <= 2) {
-			return n;
-		}
-		return process1(n - 1) + process1(n - 2);
 	}
 
 }
