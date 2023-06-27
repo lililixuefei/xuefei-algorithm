@@ -4,18 +4,17 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @description: 课程表
- * @author: xuefei
- * @date: 2023/04/16 12:32
+ * @Description
+ * @Author xuefei
+ * @Date 2023/4/17 8:08 PM
+ * @Version 1.0
  */
 public class CanFinish {
 
-	// 记录一次 traverse 递归经过的节点
+	// 记录一次递归堆栈中的节点
 	boolean[] onPath;
-
 	// 记录遍历过的节点，防止走回头路
 	boolean[] visited;
-
 	// 记录图中是否有环
 	boolean hasCycle = false;
 
@@ -34,7 +33,6 @@ public class CanFinish {
 		return !hasCycle;
 	}
 
-
 	List<Integer>[] buildGraph(int numCourses, int[][] prerequisites) {
 		// 图中共有 numCourses 个节点
 		List<Integer>[] graph = new LinkedList[numCourses];
@@ -42,10 +40,9 @@ public class CanFinish {
 			graph[i] = new LinkedList<>();
 		}
 		for (int[] edge : prerequisites) {
-			int from = edge[1];
-			int to = edge[0];
-			// 修完课程 from 才能修课程 to
-			// 在图中添加一条从 from 指向 to 的有向边
+			int from = edge[1], to = edge[0];
+			// 添加一条从 from 指向 to 的有向边
+			// 边的方向是「被依赖」关系，即修完课程 from 才能修课程 to
 			graph[from].add(to);
 		}
 		return graph;
@@ -61,16 +58,15 @@ public class CanFinish {
 			// 如果已经找到了环，也不用再遍历了
 			return;
 		}
-		// 前序遍历代码位置
+		// 前序代码位置
 		visited[s] = true;
 		onPath[s] = true;
 		for (int t : graph[s]) {
 			traverse(graph, t);
 		}
-		// 后序遍历代码位置
+		// 后序代码位置
 		onPath[s] = false;
 	}
-
 
 
 }

@@ -1,6 +1,6 @@
 package leetcode.basic.binarytree.bst;
 
-import labuladong.list.ListNode;
+import xuefei.labuladong.list.ListNode;
 import leetcode.basic.binarytree.TreeNode;
 
 /**

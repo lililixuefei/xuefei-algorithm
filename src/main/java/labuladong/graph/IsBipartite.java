@@ -4,9 +4,10 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * @description: 判断二分图
- * @author: xuefei
- * @date: 2023/04/16 16:09
+ * @Description
+ * @Author xuefei
+ * @Date 2023/4/18 11:53 AM
+ * @Version 1.0
  */
 public class IsBipartite {
 
@@ -59,8 +60,6 @@ public class IsBipartite {
 		}
 	}
 
-
-	/*BFS*/
 	public boolean isBipartite_bfs(int[][] graph) {
 		int n = graph.length;
 		color = new boolean[n];

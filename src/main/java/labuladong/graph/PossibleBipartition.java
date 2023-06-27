@@ -4,9 +4,10 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @description: 可能的二分法
- * @author: xuefei
- * @date: 2023/04/16 16:15
+ * @Description
+ * @Author xuefei
+ * @Date 2023/4/18 8:11 PM
+ * @Version 1.0
  */
 public class PossibleBipartition {
 

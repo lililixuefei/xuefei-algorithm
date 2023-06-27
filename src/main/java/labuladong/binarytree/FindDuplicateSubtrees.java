@@ -5,11 +5,13 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @description: 寻找重复子树
- * @author: xuefei
- * @date: 2023/02/19 14:48
+ * @Description
+ * @Author xuefei
+ * @Date 2023/2/7 3:20 PM
+ * @Version 1.0
  */
 public class FindDuplicateSubtrees {
+
 
     // 记录所有子树以及出现的次数
     HashMap<String, Integer> memo = new HashMap<>();
@@ -17,11 +19,13 @@ public class FindDuplicateSubtrees {
     // 记录重复的子树根节点
     LinkedList<TreeNode> res = new LinkedList<>();
 
+
     /* 主函数 */
     List<TreeNode> findDuplicateSubtrees(TreeNode root) {
         traverse(root);
         return res;
     }
+
 
     /* 辅助函数 */
     String traverse(TreeNode root) {

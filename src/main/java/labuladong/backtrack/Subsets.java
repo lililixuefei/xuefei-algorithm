@@ -1,33 +1,48 @@
 package labuladong.backtrack;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @description: 输入一个无重复元素的数组nums，其中每个元素最多使用一次，请你返回nums的所有子集
- * @author: xuefei
- * @date: 2023/03/12 14:50
+ * @Description
+ * @Author xuefei
+ * @Date 2023/3/8 10:37 上午
+ * @Version 1.0
  */
 public class Subsets {
 
-	List<List<Integer>> res = new ArrayList<>();
+	public static void main(String[] args) {
+		Subsets subsets = new Subsets();
+		int[] nums = {1, 2,3};
+		subsets.backtrack(nums, 0);
+	}
 
-	LinkedList track = new LinkedList();
+	List<List<Integer>> res = new LinkedList<>();
 
+	// 记录回溯算法的递归路径
+	LinkedList<Integer> track = new LinkedList<>();
+
+	// 主函数
 	public List<List<Integer>> subsets(int[] nums) {
-		backtrack(nums,0);
+		backtrack(nums, 0);
 		return res;
 	}
 
-	public void backtrack(int[] nums,int start) {
-		res.add(new ArrayList<>(track));
+	// 回溯算法核心函数，遍历子集问题的回溯树
+	void backtrack(int[] nums, int start) {
+
+		// 前序位置，每个节点的值都是一个子集
+		res.add(new LinkedList<>(track));
+
+		// 回溯算法标准框架
 		for (int i = start; i < nums.length; i++) {
-			track.add(nums[i]);
-			backtrack(nums,i+1);
+			// 做选择
+			track.addLast(nums[i]);
+			// 通过 start 参数控制树枝的遍历，避免产生重复的子集
+			backtrack(nums, i + 1);
+			// 撤销选择
 			track.removeLast();
 		}
 	}
-
 
 }

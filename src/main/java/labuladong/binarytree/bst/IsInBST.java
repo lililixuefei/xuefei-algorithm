@@ -3,9 +3,10 @@ package labuladong.binarytree.bst;
 import labuladong.binarytree.TreeNode;
 
 /**
- * @description:
- * @author: xuefei
- * @date: 2023/02/18 16:31
+ * @Description
+ * @Author xuefei
+ * @Date 2023/2/20 2:52 PM
+ * @Version 1.0
  */
 public class IsInBST {
 

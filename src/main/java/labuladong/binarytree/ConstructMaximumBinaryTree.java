@@ -1,9 +1,10 @@
 package labuladong.binarytree;
 
 /**
- * @description:
- * @author: xuefei
- * @date: 2023/02/18 15:30
+ * @Description
+ * @Author xuefei
+ * @Date 2023/2/7 2:44 PM
+ * @Version 1.0
  */
 public class ConstructMaximumBinaryTree {
 
@@ -20,8 +21,7 @@ public class ConstructMaximumBinaryTree {
         }
 
         // 找到数组中的最大值和对应的索引
-        int index = -1;
-        int maxVal = Integer.MIN_VALUE;
+        int index = -1, maxVal = Integer.MIN_VALUE;
         for (int i = lo; i <= hi; i++) {
             if (maxVal < nums[i]) {
                 index = i;
@@ -37,4 +37,5 @@ public class ConstructMaximumBinaryTree {
 
         return root;
     }
+
 }

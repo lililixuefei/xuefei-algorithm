@@ -4,11 +4,20 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @description: 所有可能的路径
- * @author: xuefei
- * @date: 2023/04/16 12:03
+ * @Description
+ * @Author xuefei
+ * @Date 2023/4/17 7:47 PM
+ * @Version 1.0
  */
 public class AllPathsSourceTarget {
+
+	public static void main(String[] args) {
+		AllPathsSourceTarget all = new AllPathsSourceTarget();
+
+		int[][] graph = {{1, 2}, {3}, {3}, {}};
+
+		all.allPathsSourceTarget(graph);
+	}
 
 	// 记录所有路径
 	List<List<Integer>> res = new LinkedList<>();

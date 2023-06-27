@@ -1,6 +1,6 @@
 package leetcode.basic.monotonestack;
 
-import labuladong.list.ListNode;
+import xuefei.labuladong.list.ListNode;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
 package leetcode.swordfingeroffer;
 
-import labuladong.list.ListNode;
+import xuefei.labuladong.list.ListNode;
 
 
 /**

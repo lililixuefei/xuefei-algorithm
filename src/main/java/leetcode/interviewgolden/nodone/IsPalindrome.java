@@ -1,6 +1,6 @@
 package leetcode.interviewgolden.nodone;
 
-import labuladong.list.ListNode;
+import xuefei.labuladong.list.ListNode;
 
 import java.util.Deque;
 import java.util.LinkedList;

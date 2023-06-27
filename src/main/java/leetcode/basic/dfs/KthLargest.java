@@ -1,6 +1,6 @@
 package leetcode.basic.dfs;
 
-import labuladong.binarytree.TreeNode;
+import xuefei.labuladong.binarytree.TreeNode;
 
 /**
  * @description: 二叉搜索树的第k大节点

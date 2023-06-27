@@ -1,6 +1,6 @@
 package leetcode.interviewgolden;
 
-import labuladong.binarytree.TreeNode;
+import xuefei.labuladong.binarytree.TreeNode;
 
 /**
  * @description: 合法二叉搜索树

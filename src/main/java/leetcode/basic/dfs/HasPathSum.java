@@ -1,6 +1,6 @@
 package leetcode.basic.dfs;
 
-import labuladong.binarytree.TreeNode;
+import xuefei.labuladong.binarytree.TreeNode;
 
 /**
  * @description: 路径总和

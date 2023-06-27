@@ -1,9 +1,10 @@
 package labuladong.binarytree;
 
 /**
- * @description:
- * @author: xuefei
- * @date: 2023/02/18 14:16
+ * @Description
+ * @Author xuefei
+ * @Date 2023/2/7 11:37 AM
+ * @Version 1.0
  */
 public class DiameterOfBinaryTree {
 

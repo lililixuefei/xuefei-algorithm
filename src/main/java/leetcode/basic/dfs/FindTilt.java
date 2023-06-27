@@ -1,6 +1,6 @@
 package leetcode.basic.dfs;
 
-import labuladong.binarytree.TreeNode;
+import xuefei.labuladong.binarytree.TreeNode;
 
 /**
  * @description: 二叉树的坡度

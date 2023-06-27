@@ -1,6 +1,6 @@
 package leetcode.daily;
 
-import labuladong.binarytree.TreeNode;
+import xuefei.labuladong.binarytree.TreeNode;
 
 import java.util.LinkedList;
 import java.util.List;

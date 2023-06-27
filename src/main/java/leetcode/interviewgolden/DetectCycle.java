@@ -1,6 +1,6 @@
 package leetcode.interviewgolden;
 
-import labuladong.list.ListNode;
+import xuefei.labuladong.list.ListNode;
 
 import java.util.HashSet;
 import java.util.Set;

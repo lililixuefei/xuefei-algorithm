@@ -1,9 +1,10 @@
 package labuladong.binarytree;
 
 /**
- * @description:
- * @author: xuefei
- * @date: 2023/02/18 14:26
+ * @Description
+ * @Author xuefei
+ * @Date 2023/2/7 2:20 PM
+ * @Version 1.0
  */
 public class InvertTree {
 
@@ -19,10 +20,13 @@ public class InvertTree {
         if (root == null) {
             return;
         }
+
+        /**** 前序位置 ****/
         // 每一个节点需要做的事就是交换它的左右子节点
         TreeNode tmp = root.left;
         root.left = root.right;
         root.right = tmp;
+
         // 遍历框架，去遍历左右子树的节点
         traverse(root.left);
         traverse(root.right);

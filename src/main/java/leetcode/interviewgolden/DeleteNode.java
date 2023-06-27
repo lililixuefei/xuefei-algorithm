@@ -1,6 +1,6 @@
 package leetcode.interviewgolden;
 
-import labuladong.list.ListNode;
+import xuefei.labuladong.list.ListNode;
 
 /**
  * @description: 删除中间节点

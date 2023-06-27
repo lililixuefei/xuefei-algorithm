@@ -1,48 +1,61 @@
 package labuladong.sort;
 
 /**
- * @description:
- * @author: xuefei
- * @date: 2023/02/19 15:04
+ * @Description
+ * @Author xuefei
+ * @Date 2023/2/7 3:33 PM
+ * @Version 1.0
  */
 public class MergeSort {
 
-    // 定义：排序 nums[lo..hi]
-    void sort(int[] nums, int lo, int hi) {
+    // 用于辅助合并有序数组
+    private static int[] temp;
+
+    public static void sort(int[] nums) {
+        // 先给辅助数组开辟内存空间
+        temp = new int[nums.length];
+        // 排序整个数组（原地修改）
+        sort(nums, 0, nums.length - 1);
+    }
+
+    // 定义：将子数组 nums[lo..hi] 进行排序
+    private static void sort(int[] nums, int lo, int hi) {
         if (lo == hi) {
+            // 单个元素不用排序
             return;
         }
-        int mid = (lo + hi) / 2;
-        // 利用定义，排序 nums[lo..mid]
+        // 这样写是为了防止溢出，效果等同于 (hi + lo) / 2
+        int mid = lo + (hi - lo) / 2;
+        // 先对左半部分数组 nums[lo..mid] 排序
         sort(nums, lo, mid);
-        // 利用定义，排序 nums[mid+1..hi]
+        // 再对右半部分数组 nums[mid+1..hi] 排序
         sort(nums, mid + 1, hi);
-
-        // 后序位置
-        // 此时两部分子数组已经被排好序
-        // 合并两个有序数组，使 nums[lo..hi] 有序
+        // 将两部分有序数组合并成一个有序数组
         merge(nums, lo, mid, hi);
     }
 
+    // 将 nums[lo..mid] 和 nums[mid+1..hi] 这两个有序数组合并成一个有序数组
+    private static void merge(int[] nums, int lo, int mid, int hi) {
+        // 先把 nums[lo..hi] 复制到辅助数组中
+        // 以便合并后的结果能够直接存入 nums
+        for (int i = lo; i <= hi; i++) {
+            temp[i] = nums[i];
+        }
 
-    // 将有序数组 nums[lo..mid] 和有序数组 nums[mid+1..hi]
-    public static void merge(int[] arr, int lo, int mid, int hi) {
-        int[] help = new int[hi - lo + 1];
-        int i = 0;
-        int p1 = lo;
-        int p2 = mid + 1;
-        while (p1 <= mid && p2 <= hi) {
-            help[i++] = arr[p1] <= arr[p2] ? arr[p1++] : arr[p2++];
-        }
-        // 要么p1越界了，要么p2越界了
-        while (p1 <= mid) {
-            help[i++] = arr[p1++];
-        }
-        while (p2 <= hi) {
-            help[i++] = arr[p2++];
-        }
-        for (i = 0; i < help.length; i++) {
-            arr[lo + i] = help[i];
+        // 数组双指针技巧，合并两个有序数组
+        int i = lo, j = mid + 1;
+        for (int p = lo; p <= hi; p++) {
+            if (i == mid + 1) {
+                // 左半边数组已全部被合并
+                nums[p] = temp[j++];
+            } else if (j == hi + 1) {
+                // 右半边数组已全部被合并
+                nums[p] = temp[i++];
+            } else if (temp[i] > temp[j]) {
+                nums[p] = temp[j++];
+            } else {
+                nums[p] = temp[i++];
+            }
         }
     }
 }
