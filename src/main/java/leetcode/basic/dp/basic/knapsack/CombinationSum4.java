@@ -18,19 +18,25 @@ public class CombinationSum4 {
 
     public static void main(String[] args) {
         CombinationSum4 combinationSum4 = new CombinationSum4();
-        int[] nums = {4,2,1};
+        int[] nums = {4, 2, 1};
         System.out.println(combinationSum4.combinationSum4(nums, 32));
     }
 
     public int combinationSum4(int[] nums, int target) {
-        if (nums.length == 0) {
-            return 0;
+        int[] dp = new int[target + 1];
+        dp[0] = 1;
+        for (int i = 1; i <= target; i++) {
+            for (int num : nums) {
+                if (num <= i) {
+                    dp[i] += dp[i - num];
+                }
+            }
         }
-        backtrack(nums, target);
-        return res.size();
+        return dp[target];
     }
 
-    // 回溯算法主函数
+
+    // 超时
     void backtrack(int[] nums, int target) {
         // base case，找到目标和，记录结果
         if (trackSum == target) {
