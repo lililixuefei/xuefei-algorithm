@@ -10,16 +10,21 @@ public class Code03_HeapSort {
 		if (arr == null || arr.length < 2) {
 			return;
 		}
+
 		// O(N*logN)
-//		for (int i = 0; i < arr.length; i++) { // O(N)
-//			heapInsert(arr, i); // O(logN)
-//		}
-		// O(N)
-		for (int i = arr.length - 1; i >= 0; i--) {
-			heapify(arr, i, arr.length);
+		for (int i = 0; i < arr.length; i++) { // O(N)
+			heapInsert(arr, i); // O(logN)
 		}
+
+		// O(N)
+//		for (int i = arr.length - 1; i >= 0; i--) {
+//			heapify(arr, i, arr.length);
+//		}
+
 		int heapSize = arr.length;
+
 		swap(arr, 0, --heapSize);
+
 		// O(N*logN)
 		while (heapSize > 0) { // O(N)
 			heapify(arr, 0, heapSize); // O(logN)
