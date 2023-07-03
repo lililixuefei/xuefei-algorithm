@@ -16,13 +16,27 @@ public class Code03_HeapSort {
 			heapInsert(arr, i); // O(logN)
 		}
 
+		int heapSize = arr.length;
+		swap(arr, 0, --heapSize);
+
+		// O(N*logN)
+		while (heapSize > 0) { // O(N)
+			heapify(arr, 0, heapSize); // O(logN)
+			swap(arr, 0, --heapSize); // O(1)
+		}
+	}
+
+	public static void heapSort2(int[] arr) {
+		if (arr == null || arr.length < 2) {
+			return;
+		}
+
 		// O(N)
-//		for (int i = arr.length - 1; i >= 0; i--) {
-//			heapify(arr, i, arr.length);
-//		}
+		for (int i = arr.length - 1; i >= 0; i--) {
+			heapify(arr, i, arr.length);
+		}
 
 		int heapSize = arr.length;
-
 		swap(arr, 0, --heapSize);
 
 		// O(N*logN)
