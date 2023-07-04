@@ -137,7 +137,6 @@ public class Code03_HeapSort {
 
 	// for test
 	public static void main(String[] args) {
-
 		// 默认小根堆
 		PriorityQueue<Integer> heap = new PriorityQueue<>();
 		heap.add(6);
