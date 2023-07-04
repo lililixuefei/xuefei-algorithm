@@ -10,7 +10,6 @@ public class Code03_HeapSort {
 		if (arr == null || arr.length < 2) {
 			return;
 		}
-
 		// O(N*logN)
 		for (int i = 0; i < arr.length; i++) { // O(N)
 			heapInsert(arr, i); // O(logN)
