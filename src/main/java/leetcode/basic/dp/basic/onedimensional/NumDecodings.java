@@ -8,7 +8,7 @@ package leetcode.basic.dp.basic.onedimensional;
 public class NumDecodings {
 
 	public static void main(String[] args) {
-		String s = "226";
+		String s = "26";
 		System.out.println(numDecodings(s));
 	}
 
