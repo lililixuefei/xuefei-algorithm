@@ -7,7 +7,12 @@ package leetcode.basic.dp.basic.onedimensional;
  */
 public class NumDecodings {
 
-	public int numDecodings(String s) {
+	public static void main(String[] args) {
+		String s = "226";
+		System.out.println(numDecodings(s));
+	}
+
+	public static int numDecodings(String s) {
 		if (s == null || s.length() == 0) {
 			return 0;
 		}
