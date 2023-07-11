@@ -22,6 +22,7 @@ public class ThreeSum {
 			// c 对应的指针初始指向数组的最右端
 			int third = n - 1;
 			int target = -nums[first];
+
 			// 枚举 b
 			for (int second = first + 1; second < n; ++second) {
 				// 需要和上一次枚举的数不相同
@@ -45,6 +46,7 @@ public class ThreeSum {
 					ans.add(list);
 				}
 			}
+
 		}
 		return ans;
 	}
