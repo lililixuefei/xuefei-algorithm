@@ -1,4 +1,4 @@
-package leetcode.onequestion;
+package leetcode.onequestion.unresolved;
 
 /**
  * @description: 最大子序列交替和
