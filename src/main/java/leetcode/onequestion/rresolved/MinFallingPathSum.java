@@ -1,5 +1,7 @@
 package leetcode.onequestion.rresolved;
 
+import java.util.Arrays;
+
 /**
  * @description: 下降路径最小和
  * @author: xuefei
@@ -7,7 +9,49 @@ package leetcode.onequestion.rresolved;
  */
 public class MinFallingPathSum {
 
-	public int minFallingPathSum(int[][] matrix) {
+	// 备忘录
+	static int[][] memo;
+
+	public static int minFallingPathSum(int[][] matrix) {
+		int res = Integer.MAX_VALUE;
+		int n = matrix.length;
+
+		// 备忘录里的值初始化为 66666
+		memo = new int[n][n];
+		for (int i = 0; i < n; i++) {
+			Arrays.fill(memo[i], 66666);
+		}
+		for (int i = 0; i < n; i++) {
+			int ans = process(matrix, 0, i);
+			res = Math.min(res, ans);
+		}
+		return res;
+	}
+
+	static int process(int[][] matrix, int i, int j) {
+		int n = matrix.length;
+		if (i < 0 || j >= n || i >= n || j < 0) {
+			return 99999;
+		}
+		int curValue = matrix[i][j];
+
+		if (i == n - 1) {
+			return curValue;
+		}
+		if (memo[i][j] != 66666) {
+			return memo[i][j];
+		}
+
+		int i1 = curValue + process(matrix, i + 1, j);
+		int i2 = curValue + process(matrix, i + 1, j + 1);
+		int i3 = curValue + process(matrix, i + 1, j - 1);
+
+		memo[i][j] = Math.min(i1, Math.min(i2, i3));
+		return memo[i][j];
+	}
+
+
+	public int minFallingPathSum2(int[][] matrix) {
 		int n = matrix.length;
 
 		int[][] dp = new int[n][n];
