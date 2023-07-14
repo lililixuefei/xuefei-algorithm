@@ -1,4 +1,4 @@
-package leetcode.onequestion.rresolved;
+package leetcode.onequestion.resolved;
 
 /**
  * @description: 交替数字和
