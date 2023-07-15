@@ -71,53 +71,54 @@ public class FourSum {
 		List<List<Integer>> ans = new ArrayList<>();
 
 		int n = nums.length;
+		int l = start;
+		int r = n - 1;
+		while (l < r) {
+			int sum = nums[l] + nums[r];
 
-
-		int lo = start, hi = n - 1;
-		while (lo < hi) {
-			int sum = nums[lo] + nums[hi];
-			int left = nums[lo], right = nums[hi];
 			if (sum < target) {
-				while (lo < hi && nums[lo] == left) {
-					lo++;
-				}
+				l++;
 			} else if (sum > target) {
-				while (lo < hi && nums[hi] == right) {
-					hi--;
-				}
+				r--;
 			} else {
-				List<Integer> cur = new ArrayList<>();
-				cur.add(nums[lo]);
-				cur.add(nums[hi]);
-				ans.add(cur);
-				while (lo < hi && nums[lo] == left) {
-					lo++;
+				if (l == start || nums[l - 1] != nums[l]) {
+					List<Integer> cur = new ArrayList<>();
+					cur.add(nums[l]);
+					cur.add(nums[r]);
+					ans.add(cur);
 				}
-				while (lo < hi && nums[hi] == right) {
-					hi--;
-				}
+				l++;
 			}
 		}
 
-//		int l = start;
-//		int r = n - 1;
-//		while (l < r) {
-//			int sum = nums[l] + nums[r];
-//
+
+//		int lo = start, hi = n - 1;
+//		while (lo < hi) {
+//			int sum = nums[lo] + nums[hi];
+//			int left = nums[lo], right = nums[hi];
 //			if (sum < target) {
-//				l++;
-//			} else if (sum > target) {
-//				r--;
-//			} else {
-//				if (l == 0 || nums[l - 1] != nums[l]) {
-//					List<Integer> cur = new ArrayList<>();
-//					cur.add(nums[l]);
-//					cur.add(nums[r]);
-//					ans.add(cur);
+//				while (lo < hi && nums[lo] == left) {
+//					lo++;
 //				}
-//				l++;
+//			} else if (sum > target) {
+//				while (lo < hi && nums[hi] == right) {
+//					hi--;
+//				}
+//			} else {
+//				List<Integer> cur = new ArrayList<>();
+//				cur.add(nums[lo]);
+//				cur.add(nums[hi]);
+//				ans.add(cur);
+//				while (lo < hi && nums[lo] == left) {
+//					lo++;
+//				}
+//				while (lo < hi && nums[hi] == right) {
+//					hi--;
+//				}
 //			}
 //		}
+
+
 		return ans;
 	}
 
