@@ -1,4 +1,4 @@
-package leetcode.swordfingeroffer;
+package leetcode.swordfingeroffer.done;
 
 import java.util.Arrays;
 

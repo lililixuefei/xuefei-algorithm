@@ -1,4 +1,4 @@
-package leetcode.swordfingeroffer;
+package leetcode.swordfingeroffer.done;
 
 import java.util.HashSet;
 import java.util.Set;

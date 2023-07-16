@@ -1,4 +1,4 @@
-package leetcode.swordfingeroffer.nodone;
+package leetcode.swordfingeroffer.done.nodone;
 
 /**
  * @description: 二进制中1的个数
