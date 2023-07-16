@@ -29,7 +29,7 @@ public class SumOfDistancesInTree {
 	public int[] sumOfDistancesInTree(int N, int[][] edges) {
 
 		for (int i = 0; i < N; i++) {
-			graph.add(new ArrayList<Integer>());
+			graph.add(new ArrayList<>());
 		}
 		for (int i = 0; i < edges.length; i++) {
 			int src = edges[i][0];
@@ -40,8 +40,10 @@ public class SumOfDistancesInTree {
 		distSum = new int[N];
 		nodeNum = new int[N];
 		Arrays.fill(nodeNum, 1);
+
 		postOrder(0, -1);
 		preOrder(0, -1);
+
 		return distSum;
 	}
 
