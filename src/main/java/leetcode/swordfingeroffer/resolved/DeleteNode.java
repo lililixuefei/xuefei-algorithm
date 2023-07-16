@@ -1,4 +1,4 @@
-package leetcode.swordfingeroffer;
+package leetcode.swordfingeroffer.resolved;
 
 import labuladong.list.ListNode;
 
