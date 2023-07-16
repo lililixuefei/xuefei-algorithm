@@ -1,4 +1,4 @@
-package leetcode.swordfingeroffer;
+package leetcode.swordfingeroffer.resolved;
 
 /**
  * @description: 剑指 Offer 05. 替换空格
