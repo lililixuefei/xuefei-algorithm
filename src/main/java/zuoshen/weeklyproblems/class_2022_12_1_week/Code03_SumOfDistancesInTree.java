@@ -15,6 +15,16 @@ public class Code03_SumOfDistancesInTree {
 	public int[] size = new int[N];
 	public int[] distance = new int[N];
 
+
+	public static void main(String[] args) {
+		Code03_SumOfDistancesInTree sumOfDistancesInTree = new Code03_SumOfDistancesInTree();
+
+		int[][] edges = {{0,1},{0,2},{2,3},{2,4},{2,5}};
+
+		sumOfDistancesInTree.sumOfDistancesInTree(6,edges);
+
+	}
+
 	// edges : {3,1}、{1,2}、{3,0}
 
 	// 0 : {3}
