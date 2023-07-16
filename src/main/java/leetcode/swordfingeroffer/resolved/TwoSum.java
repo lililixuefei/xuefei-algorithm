@@ -1,4 +1,4 @@
-package leetcode.swordfingeroffer;
+package leetcode.swordfingeroffer.resolved;
 
 /**
  * @description: 剑指 Offer 57. 和为s的两个数字
