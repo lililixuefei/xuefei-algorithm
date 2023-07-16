@@ -10,6 +10,26 @@ import java.util.Set;
  */
 public class FindRepeatNumber {
 
+	/**
+	 * wrong
+	 * @param nums
+	 * @return
+	 */
+	public int findRepeatNumber3(int[] nums) {
+		for (int num : nums) {
+			if (nums[Math.abs(num)] < 0) {
+				// 之前已经把对应索引的元素变成负数了，
+				// 这说明 num 重复出现了两次
+				return Math.abs(num);
+			} else {
+				// 把索引 num 的元素置为负数
+				nums[Math.abs(num)] *= -1;
+			}
+		}
+		// 如果没有在 for 循环中返回，说明重复的那个元素是 0
+		return 0;
+	}
+
 	public int findRepeatNumber2(int[] nums) {
 		if (nums == null || nums.length < 1) {
 			return -1;
