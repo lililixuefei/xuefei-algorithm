@@ -1,4 +1,4 @@
-package leetcode.swordfingeroffer;
+package leetcode.swordfingeroffer.unresolved;
 
 import java.util.Arrays;
 
