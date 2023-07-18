@@ -1,0 +1,37 @@
+package leetcode.swordfingeroffer;
+
+import labuladong.binarytree.TreeNode;
+
+import java.util.ArrayList;
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.List;
+
+/**
+ * @description: 剑指 Offer 32 - I. 从上到下打印二叉树
+ * @author: xuefei
+ * @date: 2023/07/18 23:23
+ */
+public class LevelOrder {
+
+	public int[] levelOrder(TreeNode root) {
+		if (root == null) {
+			return new int[0];
+		}
+		List<Integer> ans = new ArrayList<>();
+		Deque<TreeNode> deque = new LinkedList<>();
+		deque.add(root);
+		while (!deque.isEmpty()) {
+			TreeNode treeNode = deque.poll();
+			ans.add(treeNode.val);
+			if (treeNode.left != null) {
+				deque.add(treeNode.left);
+			}
+			if (treeNode.right != null) {
+				deque.add(treeNode.right);
+			}
+		}
+		return ans.stream().mapToInt(Integer::intValue).toArray();
+	}
+
+}
