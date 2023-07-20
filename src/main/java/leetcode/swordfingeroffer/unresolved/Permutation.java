@@ -1,9 +1,7 @@
-package leetcode.swordfingeroffer;
+package leetcode.swordfingeroffer.unresolved;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import static zuoshen.course.class17.Code04_PrintAllPermutations.swap;
 
 /**
  * @description: 剑指 Offer 38. 字符串的排列
