@@ -36,20 +36,20 @@ public class MinNumber {
 	}
 
 
-	public static String minNumber_wrong(int[] nums) {
-		PriorityQueue<Long> priorityQueue = new PriorityQueue<>(nums.length, new Comparator<Long>() {
+	public static String minNumber2(int[] nums) {
+		PriorityQueue<String> priorityQueue = new PriorityQueue<>(nums.length, new Comparator<String>() {
 			@Override
-			public int compare(Long o1, Long o2) {
-				return ((Long.parseLong(o1 + "" + o2)) - Long.parseLong(o2 + "" + o1)) > 0 ? 1 : -1;
+			public int compare(String s1, String s2) {
+				return (s1 + s2).compareTo(s2 + s1);
 			}
 		});
 		for (int num : nums) {
-			priorityQueue.add((long) num);
+			priorityQueue.add(Integer.toString(num));
 		}
 
 		StringBuilder stringBuilder = new StringBuilder();
 		for (int i = 0; i < nums.length; i++) {
-			Integer num = priorityQueue.poll().intValue();
+			String num = priorityQueue.poll();
 			stringBuilder.append(num);
 		}
 		return stringBuilder.toString();
