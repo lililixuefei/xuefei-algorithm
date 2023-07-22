@@ -1,4 +1,4 @@
-package leetcode.onequestion;
+package leetcode.onequestion.resolved;
 
 /**
  * @description: 柠檬水找零
