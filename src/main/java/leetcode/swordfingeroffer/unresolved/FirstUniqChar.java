@@ -1,4 +1,4 @@
-package leetcode.swordfingeroffer;
+package leetcode.swordfingeroffer.unresolved;
 
 /**
  * @description: 剑指 Offer 50. 第一个只出现一次的字符
