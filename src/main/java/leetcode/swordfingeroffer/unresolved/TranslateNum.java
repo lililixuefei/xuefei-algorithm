@@ -24,6 +24,7 @@ public class TranslateNum {
 		return ways;
 	}
 
+	// 从右往左的动态规划
 	public int dp(int num) {
 		char[] str = String.valueOf(num).toCharArray();
 		int n = str.length;
@@ -39,6 +40,7 @@ public class TranslateNum {
 		return dp[0];
 	}
 
+	// 从左往右的动态规划
 	public int dp2(int num) {
 		char[] str = String.valueOf(num).toCharArray();
 		int n = str.length;
