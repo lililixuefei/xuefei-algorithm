@@ -1,4 +1,4 @@
-package leetcode.onequestion;
+package leetcode.onequestion.resolved;
 
 import java.util.Arrays;
 
