@@ -9,6 +9,7 @@ import labuladong.list.ListNode;
  */
 public class HasCycle {
 
+
     public boolean hasCycle(ListNode head) {
         if (head == null) {
             return false;
