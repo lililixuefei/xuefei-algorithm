@@ -1,6 +1,5 @@
 package leetcode.swordfingeroffer.unresolved;
 
-import java.util.Arrays;
 
 /**
  * @description: 剑指 Offer 56 - I. 数组中数字出现的次数
