@@ -1,6 +1,9 @@
 package leetcode.onequestion.resolved;
 
+
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 /**
  * @description: 钥匙和房间
@@ -9,26 +12,19 @@ import java.util.List;
  */
 public class CanVisitAllRooms {
 
-    boolean[] dp;
+
+    int num = 1;
 
     boolean[] visited;
 
-
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
-        dp = new boolean[rooms.size()];
-        dp[0] = true;
 
         visited = new boolean[rooms.size()];
         visited[0] = true;
 
         visited(rooms.get(0), rooms);
 
-        for (boolean b : dp) {
-            if (!b) {
-                return false;
-            }
-        }
-        return true;
+        return num == rooms.size();
     }
 
     private void visited(List<Integer> keys, List<List<Integer>> rooms) {
@@ -39,11 +35,31 @@ public class CanVisitAllRooms {
             if (visited[key]) {
                 continue;
             }
-            dp[key] = true;
+            num++;
             visited[key] = true;
             visited(rooms.get(key), rooms);
         }
-
     }
+
+
+    public boolean canVisitAllRooms_bfs(List<List<Integer>> rooms) {
+        int n = rooms.size(), num = 0;
+        boolean[] vis = new boolean[n];
+        Queue<Integer> que = new LinkedList<>();
+        vis[0] = true;
+        que.offer(0);
+        while (!que.isEmpty()) {
+            int x = que.poll();
+            num++;
+            for (int it : rooms.get(x)) {
+                if (!vis[it]) {
+                    vis[it] = true;
+                    que.offer(it);
+                }
+            }
+        }
+        return num == n;
+    }
+
 
 }
