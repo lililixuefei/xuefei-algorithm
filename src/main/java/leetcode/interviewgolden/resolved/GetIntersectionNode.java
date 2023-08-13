@@ -1,4 +1,4 @@
-package leetcode.interviewgolden;
+package leetcode.interviewgolden.resolved;
 
 import leetcode.basic.list.ListNode;
 
