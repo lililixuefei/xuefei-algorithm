@@ -21,4 +21,25 @@ public class WaysToStep {
         return dp[n];
     }
 
+    public int waysToStep2(int n) {
+        if (n <= 2) {
+            return n;
+        }
+
+        long MOD = 1000000007;
+        long dp1 = 1;
+        long dp2 = 2;
+        long dp3 = 4;
+
+        for (int i = 4; i <= n; i++) {
+            long temp = (dp1 + dp2 + dp3) % MOD;
+            dp1 = dp2;
+            dp2 = dp3;
+            dp3 = temp;
+        }
+        int res = (int) (dp3 % MOD);
+        return res;
+    }
+
+
 }
