@@ -10,6 +10,9 @@ import java.util.List;
  */
 public class SummaryRanges {
 
+    // 输入：nums = [0,1,2,4,5,7]
+    // 输出：["0->2","4->5","7"]
+
     public List<String> summaryRanges(int[] nums) {
         List<String> res = new ArrayList<>();
         int i = 0;
