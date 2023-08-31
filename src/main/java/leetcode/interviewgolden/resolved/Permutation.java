@@ -1,4 +1,4 @@
-package leetcode.onequestion.resolved;
+package leetcode.interviewgolden.resolved;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
