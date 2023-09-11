@@ -12,8 +12,8 @@ import java.util.PriorityQueue;
 public class ScheduleCourse {
 
     public static void main(String[] args) {
-        int[][] courses = {{100, 200}, {200, 1300}, {150, 1250}, {2000, 3200}};
-        scheduleCourse(courses);
+        int[][] courses = {{100, 200}, {200, 1300}, {1000, 1250}, {2000, 3200}};
+        scheduleCourse2(courses);
     }
 
     public static int scheduleCourse2(int[][] courses) {
