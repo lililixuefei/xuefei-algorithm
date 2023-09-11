@@ -31,23 +31,17 @@ public class AllPathsSourceTarget {
 
 	/* 图的遍历框架 */
 	void traverse(int[][] graph, int s, LinkedList<Integer> path) {
-
 		// 添加节点 s 到路径
 		path.addLast(s);
-
-		int n = graph.length;
-		if (s == n - 1) {
+		if (s == graph.length - 1) {
 			// 到达终点
 			res.add(new LinkedList<>(path));
-			path.removeLast();
 			return;
 		}
-
 		// 递归每个相邻节点
 		for (int v : graph[s]) {
 			traverse(graph, v, path);
 		}
-
 		// 从路径移出节点 s
 		path.removeLast();
 	}

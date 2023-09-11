@@ -19,7 +19,7 @@ public class CanFinish {
 	boolean hasCycle = false;
 
 	boolean canFinish(int numCourses, int[][] prerequisites) {
-
+		// 建图
 		List<Integer>[] graph = buildGraph(numCourses, prerequisites);
 
 		visited = new boolean[numCourses];
@@ -40,7 +40,8 @@ public class CanFinish {
 			graph[i] = new LinkedList<>();
 		}
 		for (int[] edge : prerequisites) {
-			int from = edge[1], to = edge[0];
+			int from = edge[1];
+			int to = edge[0];
 			// 添加一条从 from 指向 to 的有向边
 			// 边的方向是「被依赖」关系，即修完课程 from 才能修课程 to
 			graph[from].add(to);
@@ -53,7 +54,6 @@ public class CanFinish {
 			// 出现环
 			hasCycle = true;
 		}
-
 		if (visited[s] || hasCycle) {
 			// 如果已经找到了环，也不用再遍历了
 			return;

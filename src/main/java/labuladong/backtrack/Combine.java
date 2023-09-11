@@ -16,6 +16,14 @@ public class Combine {
     // 记录回溯算法的递归路径
     LinkedList<Integer> track = new LinkedList<>();
 
+    public static void main(String[] args) {
+        Combine combine = new Combine();
+        List<List<Integer>> lists = combine.combine(4, 2);
+        for (List<Integer> item : lists) {
+            System.out.println(item);
+        }
+    }
+
     // 主函数
     public List<List<Integer>> combine(int n, int k) {
         backtrack(1, n, k);

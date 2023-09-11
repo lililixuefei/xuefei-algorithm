@@ -18,7 +18,8 @@ public class NumMatrix {
 	private int[][] preSum;
 
 	public NumMatrix(int[][] matrix) {
-		int m = matrix.length, n = matrix[0].length;
+		int m = matrix.length;
+		int n = matrix[0].length;
 		if (n == 0) {
 			return;
 		}

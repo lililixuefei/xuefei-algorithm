@@ -43,8 +43,6 @@ public class MaxSlidingWindow {
         return res;
     }
 
-
-
     public static int[] getMaxWindow(int[] arr, int w) {
         if (arr == null || w < 1 || arr.length < w) {
             return null;

@@ -54,7 +54,6 @@ public class FindOrder {
 		if (visited[s]) {
 			return;
 		}
-
 		visited[s] = true;
 		for (int t : graph[s]) {
 			traverse(graph, t);
@@ -85,7 +84,8 @@ public class FindOrder {
 			graph[i] = new LinkedList<>();
 		}
 		for (int[] edge : prerequisites) {
-			int from = edge[1], to = edge[0];
+			int from = edge[1];
+			int to = edge[0];
 			// 添加一条从 from 指向 to 的有向边
 			// 边的方向是「被依赖」关系，即修完课程 from 才能修课程 to
 			graph[from].add(to);

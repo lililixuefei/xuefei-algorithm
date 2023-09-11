@@ -8,54 +8,48 @@ package labuladong.sort;
  */
 public class MergeSort {
 
-    // 用于辅助合并有序数组
-    private static int[] temp;
+	public static void main(String[] args) {
+		int[] nums = {5, 4, 6, 3, 1, 5, 454, 7657, 68, 3, 21};
+		mergeSort(nums);
 
-    public static void sort(int[] nums) {
-        // 先给辅助数组开辟内存空间
-        temp = new int[nums.length];
-        // 排序整个数组（原地修改）
-        sort(nums, 0, nums.length - 1);
-    }
+		for (int num : nums) {
+			System.out.println(num);
+		}
+	}
 
-    // 定义：将子数组 nums[lo..hi] 进行排序
-    private static void sort(int[] nums, int lo, int hi) {
-        if (lo == hi) {
-            // 单个元素不用排序
-            return;
-        }
-        // 这样写是为了防止溢出，效果等同于 (hi + lo) / 2
-        int mid = lo + (hi - lo) / 2;
-        // 先对左半部分数组 nums[lo..mid] 排序
-        sort(nums, lo, mid);
-        // 再对右半部分数组 nums[mid+1..hi] 排序
-        sort(nums, mid + 1, hi);
-        // 将两部分有序数组合并成一个有序数组
-        merge(nums, lo, mid, hi);
-    }
 
-    // 将 nums[lo..mid] 和 nums[mid+1..hi] 这两个有序数组合并成一个有序数组
-    private static void merge(int[] nums, int lo, int mid, int hi) {
-        // 先把 nums[lo..hi] 复制到辅助数组中
-        // 以便合并后的结果能够直接存入 nums
-        for (int i = lo; i <= hi; i++) {
-            temp[i] = nums[i];
-        }
+	public static void mergeSort(int[] nums) {
+		process(nums, 0, nums.length - 1);
+	}
 
-        // 数组双指针技巧，合并两个有序数组
-        int i = lo, j = mid + 1;
-        for (int p = lo; p <= hi; p++) {
-            if (i == mid + 1) {
-                // 左半边数组已全部被合并
-                nums[p] = temp[j++];
-            } else if (j == hi + 1) {
-                // 右半边数组已全部被合并
-                nums[p] = temp[i++];
-            } else if (temp[i] > temp[j]) {
-                nums[p] = temp[j++];
-            } else {
-                nums[p] = temp[i++];
-            }
-        }
-    }
+	public static void process(int[] nums, int l, int r) {
+		if (l >= r) {
+			return;
+		}
+		int mid = l + (r - l) / 2;
+		process(nums, l, mid);
+		process(nums, mid + 1, r);
+		mergeSort(nums, l, mid, r);
+	}
+
+	private static void mergeSort(int[] nums, int l, int mid, int r) {
+		int[] array = new int[r - l + 1];
+		int i = 0;
+		int t = l;
+		int m = mid + 1;
+		while (t <= mid && m <= r) {
+			array[i++] = nums[t] <= nums[m] ? nums[t++] : nums[m++];
+		}
+		while (t <= mid) {
+			array[i++] = nums[t++];
+		}
+		while (m <= r) {
+			array[i++] = nums[m++];
+		}
+		for (int j = 0; j < array.length; j++) {
+			nums[l + j] = array[j];
+		}
+	}
+
+
 }
