@@ -20,7 +20,7 @@ public class CheckIfPrerequisite {
 
     public List<Boolean> checkIfPrerequisite_wrong(int numCourses, int[][] prerequisites, int[][] queries) {
         // 建图
-        Set<Integer>[] graph = buildGraph(numCourses, prerequisites, queries);
+        Set<Integer>[] graph = buildGraph(numCourses, prerequisites);
 
         List<Boolean> res = new ArrayList<>(prerequisites.length);
         int index = 0;
@@ -33,7 +33,7 @@ public class CheckIfPrerequisite {
         return res;
     }
 
-    private Set<Integer>[] buildGraph(int numCourses, int[][] prerequisites, int[][] queries) {
+    private Set<Integer>[] buildGraph(int numCourses, int[][] prerequisites) {
         Set<Integer>[] graph = new HashSet[numCourses];
         for (int i = 0; i < numCourses; i++) {
             graph[i] = new HashSet<>();
@@ -46,21 +46,26 @@ public class CheckIfPrerequisite {
             set.add(v);
             map.put(w, set);
         }
+        boolean[] vi = new boolean[numCourses];
         for (int i = 0; i < numCourses; i++) {
-            Set<Integer> set = buildGraph2(map, i);
+            Set<Integer> set = buildGraph2(map, i,vi);
             graph[i] = set;
         }
         return graph;
     }
 
-    private Set<Integer> buildGraph2(Map<Integer, Set<Integer>> map, int i) {
+    private Set<Integer> buildGraph2(Map<Integer, Set<Integer>> map, int i,boolean[] vi) {
+        if (vi[i]) {
+            return map.get(i);
+        }
+        vi[i] = true;
         if (map.get(i) == null || map.get(i).size() == 0) {
             return new HashSet<>();
         }
         Set<Integer> res = new HashSet<>();
         for (Integer preCourse : map.get(i)) {
             res.add(preCourse);
-            res.addAll(buildGraph2(map, preCourse));
+            res.addAll(buildGraph2(map, preCourse,vi));
         }
         return res;
     }
