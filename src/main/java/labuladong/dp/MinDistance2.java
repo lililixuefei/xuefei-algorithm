@@ -44,6 +44,32 @@ public class MinDistance2 {
 		return dp[m][n];
 	}
 
+
+	public static int dp(String s1, int i, String s2, int j) {
+		// base case
+		if (i == -1) {
+			return j + 1;
+		}
+		if (j == -1) {
+			return i + 1;
+		}
+
+		if (s1.charAt(i) == s2.charAt(j)) {
+			return dp(s1, i - 1, s2, j - 1);
+		} else {
+			return min(dp(s1, i - 1, s2, j) + 1,  // 删除
+					dp(s1, i, s2, j - 1) + 1,  // 插入
+					dp(s1, i - 1, s2, j - 1)) + 1;  // 替换
+		}
+	}
+
+
+	private static int min(int i, int j, int k) {
+		return Math.min(i, Math.min(j, k));
+	}
+
+
+
 	int minEditDistance_dp_2(String s1, String s2) {
 		int m = s1.length(), n = s2.length();
 		Node[][] dp = new Node[m + 1][n + 1];
@@ -97,30 +123,6 @@ public class MinDistance2 {
 		// 1 代表插入
 		// 2 代表删除
 		// 3 代表替换
-	}
-
-
-	public static int dp(String s1, int i, String s2, int j) {
-		// base case
-		if (i == -1) {
-			return j + 1;
-		}
-		if (j == -1) {
-			return i + 1;
-		}
-
-		if (s1.charAt(i) == s2.charAt(j)) {
-			return dp(s1, i - 1, s2, j - 1);
-		} else {
-			return min(dp(s1, i - 1, s2, j) + 1,  // 删除
-					dp(s1, i, s2, j - 1) + 1,  // 插入
-					dp(s1, i - 1, s2, j - 1)) + 1;  // 替换
-		}
-	}
-
-
-	private static int min(int i, int j, int k) {
-		return Math.min(i, Math.min(j, k));
 	}
 
 }
