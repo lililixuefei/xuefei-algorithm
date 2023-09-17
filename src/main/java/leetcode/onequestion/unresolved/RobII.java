@@ -1,6 +1,5 @@
 package leetcode.onequestion.unresolved;
 
-import java.util.Arrays;
 
 /**
  * @Description 打家劫舍 II
@@ -16,29 +15,50 @@ public class RobII {
         if (n == 1) {
             return nums[0];
         }
+        return Math.max(robRange(nums, 0, n - 2), robRange(nums, 1, n - 1));
 
-        int[] memo1 = new int[n];
-        int[] memo2 = new int[n];
-        Arrays.fill(memo1, -1);
-        Arrays.fill(memo2, -1);
-        // 两次调用使用两个不同的备忘录
-        return Math.max(dp(nums, 0, n - 2, memo1), dp(nums, 1, n - 1, memo2));
     }
 
-    // 定义：计算闭区间 [start,end] 的最优结果
-    int dp(int[] nums, int start, int end, int[] memo) {
-        if (start > end) {
-            return 0;
+    int robRange3(int[] nums, int start, int end) {
+        if (start == end) {
+            return nums[start];
         }
-
-        if (memo[start] != -1) {
-            return memo[start];
+        int first = nums[start];
+        int second = Math.max(nums[start], nums[start + 1]);
+        int value = second;
+        for (int i = 2; i < end - start + 1; i++) {
+            value = Math.max((nums[start + i] + first), second);
+            first = second;
+            second = value;
         }
-        // 状态转移方程
-        int res = Math.max(dp(nums, start + 2, end, memo) + nums[start], dp(nums, start + 1, end, memo));
+        return value;
+    }
 
-        memo[start] = res;
-        return res;
+    int robRange2(int[] nums, int start, int end) {
+        if (start == end) {
+            return nums[start];
+        }
+        int[] dp = new int[end - start + 1];
+        dp[0] = nums[start];
+        dp[1] = Math.max(nums[start], nums[start + 1]);
+        for (int i = 2; i < end - start + 1; i++) {
+            dp[i] = Math.max((nums[start + i] + dp[i - 2]), dp[i - 1]);
+        }
+        return dp[end - start];
+    }
+
+
+    // 仅计算闭区间 [start,end] 的最优结果
+    int robRange(int[] nums, int start, int end) {
+        int dp_i_1 = 0;
+        int dp_i = 0;
+        int dp_i_2 = 0;
+        for (int i = end; i >= start; i--) {
+            dp_i = Math.max(dp_i_1, nums[i] + dp_i_2);
+            dp_i_2 = dp_i_1;
+            dp_i_1 = dp_i;
+        }
+        return dp_i;
     }
 
 }
