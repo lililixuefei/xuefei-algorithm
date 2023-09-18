@@ -13,7 +13,7 @@ import java.util.Map;
  */
 public class RobIII {
 
-    public int rob(TreeNode root) {
+    public int rob2(TreeNode root) {
         int[] result = robInternal(root);
         return Math.max(result[0], result[1]);
     }
@@ -38,7 +38,7 @@ public class RobIII {
 
     Map<TreeNode, Integer> memo = new HashMap<>();
 
-    public int rob2(TreeNode root) {
+    public int rob(TreeNode root) {
         if (root == null) {
             return 0;
         }
@@ -49,11 +49,11 @@ public class RobIII {
         // 抢，然后去下下家
         int do_it = root.val
                 + (root.left == null ?
-                0 : rob2(root.left.left) + rob2(root.left.right))
+                0 : rob(root.left.left) + rob(root.left.right))
                 + (root.right == null ?
-                0 : rob2(root.right.left) + rob2(root.right.right));
+                0 : rob(root.right.left) + rob(root.right.right));
         // 不抢，然后去下家
-        int not_do = rob2(root.left) + rob2(root.right);
+        int not_do = rob(root.left) + rob(root.right);
 
         int res = Math.max(do_it, not_do);
         memo.put(root, res);
