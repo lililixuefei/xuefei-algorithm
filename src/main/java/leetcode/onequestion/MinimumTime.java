@@ -12,6 +12,7 @@ import java.util.Map;
  */
 public class MinimumTime {
 
+
 	public int minimumTime(int n, int[][] relations, int[] time) {
 		int mx = 0;
 		List<Integer>[] prev = new ArrayList[n + 1];
