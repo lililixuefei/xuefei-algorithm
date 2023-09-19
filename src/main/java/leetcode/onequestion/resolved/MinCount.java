@@ -8,6 +8,14 @@ package leetcode.onequestion.resolved;
  */
 public class MinCount {
 
+    public int minCount2(int[] coins) {
+        int sum = 0;
+        for (int i : coins) {
+            sum += (i + 1) / 2;
+        }
+        return sum;
+    }
+
     public int minCount(int[] coins) {
         int minCount = 0;
         for (int j : coins) {
