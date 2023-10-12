@@ -13,18 +13,38 @@ public class FindTheArrayConcVal {
         findTheArrayConcVal(nums);
     }
 
-    public static long findTheArrayConcVal(int[] nums) {
+    public static long findTheArrayConcVal_me(int[] nums) {
         int i = 0;
         int j = nums.length - 1;
         long ans = 0;
-        while (i <= j) {
-            if (i == j) {
-                ans += nums[i];
-            } else {
-                ans += Integer.parseInt((nums[i] + "" + nums[j]));
-            }
+        while (i < j) {
+            ans += Integer.parseInt((nums[i] + "" + nums[j]));
             i++;
             j--;
+        }
+        if (i == j) {
+            ans += nums[i];
+        }
+        return ans;
+    }
+
+    public static long findTheArrayConcVal(int[] nums) {
+        long ans = 0;
+        int i = 0;
+        int j = nums.length - 1;
+        while (i < j) {
+            int x = nums[i];
+            int y = nums[j];
+            while (y != 0) {
+                x *= 10;
+                y /= 10;
+            }
+            ans += x + nums[j];
+            i++;
+            j--;
+        }
+        if (i == j) {
+            ans += nums[i];
         }
         return ans;
     }
