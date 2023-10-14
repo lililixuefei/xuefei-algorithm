@@ -31,6 +31,41 @@ public class ThreeSum {
 		return ans;
 	}
 
+	public static List<List<Integer>> twoSumTarget2(int[] nums, int start, int target) {
+		// 先对数组排序
+		Arrays.sort(nums);
+		List<List<Integer>> res = new ArrayList<>();
+		int lo = start, hi = nums.length - 1;
+		while (lo < hi) {
+			int sum = nums[lo] + nums[hi];
+			int left = nums[lo], right = nums[hi];
+
+			// 根据 sum 和 target 的比较，移动左右指针
+			if (sum < target) {
+				while (lo < hi && nums[lo] == left) {
+					lo++;
+				}
+			} else if (sum > target) {
+				while (lo < hi && nums[hi] == right) {
+					hi--;
+				}
+			} else {
+				List<Integer> cur = new ArrayList<>();
+				cur.add(nums[lo]);
+				cur.add(nums[hi]);
+				res.add(cur);
+				// 跳过所有重复的元素
+				while (lo < hi && nums[lo] == left) {
+					lo++;
+				}
+				while (lo < hi && nums[hi] == right) {
+					hi--;
+				}
+			}
+		}
+		return res;
+	}
+
 
 	public static List<List<Integer>> twoSum2(int[] nums, int start, int target) {
 		int L = start;
