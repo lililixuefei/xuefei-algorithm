@@ -1,4 +1,4 @@
-package leetcode.onequestion.unresolved;
+package labuladong.interval;
 
 import java.util.Arrays;
 import java.util.Comparator;
