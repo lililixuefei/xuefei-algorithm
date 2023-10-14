@@ -24,6 +24,7 @@ public class AvoidFlood {
                 if (lakeLastRain.containsKey(rains[i])) {
                     // 如果这个湖泊之前也下过雨，我们就要两个下雨的区间内找到最早的不下雨天来抽空这个湖泊
                     Integer noRain = sunny.ceiling(lakeLastRain.get(rains[i]));
+//                    Integer noRain = sunny.higher(lakeLastRain.get(rains[i]));
                     if (noRain == null) {
                         return new int[0];    // 如果没有晴天，肯定发洪无法阻止
                     }
