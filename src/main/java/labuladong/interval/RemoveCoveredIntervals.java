@@ -3,7 +3,7 @@ package labuladong.interval;
 import java.util.Arrays;
 
 /**
- * @Description
+ * @Description 删除被覆盖区间
  * @Author xuefei
  * @Date 2023/7/11 10:15 AM
  * @Version 1.0

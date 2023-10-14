@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Description
+ * @Description 区间列表的交集
  * @Author xuefei
  * @Date 2023/7/11 10:25 AM
  * @Version 1.0

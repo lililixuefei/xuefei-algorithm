@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 /**
- * @Description
+ * @Description 合并区间
  * @Author xuefei
  * @Date 2023/7/11 10:16 AM
  * @Version 1.0
