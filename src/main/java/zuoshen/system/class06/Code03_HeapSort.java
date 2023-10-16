@@ -16,12 +16,12 @@ public class Code03_HeapSort {
 		}
 
 		int heapSize = arr.length;
-		swap(arr, 0, --heapSize);
 
 		// O(N*logN)
 		while (heapSize > 0) { // O(N)
+			swap(arr, 0, --heapSize);
 			heapify(arr, 0, heapSize); // O(logN)
-			swap(arr, 0, --heapSize); // O(1)
+//			swap(arr, 0, --heapSize); // O(1)
 		}
 	}
 
