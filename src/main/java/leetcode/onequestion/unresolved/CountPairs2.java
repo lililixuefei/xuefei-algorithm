@@ -13,19 +13,21 @@ import java.util.List;
 public class CountPairs2 {
 
     public long countPairs(int n, int[][] edges) {
-        List<Integer>[] g = new ArrayList[n];
-        Arrays.setAll(g, e -> new ArrayList<>());
+        // 建图
+        List<Integer>[] graph = new ArrayList[n];
+        Arrays.setAll(graph, e -> new ArrayList<>());
         for (int[] e : edges) {
             int x = e[0], y = e[1];
-            g[x].add(y);
-            g[y].add(x); // 建图
+            graph[x].add(y);
+            graph[y].add(x);
         }
 
         boolean[] vis = new boolean[n];
         long ans = 0;
         for (int i = 0, total = 0; i < n; i++) {
-            if (!vis[i]) { // 未访问的点：说明找到了一个新的连通块
-                int size = dfs(i, g, vis);
+            // 未访问的点：说明找到了一个新的连通块
+            if (!vis[i]) {
+                int size = dfs(i, graph, vis);
                 ans += (long) size * total;
                 total += size;
             }
@@ -33,12 +35,13 @@ public class CountPairs2 {
         return ans;
     }
 
-    private int dfs(int x, List<Integer>[] g, boolean[] vis) {
-        vis[x] = true; // 避免重复访问同一个点
+    private int dfs(int x, List<Integer>[] graph, boolean[] vis) {
+        // 避免重复访问同一个点
+        vis[x] = true;
         int size = 1;
-        for (int y : g[x]) {
+        for (int y : graph[x]) {
             if (!vis[y]) {
-                size += dfs(y, g, vis);
+                size += dfs(y, graph, vis);
             }
         }
         return size;
