@@ -2,6 +2,7 @@ package leetcode.swordfingeroffer.unresolved;
 
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -12,7 +13,10 @@ import java.util.List;
 public class FindContinuousSequence {
 
     public static void main(String[] args) {
-        findContinuousSequence(9);
+        int[][] continuousSequence = findContinuousSequence(15);
+        for (int[] ints : continuousSequence) {
+            System.out.println(Arrays.toString(Arrays.stream(ints).toArray()));
+        }
     }
 
     public static int[][] findContinuousSequence(int target) {
