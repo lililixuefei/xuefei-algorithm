@@ -3,7 +3,7 @@ package labuladong.array.preand;
 import java.util.HashMap;
 
 /**
- * @Description
+ * @Description 和为k的子数组
  * @Author xuefei
  * @Date 2023/1/30 5:48 PM
  * @Version 1.0
