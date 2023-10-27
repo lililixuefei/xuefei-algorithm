@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @description: 无重复字符串的排列组合
+ * @description:  有重复字符串的排列组合
  * @author: xuefei
  * @date: 2023/08/31 20:32
  */
