@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @Description
+ * @Description 字符串的排列
  * @Author xuefei
  * @Date 2023/2/1 5:10 PM
  * @Version 1.0
@@ -12,7 +12,13 @@ import java.util.Map;
 public class CheckInclusion {
 
 
-	// 判断 s 中是否存在 t 的排列
+    /**
+     * 判断 s 中是否存在 t 的排列
+     *
+     * @param s
+     * @param t
+     * @return
+     */
 	Boolean checkInclusion(String s, String t) {
 		Map<Character, Integer> need = new HashMap<>();
 		Map<Character, Integer> window = new HashMap<>();
