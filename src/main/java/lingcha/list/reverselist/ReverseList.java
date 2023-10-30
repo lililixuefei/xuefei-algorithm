@@ -1,4 +1,4 @@
-package lingcha.reverselist;
+package lingcha.list.reverselist;
 
 import labuladong.list.ListNode;
 
