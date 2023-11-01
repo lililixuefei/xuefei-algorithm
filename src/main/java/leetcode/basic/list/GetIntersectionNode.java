@@ -1,4 +1,4 @@
-package leetcode.basic.list.done;
+package leetcode.basic.list;
 
 import leetcode.basic.list.ListNode;
 

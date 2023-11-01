@@ -1,4 +1,4 @@
-package lingcha.list.reverselist;
+package leetcode.basic.list;
 
 import labuladong.list.ListNode;
 
