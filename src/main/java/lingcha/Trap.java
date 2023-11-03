@@ -32,7 +32,11 @@ public class Trap {
 	}
 
 	public int trap2(int[] height) {
-		int ans = 0, left = 0, right = height.length - 1, preMax = 0, sufMax = 0;
+		int ans = 0;
+		int left = 0;
+		int right = height.length - 1;
+		int preMax = 0;
+		int sufMax = 0;
 		while (left < right) {
 			preMax = Math.max(preMax, height[left]);
 			sufMax = Math.max(sufMax, height[right]);
