@@ -1,7 +1,9 @@
 package leetcode.basic.list;
 
+
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * @description: 回文链表
@@ -10,10 +12,6 @@ import java.util.List;
  */
 public class IsPalindrome {
 
-    public static void main(String[] args) {
-        System.out.println(3 / 2);
-        System.out.println(4 / 2);
-    }
 
     public boolean isPalindrome(ListNode head) {
         List<Integer> vals = new ArrayList<>();
@@ -34,6 +32,22 @@ public class IsPalindrome {
             }
             front++;
             back--;
+        }
+        return true;
+    }
+
+    public static boolean isPalindrome2(ListNode head) {
+        Stack<ListNode> stack = new Stack<ListNode>();
+        ListNode cur = head;
+        while (cur != null) {
+            stack.push(cur);
+            cur = cur.next;
+        }
+        while (head != null) {
+            if (head.val != stack.pop().val) {
+                return false;
+            }
+            head = head.next;
         }
         return true;
     }
