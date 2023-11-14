@@ -28,10 +28,11 @@ public class AdvantageCount {
 
 		while (!maxpq.isEmpty()) {
 			int[] pair = maxpq.poll();
-			// maxval 是 nums2 中的最大值，i 是对应索引
-			int i = pair[0], maxval = pair[1];
-			if (maxval < nums1[right]) {
-				// 如果 nums1[right] 能胜过 maxval，那就自己上
+			// maxVal 是 nums2 中的最大值，i 是对应索引
+			int i = pair[0];
+			int maxVal = pair[1];
+			if (maxVal < nums1[right]) {
+				// 如果 nums1[right] 能胜过 maxVal，那就自己上
 				res[i] = nums1[right];
 				right--;
 			} else {
