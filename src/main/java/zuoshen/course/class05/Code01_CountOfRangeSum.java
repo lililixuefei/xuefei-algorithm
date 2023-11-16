@@ -1,8 +1,36 @@
 package zuoshen.course.class05;
 
+import java.util.TreeMap;
+
 // 这道题直接在leetcode测评：
 // https://leetcode.com/problems/count-of-range-sum/
 public class Code01_CountOfRangeSum {
+
+
+	public int countRangeSum2(int[] nums, int lower, int upper) {
+		if(nums == null || nums.length == 0){
+			return 0;
+		}
+		// key is the sum[i], value is the corresponding count
+		// sum[i] - sum[j] in [lower, upper], transform to find how many sum[j] 在区间[sum[i] - high, sum[i] - lower]。
+		TreeMap<Long, Integer> map = new TreeMap();
+		long sum = 0;
+		int cnt = 0;
+
+		for(int i = 0; i < nums.length; i++){
+			sum += nums[i];
+			// sum[0, i]满足case
+			if(sum >= lower && sum <= upper){
+				cnt++;
+			}
+			// find sum[j] 的个数that lies in [sum[i] - high, sum[i] - lower]之间
+			cnt += map.subMap(sum - upper, true, sum - lower, true).values().stream().mapToInt(Integer::valueOf).sum();
+
+			map.put(sum, map.getOrDefault(sum, 0) + 1);
+		}
+		return cnt;
+	}
+
 
 	public static int countRangeSum(int[] nums, int lower, int upper) {
 		if (nums == null || nums.length == 0) {

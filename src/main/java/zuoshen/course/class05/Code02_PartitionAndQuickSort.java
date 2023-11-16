@@ -76,10 +76,6 @@ public class Code02_PartitionAndQuickSort {
 	}
 
 	
-	
-	
-	
-	
 	public static void quickSort2(int[] arr) {
 		if (arr == null || arr.length < 2) {
 			return;
