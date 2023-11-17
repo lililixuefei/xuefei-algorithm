@@ -41,11 +41,11 @@ public class CoinChange {
     }
 
     public static int coinChange1(List<Integer> coins, int amount) {
-        return dp(amount, coins);
+        return dp(coins, amount);
     }
 
 
-    public static int dp(int n, List<Integer> coins) {
+    public static int dp(List<Integer> coins, int n) {
         if (n == 0) {
             return 0;
         }
@@ -54,7 +54,7 @@ public class CoinChange {
         }
         int res = Integer.MAX_VALUE;
         for (Integer coin : coins) {
-            int subproblem = dp(n - coin, coins);
+            int subproblem = dp(coins, n - coin);
             if (subproblem == -1) {
                 continue;
             }
