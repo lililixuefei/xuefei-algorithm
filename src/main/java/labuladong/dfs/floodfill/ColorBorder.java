@@ -1,4 +1,4 @@
-package labuladong.floodfill;
+package labuladong.dfs.floodfill;
 
 /**
  * @Description
