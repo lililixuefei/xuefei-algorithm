@@ -8,6 +8,21 @@ package labuladong.dp.maxprofit;
  */
 public class MaxProfit_k_1 {
 
+
+	public int maxProfit(int[] prices) {
+		if (prices.length == 0) {
+			return 0;
+		}
+		int max = 0;
+		int min = prices[0];
+		for (int price : prices) {
+			min = Math.min(price, min);
+			max = Math.max(max, price - min);
+		}
+		return max;
+	}
+
+
 	// 原始版本
 	int maxProfit_k_1(int[] prices) {
 		int n = prices.length;
