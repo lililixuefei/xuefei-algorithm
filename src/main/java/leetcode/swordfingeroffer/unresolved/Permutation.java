@@ -1,6 +1,7 @@
 package leetcode.swordfingeroffer.unresolved;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -10,41 +11,38 @@ import java.util.List;
  */
 public class Permutation {
 
-	public static void main(String[] args) {
-		Permutation permutation = new Permutation();
 
-		permutation.permutation("acc");
+	List<String> res = new ArrayList<>();
+
+	boolean[] visited;
+
+	public String[] permutation(String S) {
+		visited = new boolean[S.length()];
+		permutation(S.toCharArray(), new LinkedList<>());
+		return res.toArray(new String[0]);
 	}
 
-	public String[] permutation(String s) {
-		char[] chars = s.toCharArray();
-		List<String> ans = new ArrayList<>();
-		process(chars, 0, ans);
-		return ans.toArray(new String[0]);
-	}
 
-	public void process(char[] chars, int i, List<String> ans) {
-		if (i == chars.length) {
-			ans.add(String.valueOf(chars));
+	public void permutation(char[] chars, LinkedList<Character> characters) {
+		if (characters.size() == chars.length) {
+			StringBuilder stringBuilder = new StringBuilder();
+			for (Character character : characters) {
+				stringBuilder.append(character);
+			}
+			res.add(stringBuilder.toString());
 			return;
 		}
-		boolean[] flag = new boolean[256];
-		for (int j = i; j < chars.length; j++) {
-			if (!flag[chars[j]]) {
-				swap(chars, i, j);
-				process(chars, i + 1, ans);
-				swap(chars, i, j);
-				flag[chars[j]] = true;
+
+		for (int i = 0; i < chars.length; i++) {
+			if (visited[i]) {
+				continue;
 			}
+			visited[i] = true;
+			characters.add(chars[i]);
+			permutation(chars, characters);
+			characters.removeLast();
+			visited[i] = false;
 		}
-
 	}
-
-	public static void swap(char[] chs, int i, int j) {
-		char tmp = chs[i];
-		chs[i] = chs[j];
-		chs[j] = tmp;
-	}
-
 
 }
