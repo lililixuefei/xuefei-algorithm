@@ -11,7 +11,9 @@ import java.util.LinkedHashMap;
 public class LRUCache_Java {
 
 	int cap;
+
 	LinkedHashMap<Integer, Integer> cache = new LinkedHashMap<>();
+
 	public LRUCache_Java(int capacity) {
 		this.cap = capacity;
 	}
