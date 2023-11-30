@@ -1,5 +1,8 @@
 package labuladong.math;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.Random;
 
 /**
@@ -30,8 +33,24 @@ public class RandomPickIndex {
                 res = i;
             }
         }
-
         return res;
     }
+
+
+//    Random random = new Random();
+//    Map<Integer, List<Integer>> map = new HashMap<>();
+//    public RandomPickIndex(int[] nums) {
+//        int n = nums.length;
+//        for (int i = 0; i < n; i++) {
+//            List<Integer> list = map.getOrDefault(nums[i], new ArrayList<>());
+//            list.add(i);
+//            map.put(nums[i], list);
+//        }
+//    }
+//    public int pick(int target) {
+//        List<Integer> list = map.get(target);
+//        return list.get(random.nextInt(list.size()));
+//    }
+
 
 }
