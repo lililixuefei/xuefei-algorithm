@@ -6,6 +6,8 @@ import java.util.Random;
 
 /**
  * @Description 链表随机节点
+ * https://mp.weixin.qq.com/s?__biz=MzU4NDE3MTEyMA==&mid=2247490892&idx=1&sn=c1fe373edc88142cbabd383ef3c0669b
+ * https://mp.weixin.qq.com/s?__biz=MzAxODQxMDM0Mw==&mid=2247498181&idx=1&sn=1e015d4bae3491beb1070c1105428577&scene=21#wechat_redirect
  * @Author xuefei
  * @Date 2023/11/30 22:01
  * @Version 1.0
@@ -63,5 +65,19 @@ public class RandomList {
         }
         return res;
     }
+
+
+//    List<Integer> list = new ArrayList<>();
+//    Random random = new Random(20220116);
+//    public Solution(ListNode head) {
+//        while (head != null) {
+//            list.add(head.val);
+//            head = head.next;
+//        }
+//    }
+//    public int getRandom() {
+//        int idx = random.nextInt(list.size());
+//        return list.get(idx);
+//    }
 
 }
