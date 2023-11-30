@@ -9,12 +9,12 @@ import java.util.Random;
  * @Date 2023/11/30 21:53
  * @Version 1.0
  */
-public class Solution {
+public class ScrambleArray {
 
     private final int[] nums;
     private final Random rand = new Random();
 
-    public Solution(int[] nums) {
+    public ScrambleArray(int[] nums) {
         this.nums = nums;
     }
 
