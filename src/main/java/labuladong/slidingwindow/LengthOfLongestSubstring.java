@@ -11,7 +11,11 @@ import java.util.Map;
  */
 public class LengthOfLongestSubstring {
 
-	int lengthOfLongestSubstring(String s) {
+	public static void main(String[] args) {
+		System.out.println(lengthOfLongestSubstring("ab"));
+	}
+
+	static int lengthOfLongestSubstring(String s) {
 		Map<Character, Integer> window = new HashMap<>();
 		int left = 0;
 		int right = 0;
