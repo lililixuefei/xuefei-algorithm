@@ -8,6 +8,7 @@ package leetcode.top100.undo;
  */
 public class FindDuplicate {
 
+	// 1 3 2 4 2
 	public int findDuplicate(int[] nums) {
 		int slow = 0;
 		int fast = 0;
