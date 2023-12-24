@@ -1,4 +1,4 @@
-package leetcode.top100;
+package leetcode.top100.array;
 
 /**
  * @Description 最大子数组和
