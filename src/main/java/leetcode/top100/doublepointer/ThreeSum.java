@@ -1,4 +1,4 @@
-package leetcode.top100.undo;
+package leetcode.top100.doublepointer;
 
 import java.util.ArrayList;
 import java.util.Arrays;

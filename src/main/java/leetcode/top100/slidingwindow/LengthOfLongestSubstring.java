@@ -1,4 +1,4 @@
-package leetcode.top100;
+package leetcode.top100.slidingwindow;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package leetcode.top100.undo;
+package leetcode.top100.doublepointer;
 
 /**
  * @Description 接雨水
