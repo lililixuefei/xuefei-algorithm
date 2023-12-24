@@ -1,4 +1,4 @@
-package leetcode.top100.undo;
+package leetcode.top100.graph;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,4 +1,4 @@
-package leetcode.top100;
+package leetcode.top100.binarytree;
 
 import labuladong.binarytree.TreeNode;
 
