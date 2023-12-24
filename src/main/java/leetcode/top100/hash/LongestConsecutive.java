@@ -1,4 +1,4 @@
-package leetcode.top100;
+package leetcode.top100.hash;
 
 import java.util.Arrays;
 import java.util.HashSet;
