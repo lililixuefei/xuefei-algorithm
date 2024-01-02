@@ -15,14 +15,19 @@ public class MinInsertions {
             if (c == '(') {
                 need += 2;
                 if (need % 2 == 1) {
+                    // 插入一个右括号
                     res++;
+                    // 对右括号的需求减一
                     need--;
                 }
             }
             if (c == ')') {
                 need--;
+                // 说明右括号太多了
                 if (need == -1) {
+                    // 需要插入一个左括号
                     res++;
+                    // 同时，对右括号的需求变为 1
                     need = 1;
                 }
             }

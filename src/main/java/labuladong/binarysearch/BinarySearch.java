@@ -51,11 +51,11 @@ public class BinarySearch {
 //		System.out.println(left_bound(nums, 6));
 //		System.out.println(right_bound(nums, 6));
 
-		int[] nums2 = new int[]{5, 6, 7};
-		System.out.println(right_bound_2(nums2, 2));
+		int[] nums2 = new int[]{1, 5, 6, 7};
+//		System.out.println(right_bound_2(nums2, 2));
 
 		System.out.println(left_bound_2(nums2, 2));
-		System.out.println(left_bound(nums2, 2));
+//		System.out.println(left_bound(nums2, 2));
 
 	}
 
@@ -95,9 +95,9 @@ public class BinarySearch {
 			}
 		}
 		// 检查出界情况
-		if (left >= nums.length || nums[left] != target) {
-			return -1;
-		}
+//		if (left >= nums.length || nums[left] != target) {
+//			return -1;
+//		}
 		return left;
 	}
 

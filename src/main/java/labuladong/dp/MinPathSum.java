@@ -65,10 +65,7 @@ public class MinPathSum {
 			return memo[i][j];
 		}
 		// 将计算结果记入备忘录
-		memo[i][j] = Math.min(
-				dp_2(grid, i - 1, j),
-				dp_2(grid, i, j - 1)
-		) + grid[i][j];
+		memo[i][j] = Math.min(dp_2(grid, i - 1, j), dp_2(grid, i, j - 1)) + grid[i][j];
 
 		return memo[i][j];
 	}

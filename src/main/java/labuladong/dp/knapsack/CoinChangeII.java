@@ -32,6 +32,11 @@ public class CoinChangeII {
         for (int i = 1; i <= n; i++) {
 			for (int j = 1; j <= amount; j++) {
 				if (j - coins[i - 1] >= 0) {
+					// dp[i][j] = dp[i - 1][j] + dp[i][j - coins[i - 1]]; 和 dp[i][j] = dp[i - 1][j] + dp[i-1][j - coins[i - 1]]; 的含义是不同的。
+					// dp[i][j] = dp[i - 1][j] + dp[i][j - coins[i - 1]]; 的含义是，使用前 i 种硬币组成金额 j 的组合数等于使用前 i-1 种硬币组成金额 j 的组合数
+					//（即不使用第 i 种硬币）和使用前 i 种硬币组成金额 j-coins[i-1] 的组合数（即使用第 i 种硬币）之和。
+					// 而 dp[i][j] = dp[i - 1][j] + dp[i-1][j - coins[i - 1]]; 的含义是，使用前 i 种硬币组成金额 j 的组合数等于使用前 i-1 种硬币组成金额
+					// j 的组合数和使用前 i-1 种硬币组成金额 j-coins[i-1] 的组合数之和，这实际上忽略了使用第 i 种硬币的可能性，因此是错误的。
 					dp[i][j] = dp[i - 1][j] + dp[i][j - coins[i - 1]];
 				} else {
 					dp[i][j] = dp[i - 1][j];
