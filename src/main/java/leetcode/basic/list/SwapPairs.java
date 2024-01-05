@@ -31,4 +31,27 @@ public class SwapPairs {
 
     }
 
+
+    public ListNode swapPairs_me(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode dummy = new ListNode(0, head);
+        ListNode p0 = dummy;
+        ListNode p1 = head;
+        while (p1 != null && p1.next != null) {
+            ListNode p2 = p1.next;
+            ListNode p3 = p2.next;
+
+            p0.next = p2;
+            p2.next = p1;
+            p1.next = p3;
+
+            p0 = p1;
+            p1 = p3;
+        }
+        return dummy.next;
+    }
+
+
 }

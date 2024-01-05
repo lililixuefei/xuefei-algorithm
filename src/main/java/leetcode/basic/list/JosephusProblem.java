@@ -28,4 +28,29 @@ public class JosephusProblem {
         }
         return head;
     }
+
+
+    public static ListNode josephusKill_me(ListNode head, int m) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode last = head;
+        while (last.next != head) {
+            last = last.next;
+        }
+        int count = 0;
+        while (last != head) {
+            count++;
+            if (count == m) {
+                last.next = head.next;
+                count = 0;
+            } else {
+                last = last.next;
+            }
+            head = last.next;
+        }
+        return head;
+    }
+
+
 }
