@@ -9,20 +9,6 @@ import labuladong.list.ListNode;
  */
 public class RemoveMidNode {
 
-    public ListNode deleteMiddle(ListNode head) {
-        if (head == null || head.next == null) {
-            return null;
-        }
-        ListNode slow = head;
-        ListNode fast = head.next;
-        while (fast.next != null && fast.next.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
-        }
-        slow.next = slow.next.next;
-        return head;
-    }
-
 
     public static ListNode removeMidNode(ListNode head) {
         if (head == null || head.next == null) {
@@ -32,7 +18,7 @@ public class RemoveMidNode {
             return head.next;
         }
         ListNode pre = head;
-        ListNode cur = head.next;
+        ListNode cur = head.next.next;
         while (cur.next != null && cur.next.next != null) {
             pre = pre.next;
             cur = cur.next.next;
