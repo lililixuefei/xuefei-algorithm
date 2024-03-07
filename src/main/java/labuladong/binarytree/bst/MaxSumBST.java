@@ -19,6 +19,9 @@ public class MaxSumBST {
         return maxSum;
     }
 
+    // 1、左右子树是否是 BST。
+    // 2、右子树的最小值、左子树的最大值。
+    // 3、左右子树的节点值之和。
     // 函数返回 int[]{ isBST, min, max, sum}
     int[] traverse(TreeNode root) {
         // base case

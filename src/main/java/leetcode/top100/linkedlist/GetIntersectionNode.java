@@ -1,4 +1,4 @@
-package leetcode.top100;
+package leetcode.top100.linkedlist;
 
 import labuladong.list.ListNode;
 
@@ -22,5 +22,14 @@ public class GetIntersectionNode {
         }
         return pA;
     }
+
+
+
+
+
+
+
+
+
 
 }

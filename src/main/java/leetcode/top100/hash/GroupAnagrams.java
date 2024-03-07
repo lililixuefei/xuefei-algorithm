@@ -12,7 +12,7 @@ public class GroupAnagrams {
 
     public static void main(String[] args) {
         String[] strings = {"eat", "tea", "tan", "ate", "nat", "bat"};
-        groupAnagrams(strings);
+        System.out.println(groupAnagrams(strings));
     }
 
     public static List<List<String>> groupAnagrams(String[] strs) {

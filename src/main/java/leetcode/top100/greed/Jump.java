@@ -14,6 +14,7 @@ public class Jump {
 		int jumps = 0;
 		for (int i = 0; i < n - 1; i++) {
 			farthest = Math.max(nums[i] + i, farthest);
+			// 如果当前位置等于 end，则说明已经跳跃到了当前可以到达的最远位置，需要进行一次新的跳跃
 			if (end == i) {
 				jumps++;
 				end = farthest;

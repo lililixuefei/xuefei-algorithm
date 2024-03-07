@@ -36,6 +36,7 @@ public class AllPathsSourceTarget {
 		if (s == graph.length - 1) {
 			// 到达终点
 			res.add(new LinkedList<>(path));
+			path.removeLast();
 			return;
 		}
 		// 递归每个相邻节点

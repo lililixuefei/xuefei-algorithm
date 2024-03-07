@@ -10,6 +10,15 @@ import java.util.LinkedHashMap;
  */
 public class LRUCache_Java {
 
+	public static void main(String[] args) {
+		LinkedHashMap<Integer, Integer> cache = new LinkedHashMap<>();
+		cache.put(1,2);
+		cache.put(2,2);
+        cache.remove(1);
+        cache.put(1,2);
+		System.out.println(cache);
+	}
+
 	int cap;
 
 	LinkedHashMap<Integer, Integer> cache = new LinkedHashMap<>();

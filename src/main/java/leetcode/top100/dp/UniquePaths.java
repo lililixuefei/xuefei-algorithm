@@ -1,4 +1,4 @@
-package leetcode.top100;
+package leetcode.top100.dp;
 
 /**
  * @Description 不同路径

@@ -1,4 +1,4 @@
-package leetcode.top100.substring;
+package leetcode.top100.slidingwindow;
 
 import java.util.Deque;
 import java.util.LinkedList;
@@ -10,6 +10,7 @@ import java.util.LinkedList;
  * @Version 1.0
  */
 public class MaxSlidingWindow {
+
 
     public static void main(String[] args) {
         int[] nums = {1, -1};
