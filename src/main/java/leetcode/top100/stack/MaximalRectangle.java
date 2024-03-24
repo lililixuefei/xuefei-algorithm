@@ -1,4 +1,4 @@
-package leetcode.top100.undo;
+package leetcode.top100.stack;
 
 import java.util.Stack;
 

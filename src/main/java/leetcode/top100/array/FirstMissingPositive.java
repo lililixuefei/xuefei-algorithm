@@ -1,4 +1,4 @@
-package leetcode.top100.undo;
+package leetcode.top100.array;
 
 import java.util.HashSet;
 import java.util.Set;

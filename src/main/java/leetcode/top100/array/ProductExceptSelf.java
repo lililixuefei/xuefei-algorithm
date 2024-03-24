@@ -1,4 +1,4 @@
-package leetcode.top100.undo;
+package leetcode.top100.array;
 
 /**
  * @Description 除自身以外数组的乘积
