@@ -1,4 +1,4 @@
-package leetcode.top100.undo;
+package leetcode.top100.dp;
 
 /**
  * @Description 最长公共子序列

@@ -1,4 +1,4 @@
-package leetcode.top100;
+package leetcode.top100.skillful;
 
 /**
  * @description: 颜色分类

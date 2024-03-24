@@ -1,4 +1,4 @@
-package leetcode.top100.undo;
+package leetcode.top100.binarytree;
 
 import leetcode.basic.binarytree.bst.TreeNode;
 

@@ -1,4 +1,4 @@
-package leetcode.top100.undo;
+package leetcode.top100.skillful;
 
 /**
  * @Description 寻找重复数

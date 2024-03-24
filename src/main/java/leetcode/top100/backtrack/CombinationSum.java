@@ -1,4 +1,4 @@
-package leetcode.top100.undo;
+package leetcode.top100.backtrack;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
