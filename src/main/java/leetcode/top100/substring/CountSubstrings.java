@@ -1,4 +1,4 @@
-package leetcode.top100;
+package leetcode.top100.substring;
 
 /**
  * @description: 回文子串
@@ -8,7 +8,7 @@ package leetcode.top100;
 public class CountSubstrings {
 
     public static void main(String[] args) {
-        System.out.println(countSubstrings("hello"));
+        System.out.println(countSubstrings("hh"));
     }
 
     public static int countSubstrings(String s) {
