@@ -12,8 +12,8 @@ public class ReverseKGroup {
 
 	// 1 2 3  4 5 6
 	public ListNode reverseKGroup(ListNode head, int k) {
-		if (head == null) {
-			return null;
+		if (head == null || head.next == null) {
+			return head;
 		}
 		int n = 0;
 		for (ListNode temp = head; temp != null; temp = temp.next) {
@@ -24,7 +24,7 @@ public class ReverseKGroup {
 		ListNode p0 = dummy;
 		ListNode pre = null;
 		ListNode cur = head;
-		for (; n > k; n -= k) {
+		for (; n >= k; n -= k) {
 			for (int i = 0; i < k; i++) {
 				ListNode next = cur.next;
 				cur.next = pre;
