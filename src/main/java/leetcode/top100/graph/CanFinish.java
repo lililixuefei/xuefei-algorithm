@@ -37,7 +37,6 @@ public class CanFinish {
 		if (onPath[s]) {
 			// 出现环
 			hasCycle = true;
-
 		}
 
 		if (visited[s] || hasCycle) {

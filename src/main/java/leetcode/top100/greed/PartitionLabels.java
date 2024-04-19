@@ -11,7 +11,14 @@ import java.util.List;
  */
 public class PartitionLabels {
 
-	public List<Integer> partitionLabels(String s) {
+	public static void main(String[] args) {
+		String s = "ababcbacadefegdehijhklij";
+		List<Integer> partition = partitionLabels(s);
+		System.out.println(partition.toString());
+	}
+
+
+	public static List<Integer> partitionLabels(String s) {
 		int[] last = new int[26];
 		int length = s.length();
 		for (int i = 0; i < length; i++) {

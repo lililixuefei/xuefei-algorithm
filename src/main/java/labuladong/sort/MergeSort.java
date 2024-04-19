@@ -35,19 +35,19 @@ public class MergeSort {
 	private static void mergeSort(int[] nums, int l, int mid, int r) {
 		int[] array = new int[r - l + 1];
 		int i = 0;
-		int t = l;
-		int m = mid + 1;
-		while (t <= mid && m <= r) {
-			array[i++] = nums[t] <= nums[m] ? nums[t++] : nums[m++];
+		int p1 = l;
+		int p2 = mid + 1;
+		while (p1 <= mid && p2 <= r) {
+			array[i++] = nums[p1] <= nums[p2] ? nums[p1++] : nums[p2++];
 		}
-		while (t <= mid) {
-			array[i++] = nums[t++];
+		while (p1 <= mid) {
+			array[i++] = nums[p1++];
 		}
-		while (m <= r) {
-			array[i++] = nums[m++];
+		while (p2 <= r) {
+			array[i++] = nums[p2++];
 		}
-		for (int j = 0; j < array.length; j++) {
-			nums[l + j] = array[j];
+		for (i = 0; i < array.length; i++) {
+			nums[l + i] = array[i];
 		}
 	}
 

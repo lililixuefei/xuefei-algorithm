@@ -9,6 +9,8 @@ import labuladong.list.ListNode;
  */
 public class ReverseK {
 
+
+    // 1 2 3 4
     public ListNode reverseK(ListNode head, int k) {
         if (head == null || head.next == null) {
             return head;
