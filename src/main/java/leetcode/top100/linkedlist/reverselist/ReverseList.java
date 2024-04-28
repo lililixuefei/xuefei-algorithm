@@ -10,6 +10,7 @@ import labuladong.list.ListNode;
 public class ReverseList {
 
 
+    // 1 2 3 4
     public ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) {
             return head;

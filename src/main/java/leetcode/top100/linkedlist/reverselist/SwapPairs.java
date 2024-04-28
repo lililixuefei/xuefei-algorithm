@@ -32,6 +32,7 @@ public class SwapPairs {
     }
 
 
+    // 1 2 3 4 5 6
     public ListNode swapPairs_me(ListNode head) {
         if (head == null || head.next == null) {
             return head;

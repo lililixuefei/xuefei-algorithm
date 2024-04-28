@@ -12,6 +12,15 @@ import java.util.List;
 public class GenerateParenthesis {
 
 
+	public static void main(String[] args) {
+		GenerateParenthesis generateParenthesisMain = new GenerateParenthesis();
+		List<String> result = generateParenthesisMain.generateParenthesis(3);
+		System.out.println("生成的括号组合为：");
+		for (String combination : result) {
+			System.out.println(combination);
+		}
+	}
+
 	public List<String> generateParenthesis(int n) {
 		if (n == 0) return new ArrayList<>();
 		// 记录所有合法的括号组合

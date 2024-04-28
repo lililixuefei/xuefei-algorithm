@@ -31,7 +31,6 @@ public class Partition {
 			if (!isPalindrome(s, start, i)) {
 				// s[start..i] 不是回文串，不能分割
 				continue;
-
 			}
 			// s[start..i] 是一个回文串，可以进行分割
 			// 做选择，把 s[start..i] 放入路径列表中
