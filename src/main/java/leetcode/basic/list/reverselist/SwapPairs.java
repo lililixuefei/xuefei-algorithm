@@ -9,6 +9,7 @@ import labuladong.list.ListNode;
  */
 public class SwapPairs {
 
+    // 1 2 3 4
     public ListNode swapPairs(ListNode head) {
         if (head == null || head.next == null) {
             return head;

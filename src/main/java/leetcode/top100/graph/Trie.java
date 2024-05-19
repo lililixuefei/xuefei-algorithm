@@ -71,12 +71,12 @@ public class Trie {
 	class Node {
 		public int pass;
 		public int end;
-		public Trie.Node[] nexts;
+		public Node[] nexts;
 
 		public Node() {
 			pass = 0;
 			end = 0;
-			nexts = new Trie.Node[26];
+			nexts = new Node[26];
 		}
 	}
 

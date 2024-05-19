@@ -18,8 +18,7 @@ public class RemoveNthFromEnd {
 			cur = cur.next;
 		}
 		cur.next = cur.next.next;
-		ListNode ans = dummy.next;
-		return ans;
+		return dummy.next;
 	}
 
 	public int getLength(ListNode head) {
