@@ -10,6 +10,7 @@ import labuladong.list.ListNode;
  */
 public class RemoveNthFromEnd {
 
+    // 1 2 3 4 5
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode dummy = new ListNode(0, head);
         int length = getLength(head);

@@ -14,7 +14,6 @@ public class LengthOfLongestSubstring {
 
     public int lengthOfLongestSubstring_l(String s) {
         Map<Character, Integer> window = new HashMap<>();
-
         int left = 0, right = 0;
         int res = 0; // 记录结果
         while (right < s.length()) {

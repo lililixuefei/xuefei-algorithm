@@ -46,6 +46,7 @@ public class DailyTemperatures {
         return ans;
     }
 
+    // temperatures = [73, 74, 75, 71, 69, 72, 76, 73]，你的输出应该是 [1, 1, 4, 2, 1, 1, 0, 0]。
     public int[] dailyTemperatures2(int[] temperatures) {
         int[] res = new int[temperatures.length];
         Deque<Integer> stack = new LinkedList<>();

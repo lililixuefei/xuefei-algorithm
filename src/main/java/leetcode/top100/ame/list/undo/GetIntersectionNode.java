@@ -2,6 +2,9 @@ package leetcode.top100.ame.list.undo;
 
 import labuladong.list.ListNode;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @Description
  * @Author xuefei
@@ -9,6 +12,7 @@ import labuladong.list.ListNode;
  * @Version 1.0
  */
 public class GetIntersectionNode {
+
 
 	public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
 		ListNode p1 = headA;
@@ -27,5 +31,14 @@ public class GetIntersectionNode {
 		}
 		return p1;
 	}
+
+	public static void main(String[] args) {
+		Integer a = 128;
+		int b = 128;
+		System.out.println(a==b);
+		List<Integer> list = new ArrayList<>();
+		list.add(1);
+	}
+
 
 }
