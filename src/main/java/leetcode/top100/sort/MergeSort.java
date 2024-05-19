@@ -17,7 +17,6 @@ public class MergeSort {
 		}
 	}
 
-
 	public static void mergeSort(int[] nums) {
 		process(nums, 0, nums.length - 1);
 	}

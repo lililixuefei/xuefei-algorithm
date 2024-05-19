@@ -18,7 +18,6 @@ public class QuickSort {
 		}
 	}
 
-
 	public static void quickSort(int[] nums) {
 		process(nums, 0, nums.length - 1);
 	}
@@ -31,7 +30,6 @@ public class QuickSort {
 		process(nums, l, i - 1);
 		process(nums, i + 1, r);
 	}
-
 
 	private static int partition(int[] nums, int l, int r) {
 		if (l > r) {
