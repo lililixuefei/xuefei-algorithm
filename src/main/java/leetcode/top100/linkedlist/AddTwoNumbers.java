@@ -10,6 +10,30 @@ import labuladong.list.ListNode;
  */
 public class AddTwoNumbers {
 
+
+    public static void main(String[] args) {
+        // 创建两个链表 342 + 465 = 807
+        ListNode l1 = new ListNode(2);
+        l1.next = new ListNode(4);
+        l1.next.next = new ListNode(3);
+
+        ListNode l2 = new ListNode(5);
+        l2.next = new ListNode(6);
+        l2.next.next = new ListNode(4);
+
+        AddTwoNumbers solution = new AddTwoNumbers();
+        ListNode result = solution.addTwoNumbers(l1, l2);
+
+        // 打印结果链表
+        while (result != null) {
+            System.out.print(result.val);
+            if (result.next != null) {
+                System.out.print(" -> ");
+            }
+            result = result.next;
+        }
+    }
+
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode pre = new ListNode(0);
         ListNode cur = pre;
@@ -36,8 +60,6 @@ public class AddTwoNumbers {
         }
         return pre.next;
     }
-
-
 
 
 }

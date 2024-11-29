@@ -86,7 +86,6 @@ public class FindMedianSortedArrays {
 			if (n % 2 == 0) {
 				return (nums2[n / 2 - 1] + nums2[n / 2]) / 2.0;
 			} else {
-
 				return nums2[n / 2];
 			}
 		}

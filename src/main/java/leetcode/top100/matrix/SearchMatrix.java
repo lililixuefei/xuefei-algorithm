@@ -22,5 +22,10 @@ public class SearchMatrix {
 		}
 		return false;
 	}
+	public static void main(String[] args) {
+String s = "https://i.st.maoyan.com/swan/activityProxy/api/activity/spendMoney/sendCoupon.json?channelId=70001&timestamp=1714103441524&index=10&sign=dfdab6908eef1c9f744b8f5b7b1e4a39&code=0f3Vvy000RlEZR1Vke300M39UR1Vvy0x&clientType=wechat_small_program&uuid=be971706351d4f5773097b29f89c476a";
+		System.out.println(s.length());
+	}
+
 
 }

@@ -15,8 +15,9 @@ public class OrangesRotting {
         int M = grid.length;
         int N = grid[0].length;
         Queue<int[]> queue = new LinkedList<>();
+        // count 表示新鲜橘子的数量
+        int count = 0;
 
-        int count = 0; // count 表示新鲜橘子的数量
         for (int r = 0; r < M; r++) {
             for (int c = 0; c < N; c++) {
                 if (grid[r][c] == 1) {
@@ -26,8 +27,8 @@ public class OrangesRotting {
                 }
             }
         }
-
-        int round = 0; // round 表示腐烂的轮数，或者分钟数
+        // round 表示腐烂的轮数，或者分钟数
+        int round = 0;
         while (count > 0 && !queue.isEmpty()) {
             round++;
             int n = queue.size();

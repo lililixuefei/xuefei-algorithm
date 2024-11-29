@@ -13,7 +13,8 @@ public class SearchRange {
 	}
 
 	int left_bound(int[] nums, int target) {
-		int left = 0, right = nums.length - 1;
+		int left = 0;
+		int right = nums.length - 1;
 		// 搜索区间为 [left, right]
 		while (left <= right) {
 			int mid = left + (right - left) / 2;
@@ -30,14 +31,14 @@ public class SearchRange {
 		}
 		// 检查出界情况
 		if (left >= nums.length || nums[left] != target) {
-
 			return -1;
 		}
 		return left;
 	}
 
 	int right_bound(int[] nums, int target) {
-		int left = 0, right = nums.length - 1;
+		int left = 0;
+		int right = nums.length - 1;
 		while (left <= right) {
 			int mid = left + (right - left) / 2;
 			if (nums[mid] < target) {
@@ -51,7 +52,6 @@ public class SearchRange {
 		}
 		// 这里改为检查 right 越界的情况，见下图
 		if (right < 0 || nums[right] != target) {
-
 			return -1;
 		}
 		return right;

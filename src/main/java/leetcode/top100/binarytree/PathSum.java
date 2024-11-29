@@ -2,8 +2,7 @@ package leetcode.top100.binarytree;
 
 import labuladong.binarytree.TreeNode;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @Description 路径总和 III
@@ -14,7 +13,8 @@ import java.util.Map;
 public class PathSum {
 
 
-	public int pathSum(TreeNode root, int sum) {
+    // 路径总和 III
+	public int pathSumIII(TreeNode root, int sum) {
 		// key是前缀和, value是大小为key的前缀和出现的次数
 		Map<Long, Integer> prefixSumCount = new HashMap<>();
 		// 前缀和为0的一条路径
@@ -62,4 +62,52 @@ public class PathSum {
 		prefixSumCount.put(currSum, prefixSumCount.get(currSum) - 1);
 		return res;
 	}
+
+
+
+
+	// 路径总和 I
+	public boolean hasPathSumI(TreeNode root, int sum) {
+		if (root == null) {
+			return false;
+		}
+		if (root.left == null && root.right == null) {
+			return sum == root.val;
+		}
+		return hasPathSumI(root.left, sum - root.val) || hasPathSumI(root.right, sum - root.val);
+	}
+
+
+	// 路径总和 II
+	public List<List<Integer>> pathSumII(TreeNode root, int targetSum) {
+		List<List<Integer>> ans = new LinkedList<>();
+		if (root == null) {
+			return ans;
+		}
+		List<Integer> path = new LinkedList<>();
+		process(root, targetSum, path, ans);
+		return ans;
+
+	}
+
+	private void process(TreeNode root, int sum, List<Integer> path, List<List<Integer>> ans) {
+		if (root.left == null && root.right == null) {
+			boolean result = sum == root.val;
+			if (result) {
+				path.add(root.val);
+				ans.add(new ArrayList<>(path));
+				path.remove(path.size() - 1);
+				return;
+			}
+		}
+		path.add(root.val);
+		if (root.left != null) {
+			process(root.left, sum - root.val, path, ans);
+		}
+		if (root.right != null) {
+			process(root.right, sum - root.val, path, ans);
+		}
+		path.remove(path.size() - 1);
+	}
+
 }
